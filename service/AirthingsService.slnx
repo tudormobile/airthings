@@ -1,0 +1,5 @@
+<Solution>
+    <Project Name="AirthingsService" Path="AirthingsService\AirthingsService.csproj" />
+    <Project Name="AirthingsService.Tests" Path="AirthingsService.Tests\AirthingsService.Tests.csproj" />
+</Solution>
+
