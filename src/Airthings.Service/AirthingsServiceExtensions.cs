@@ -20,12 +20,12 @@ public static class AirthingsServiceExtensions
             .Configure(opts =>
             {
                 var section = configuration.GetSection("Airthings");
-                opts.ApiKey       = section["ApiKey"]       ?? Environment.GetEnvironmentVariable("AIRTHINGS_API_KEY")       ?? string.Empty;
-                opts.ClientId     = section["ClientId"]     ?? Environment.GetEnvironmentVariable("AIRTHINGS_CLIENT_ID")     ?? string.Empty;
+                opts.ApiKey = section["ApiKey"] ?? Environment.GetEnvironmentVariable("AIRTHINGS_API_KEY") ?? string.Empty;
+                opts.ClientId = section["ClientId"] ?? Environment.GetEnvironmentVariable("AIRTHINGS_CLIENT_ID") ?? string.Empty;
                 opts.ClientSecret = section["ClientSecret"] ?? Environment.GetEnvironmentVariable("AIRTHINGS_CLIENT_SECRET") ?? string.Empty;
             });
 
-        services.AddHttpClient<AirthingsClient>((sp, client) =>
+        services.AddHttpClient<IAirthingsClient>((sp, client) =>
         {
             client.Timeout = TimeSpan.FromSeconds(30);
         })
@@ -40,6 +40,11 @@ public static class AirthingsServiceExtensions
         return services;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="app"></param>
+    /// <returns></returns>
     public static WebApplication UseAirthingsService(this WebApplication app)
     {
         var prefix = "/home/airthings/v1";
@@ -53,6 +58,7 @@ public static class AirthingsServiceExtensions
             app.Environment);
 
         // Map Airthings endpoints
+        app.UseOutputCache();
         app.MapGet($"{prefix}/status", (HttpContext context, [FromHeader(Name = "ApiKey")] string? apiKey)
             => api.GetVersionAsync(context, apiKey ?? string.Empty)).CacheOutput(p => p.Expire(TimeSpan.FromHours(1)));
 

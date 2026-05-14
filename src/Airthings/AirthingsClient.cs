@@ -8,8 +8,20 @@ namespace Tudormobile.Airthings;
 /// <summary>
 /// Provides a client for interacting with the Airthings Consumer API.
 /// </summary>
-/// <remarks>Automatically refreshes OAuth2 access tokens when requests receive unauthorized responses. Token
-/// refresh operations are thread-safe.</remarks>
+/// <remarks>
+/// <para>
+/// Automatically refreshes OAuth2 access tokens when requests receive unauthorized responses.
+/// Token refresh operations are serialized via a semaphore, but no double-check guard is applied.
+/// Under concurrent load, two callers may each trigger a sequential refresh. This is acceptable
+/// when an output cache limits upstream calls to a low frequency (e.g., once per 30–60 minutes).
+/// </para>
+/// <para>
+/// <b>Design constraints:</b> This client is bound to a single <c>ClientId</c> / <c>ClientSecret</c>
+/// pair supplied at construction time. It does not support per-request credentials and is therefore
+/// suited only for single-account, single-user deployments. Pagination of multi-page API responses
+/// is not implemented; callers that expect large result sets must account for this limitation.
+/// </para>
+/// </remarks>
 public sealed class AirthingsClient : IAirthingsClient
 {
     // Airthings API endpoints

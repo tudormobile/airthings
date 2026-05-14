@@ -119,3 +119,30 @@ A dedicated service client is provided as a service access abstraction for clien
 
 > [!NOTE]
 > The ServiceClient is not yet implemented.
+
+## Design Constraints and Known Limitations
+
+> [!IMPORTANT]
+> This service is intentionally designed for **single-user, single-account** deployment. The following constraints
+> are by design and should be understood before deploying in any multi-user or multi-tenant scenario.
+
+### Single-Account / Single-User
+The service is configured with a fixed `ClientId` and `ClientSecret` at startup (via configuration or environment
+variables). There is no mechanism to supply per-request credentials, so all API calls are made on behalf of the
+same Airthings account. Multi-tenant use is not supported.
+
+### Pagination Not Implemented
+The Airthings API supports paginated results (`HasNext`, `TotalPages`). Pagination is **not** implemented because
+the target deployment has a single account with a small, known number of devices that fits within a single page.
+If the number of accounts or devices grows beyond a single page, results will be silently truncated. This must
+be revisited before deploying at larger scale.
+
+### Concurrent Token Refresh
+The OAuth2 token refresh logic is serialized by a semaphore but does not implement a double-check guard. Under
+concurrent load two requests could each trigger a token refresh in sequence. This is acceptable because output
+caching limits upstream Airthings API calls to at most once every 30–60 minutes, making concurrent 401 responses
+extremely unlikely in practice.
+
+### Rate Limiting
+No explicit client-side rate limiting is implemented. The output cache (30-minute TTL for samples, 60-minute
+TTL for devices and status) acts as the primary guard against excessive upstream API calls.

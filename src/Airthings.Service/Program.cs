@@ -2,21 +2,31 @@ using Tudormobile.Airthings.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add CORS policy for local testing and specific domains
+// Add CORS policy for specific domains (localhost origins only in Development)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: "AllowSpecificOrigins",
         policy =>
         {
-            policy.WithOrigins(
+            var origins = new List<string>
+            {
                 "https://www.tudormobile.com",
                 "https://www.tudorzone.com",
                 "https://tudormobile.com",
                 "https://tudorzone.com",
-                "https://localhost:5162",
-                "http://localhost:5162",
-                "https://localhost:7043",
-                "http://localhost:5173")
+            };
+
+            if (builder.Environment.IsDevelopment())
+            {
+                origins.AddRange([
+                    "https://localhost:5162",
+                    "http://localhost:5162",
+                    "https://localhost:7043",
+                    "http://localhost:5173",
+                ]);
+            }
+
+            policy.WithOrigins([.. origins])
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
@@ -28,8 +38,6 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 app.UseCors("AllowSpecificOrigins");
-//app.UseHttpsRedirection();
-app.UseAuthorization();
 
 // map for use in the Tudormobile API host (testing purposes)
 app.UseAirthingsService();
