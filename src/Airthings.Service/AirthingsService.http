@@ -1,0 +1,22 @@
+@AirthingsService_HostAddress = http://localhost:53387/home/airthings/v1
+
+# AirthingsService Status
+GET {{AirthingsService_HostAddress}}/status/
+Accept: application/json
+ApiKey: 00000000000000000000000000000000
+
+###
+
+# AirthingsService Devices
+GET {{AirthingsService_HostAddress}}/devices/
+Accept: application/json
+ApiKey: 00000000000000000000000000000000
+
+###
+
+# AirthingsService Samples
+GET {{AirthingsService_HostAddress}}/samples/
+Accept: application/json
+ApiKey: 00000000000000000000000000000000
+
+###

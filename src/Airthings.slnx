@@ -1,0 +1,8 @@
+<Solution>
+    <Project Path="Airthings.IntegrationTests/Airthings.IntegrationTests.csproj" />
+    <Project Path="Airthings.Tests/Airthings.Tests.csproj" />
+    <Project Path="Airthings/Airthings.csproj" />
+    <Project Path="Airthings.Service.Tests/Airthings.Service.Tests.csproj" />
+    <Project Path="Airthings.Service/Airthings.Service.csproj" />
+</Solution>
+

@@ -1,7 +1,0 @@
-<Solution>
-    <Project Path="Airthings.Tests/Airthings.Tests.csproj" />
-    <Project Path="Airthings/Airthings.csproj" />
-    <Project Path="AirthingsService.Tests\AirthingsService.Tests.csproj" />
-    <Project Path="AirthingsService\AirthingsService.csproj" />
-</Solution>
-

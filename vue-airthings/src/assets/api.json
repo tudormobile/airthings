@@ -1,0 +1,22 @@
+{
+    "tokenUrl": "https://accounts-api.airthings.com/v1/token",
+    "baseUrl": "https://api.airthings.com/v1",
+    "endpoints": {
+        "getHealth": {
+            "method": "GET",
+            "path": "/health"
+        },
+        "getAccounts": {
+            "method": "GET",
+            "path": "/accounts"
+        },
+        "getDevices": {
+            "method": "GET",
+            "path": "/accounts/{accountId}/devices"
+        },
+        "getSensors": {
+            "method": "GET",
+            "path": "/accounts/{accountId}/sensors"
+        }
+    }    
+}

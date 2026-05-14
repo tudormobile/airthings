@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Tudormobile.$(MSBuildProjectName)</RootNamespace>
+    <AssemblyName>Tudormobile.$(MSBuildProjectName)</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <InternalsVisibleTo Include="$(MSBuildProjectName).Tests" />
+    <InternalsVisibleTo Include="$(MSBuildProjectName).IntegrationTests" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>Tudormobile Airthings API</Product>
+    <Description>C#.NET library for accessing the Airthings API.</Description>
+    <Company>Tudormobile</Company>
+    <Authors>WH Tudor</Authors>
+    <Copyright>Copyright © 2026 Bill Tudor</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/tudormobile/airthings</RepositoryUrl>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageTags>airthings;iot;environment</PackageTags>
+    <PackageProjectUrl>https://tudormobile.github.io/airthings/</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/tudormobile/airthings/releases</PackageReleaseNotes>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+</Project>
