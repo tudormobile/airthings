@@ -18,7 +18,7 @@ _layout: landing
 using Tudormobile.Airthings;
 
 using var httpClient = new HttpClient();
-using var client = new AirthingClient(httpClient, "your_client_id", "your_client_secret");
+using var client = new AirthingsClient(httpClient, "your_client_id", "your_client_secret");
 
 ```
 
