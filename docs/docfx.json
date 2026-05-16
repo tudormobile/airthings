@@ -1,0 +1,55 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../src",
+          "files": [
+            "**/Airthings/bin/release/net10.0/**.dll",
+            "**/Airthings.Service/bin/release/net10.0/**.Service.dll"
+          ],
+          "exclude": [
+            "**/*Tests.csproj"
+          ]
+        }
+      ],
+      "dest": "api",
+      "filter": "filterconfig.yml"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern",
+      "template"
+    ],
+    "globalMetadata": {
+      "_appFaviconPath": "images/logo.svg",
+      "_appLogoPath": "images/logo.svg",
+      "_appName": "Airthings",
+      "_appTitle": "Airthings API Documentation",
+      "_appFooter": "<span>Copyright (C) Bill Tudor</span>",
+      "_enableSearch": false,
+      "pdf": false,
+      "_disableContribution": true
+    }
+  }
+}
