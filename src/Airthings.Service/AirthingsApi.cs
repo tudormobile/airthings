@@ -75,6 +75,31 @@ internal class AirthingsApi
             return Results.Ok(AirthingsResponse.Success(reply));
         });
 
+    internal Task<IResult> GetSummaryAsync(HttpContext context, string apiKey, UnitsType unitsType)
+        => HandleApiRequest(context, apiKey, nameof(GetSummaryAsync), async () =>
+        {
+            var (failure, data) = await FetchAccountDevicesAsync(context, nameof(GetSummaryAsync));
+            if (failure is not null) return failure;
+
+            var reply = new SummarySamples();
+            foreach (var (accountId, devices) in data)
+            {
+                var deviceMapping = devices.Devices.ToDictionary(d => d.SerialNumber, d => d);
+                var response = await _client.ReadSensors(accountId, [.. devices.Devices.Select(d => d.SerialNumber)]);
+                if (response.IsSuccess)
+                {
+                    response.Results.ForEach(r => reply.Samples.Add(SummaryBuilder.CreateSummary(deviceMapping, r)));
+                }
+                else
+                {
+                    _logger.LogError("AirthingsService, {CallerName}, {RemoteIpAddress}, {AccountId}, Failed to read sensors, {ErrorMessage}",
+                        nameof(GetSummaryAsync), context.Connection.RemoteIpAddress, accountId, response.Message);
+                    return Results.Ok(AirthingsResponse.Failure(response.Message));
+                }
+            }
+            return Results.Ok(AirthingsResponse.Success(reply));
+        });
+
     // Fetches all accounts and their devices. Returns a failure IResult on any upstream error,
     // or null + a populated list of (accountId, devices) pairs on success.
     private async Task<(IResult? Failure, List<(string AccountId, DevicesResponse Devices)> Data)>

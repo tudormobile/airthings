@@ -41,7 +41,8 @@ public static class AirthingsServiceExtensions
     }
 
     /// <summary>
-    /// 
+    /// Sets up the Airthings Service endpoints for device status, device list, and sample data. 
+    /// Each endpoint requires an API key provided in the request header and is cached for performance.
     /// </summary>
     /// <param name="app"></param>
     /// <returns></returns>
@@ -67,6 +68,15 @@ public static class AirthingsServiceExtensions
 
         app.MapGet($"{prefix}/samples", (HttpContext context, [FromHeader(Name = "ApiKey")] string? apiKey)
             => api.GetSamplesAsync(context, apiKey ?? string.Empty)).CacheOutput(p => p.Expire(TimeSpan.FromMinutes(30)));
+
+        app.MapGet($"{prefix}/summary/{{units?}}", (HttpContext context, [FromHeader(Name = "ApiKey")] string? apiKey, string? units) =>
+        {
+            var unitsType = Enum.TryParse<UnitsType>(units, ignoreCase: true, out var parsed)
+                    ? parsed
+                    : UnitsType.Imperial;   // default when omitted or unrecognized
+
+            return api.GetSummaryAsync(context, apiKey ?? string.Empty, unitsType);
+        }).CacheOutput(p => p.Expire(TimeSpan.FromMinutes(30)));
 
         app.Logger.LogInformation("AirthingsService, Running, {Prefix}", prefix);
         return app;

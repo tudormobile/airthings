@@ -251,7 +251,7 @@ public class AirthingsClientTests
         var client = new AirthingsClient(httpClient, clientId, clientSecret, accessToken);
 
         // Act
-        var response = await client.ReadSensors(accountId, ["0123456789", "2989037410"], TestContext.CancellationToken);
+        var response = await client.ReadSensors(accountId, ["0123456789", "2989037410"], cancellationToken: TestContext.CancellationToken);
 
         // Assert
 
@@ -319,7 +319,7 @@ this is malformed json
         var client = new AirthingsClient(httpClient, clientId, clientSecret, accessToken);
 
         // Act
-        var response = await client.ReadSensors(accountId, ["0123456789"], TestContext.CancellationToken);
+        var response = await client.ReadSensors(accountId, ["0123456789"], cancellationToken: TestContext.CancellationToken);
 
         // Assert
         Assert.IsFalse(response.IsSuccess);
@@ -343,7 +343,7 @@ this is malformed json
         var client = new AirthingsClient(httpClient, clientId, clientSecret, accessToken);
 
         // Act
-        var response = await client.ReadSensors(accountId, ["0123456789"], TestContext.CancellationToken);
+        var response = await client.ReadSensors(accountId, ["0123456789"], cancellationToken: TestContext.CancellationToken);
 
         // Assert
         Assert.IsFalse(response.IsSuccess);
