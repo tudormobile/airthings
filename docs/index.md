@@ -4,7 +4,7 @@ _layout: landing
 
 # Tudormobile.Airthings
 
-***Tudormobile.Apithings*** provides a C# SDK for accessing the Airthings consumer API.
+***Tudormobile.Airthings*** provides a C# SDK for accessing the Airthings consumer API.
 
 ## Documentation
 
