@@ -6,7 +6,7 @@ dotnet add package Tudormobile.Airthings
 
 -or-
 
-dotnet add package Tudormonbile.Airthings.Service
+dotnet add package Tudormobile.Airthings.Service
 ```
 
 ### Prerequisites
