@@ -14,7 +14,7 @@ on:
       - '.github/workflows/dotnet.yml'
 
 permissions:
-  contents: write
+  contents: read
   packages: read
 
 jobs:
