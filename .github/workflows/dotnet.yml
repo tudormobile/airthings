@@ -7,11 +7,13 @@ on:
     paths:
       - 'src/**'
       - '.github/workflows/dotnet.yml'
+      - 'GitVersion.yml'
   pull_request:
     branches: [ "main" ]
     paths:
       - 'src/**'
       - '.github/workflows/dotnet.yml'
+      - 'GitVersion.yml'
 
 permissions:
   contents: read
