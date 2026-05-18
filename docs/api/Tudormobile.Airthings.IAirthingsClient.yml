@@ -1,0 +1,535 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tudormobile.Airthings.IAirthingsClient
+  commentId: T:Tudormobile.Airthings.IAirthingsClient
+  id: IAirthingsClient
+  parent: Tudormobile.Airthings
+  children:
+  - Tudormobile.Airthings.IAirthingsClient.ListAccounts(System.Threading.CancellationToken)
+  - Tudormobile.Airthings.IAirthingsClient.ListDevices(System.String,System.Threading.CancellationToken)
+  - Tudormobile.Airthings.IAirthingsClient.ReadSensors(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IAirthingsClient
+  nameWithType: IAirthingsClient
+  fullName: Tudormobile.Airthings.IAirthingsClient
+  type: Interface
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings/IAirthingsClient.cs
+  assemblies:
+  - Tudormobile.Airthings
+  namespace: Tudormobile.Airthings
+  summary: Provides methods for interacting with the Airthings API to manage accounts, devices, and sensor data.
+  example: []
+  syntax:
+    content: 'public interface IAirthingsClient : IDisposable'
+    content.vb: Public Interface IAirthingsClient Inherits IDisposable
+  derivedClasses:
+  - Tudormobile.Airthings.AirthingsClient
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: Tudormobile.Airthings.IAirthingsClient.ListAccounts(System.Threading.CancellationToken)
+  commentId: M:Tudormobile.Airthings.IAirthingsClient.ListAccounts(System.Threading.CancellationToken)
+  id: ListAccounts(System.Threading.CancellationToken)
+  parent: Tudormobile.Airthings.IAirthingsClient
+  langs:
+  - csharp
+  - vb
+  name: ListAccounts(CancellationToken)
+  nameWithType: IAirthingsClient.ListAccounts(CancellationToken)
+  fullName: Tudormobile.Airthings.IAirthingsClient.ListAccounts(System.Threading.CancellationToken)
+  type: Method
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings/IAirthingsClient.cs
+  assemblies:
+  - Tudormobile.Airthings
+  namespace: Tudormobile.Airthings
+  summary: Lists all accounts accessible with the current credentials.
+  example: []
+  syntax:
+    content: Task<AccountsResponse> ListAccounts(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Token to cancel the operation.
+    return:
+      type: System.Threading.Tasks.Task{Tudormobile.Airthings.AccountsResponse}
+      description: A task representing the asynchronous operation. The task result contains the accounts response with a list of accounts.
+    content.vb: Function ListAccounts(cancellationToken As CancellationToken = Nothing) As Task(Of AccountsResponse)
+  overload: Tudormobile.Airthings.IAirthingsClient.ListAccounts*
+- uid: Tudormobile.Airthings.IAirthingsClient.ListDevices(System.String,System.Threading.CancellationToken)
+  commentId: M:Tudormobile.Airthings.IAirthingsClient.ListDevices(System.String,System.Threading.CancellationToken)
+  id: ListDevices(System.String,System.Threading.CancellationToken)
+  parent: Tudormobile.Airthings.IAirthingsClient
+  langs:
+  - csharp
+  - vb
+  name: ListDevices(string, CancellationToken)
+  nameWithType: IAirthingsClient.ListDevices(string, CancellationToken)
+  fullName: Tudormobile.Airthings.IAirthingsClient.ListDevices(string, System.Threading.CancellationToken)
+  type: Method
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings/IAirthingsClient.cs
+  assemblies:
+  - Tudormobile.Airthings
+  namespace: Tudormobile.Airthings
+  summary: Lists all devices associated with the specified account.
+  example: []
+  syntax:
+    content: Task<DevicesResponse> ListDevices(string accountId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: accountId
+      type: System.String
+      description: The unique identifier of the account.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Token to cancel the operation.
+    return:
+      type: System.Threading.Tasks.Task{Tudormobile.Airthings.DevicesResponse}
+      description: A task representing the asynchronous operation. The task result contains the devices response with a list of devices.
+    content.vb: Function ListDevices(accountId As String, cancellationToken As CancellationToken = Nothing) As Task(Of DevicesResponse)
+  overload: Tudormobile.Airthings.IAirthingsClient.ListDevices*
+  nameWithType.vb: IAirthingsClient.ListDevices(String, CancellationToken)
+  fullName.vb: Tudormobile.Airthings.IAirthingsClient.ListDevices(String, System.Threading.CancellationToken)
+  name.vb: ListDevices(String, CancellationToken)
+- uid: Tudormobile.Airthings.IAirthingsClient.ReadSensors(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  commentId: M:Tudormobile.Airthings.IAirthingsClient.ReadSensors(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  id: ReadSensors(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  parent: Tudormobile.Airthings.IAirthingsClient
+  langs:
+  - csharp
+  - vb
+  name: ReadSensors(string, IEnumerable<string>, CancellationToken)
+  nameWithType: IAirthingsClient.ReadSensors(string, IEnumerable<string>, CancellationToken)
+  fullName: Tudormobile.Airthings.IAirthingsClient.ReadSensors(string, System.Collections.Generic.IEnumerable<string>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings/IAirthingsClient.cs
+  assemblies:
+  - Tudormobile.Airthings
+  namespace: Tudormobile.Airthings
+  summary: Reads sensor data from the specified devices.
+  example: []
+  syntax:
+    content: Task<DevicesSamplesResponse> ReadSensors(string accountId, IEnumerable<string> serialNumbers, CancellationToken cancellationToken = default)
+    parameters:
+    - id: accountId
+      type: System.String
+      description: The unique identifier of the account.
+    - id: serialNumbers
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The serial numbers of the devices to read sensor data from.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Token to cancel the operation.
+    return:
+      type: System.Threading.Tasks.Task{Tudormobile.Airthings.DevicesSamplesResponse}
+      description: A task representing the asynchronous operation. The task result contains the sensors response with sensor data.
+    content.vb: Function ReadSensors(accountId As String, serialNumbers As IEnumerable(Of String), cancellationToken As CancellationToken = Nothing) As Task(Of DevicesSamplesResponse)
+  overload: Tudormobile.Airthings.IAirthingsClient.ReadSensors*
+  nameWithType.vb: IAirthingsClient.ReadSensors(String, IEnumerable(Of String), CancellationToken)
+  fullName.vb: Tudormobile.Airthings.IAirthingsClient.ReadSensors(String, System.Collections.Generic.IEnumerable(Of String), System.Threading.CancellationToken)
+  name.vb: ReadSensors(String, IEnumerable(Of String), CancellationToken)
+references:
+- uid: Tudormobile.Airthings
+  commentId: N:Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.html
+  name: Tudormobile.Airthings
+  nameWithType: Tudormobile.Airthings
+  fullName: Tudormobile.Airthings
+  spec.csharp:
+  - uid: Tudormobile
+    name: Tudormobile
+    isExternal: true
+    href: Tudormobile.html
+  - name: .
+  - uid: Tudormobile.Airthings
+    name: Airthings
+    isExternal: true
+    href: Tudormobile.Airthings.html
+  spec.vb:
+  - uid: Tudormobile
+    name: Tudormobile
+    isExternal: true
+    href: Tudormobile.html
+  - name: .
+  - uid: Tudormobile.Airthings
+    name: Airthings
+    isExternal: true
+    href: Tudormobile.Airthings.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tudormobile.Airthings.IAirthingsClient.ListAccounts*
+  commentId: Overload:Tudormobile.Airthings.IAirthingsClient.ListAccounts
+  isExternal: true
+  href: Tudormobile.Airthings.IAirthingsClient.html#Tudormobile_Airthings_IAirthingsClient_ListAccounts_System_Threading_CancellationToken_
+  name: ListAccounts
+  nameWithType: IAirthingsClient.ListAccounts
+  fullName: Tudormobile.Airthings.IAirthingsClient.ListAccounts
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{Tudormobile.Airthings.AccountsResponse}
+  commentId: T:System.Threading.Tasks.Task{Tudormobile.Airthings.AccountsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<AccountsResponse>
+  nameWithType: Task<AccountsResponse>
+  fullName: System.Threading.Tasks.Task<Tudormobile.Airthings.AccountsResponse>
+  nameWithType.vb: Task(Of AccountsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of Tudormobile.Airthings.AccountsResponse)
+  name.vb: Task(Of AccountsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Tudormobile.Airthings.AccountsResponse
+    name: AccountsResponse
+    isExternal: true
+    href: Tudormobile.Airthings.AccountsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Tudormobile.Airthings.AccountsResponse
+    name: AccountsResponse
+    isExternal: true
+    href: Tudormobile.Airthings.AccountsResponse.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Tudormobile.Airthings.IAirthingsClient.ListDevices*
+  commentId: Overload:Tudormobile.Airthings.IAirthingsClient.ListDevices
+  isExternal: true
+  href: Tudormobile.Airthings.IAirthingsClient.html#Tudormobile_Airthings_IAirthingsClient_ListDevices_System_String_System_Threading_CancellationToken_
+  name: ListDevices
+  nameWithType: IAirthingsClient.ListDevices
+  fullName: Tudormobile.Airthings.IAirthingsClient.ListDevices
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{Tudormobile.Airthings.DevicesResponse}
+  commentId: T:System.Threading.Tasks.Task{Tudormobile.Airthings.DevicesResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DevicesResponse>
+  nameWithType: Task<DevicesResponse>
+  fullName: System.Threading.Tasks.Task<Tudormobile.Airthings.DevicesResponse>
+  nameWithType.vb: Task(Of DevicesResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of Tudormobile.Airthings.DevicesResponse)
+  name.vb: Task(Of DevicesResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Tudormobile.Airthings.DevicesResponse
+    name: DevicesResponse
+    isExternal: true
+    href: Tudormobile.Airthings.DevicesResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Tudormobile.Airthings.DevicesResponse
+    name: DevicesResponse
+    isExternal: true
+    href: Tudormobile.Airthings.DevicesResponse.html
+  - name: )
+- uid: Tudormobile.Airthings.IAirthingsClient.ReadSensors*
+  commentId: Overload:Tudormobile.Airthings.IAirthingsClient.ReadSensors
+  isExternal: true
+  href: Tudormobile.Airthings.IAirthingsClient.html#Tudormobile_Airthings_IAirthingsClient_ReadSensors_System_String_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_
+  name: ReadSensors
+  nameWithType: IAirthingsClient.ReadSensors
+  fullName: Tudormobile.Airthings.IAirthingsClient.ReadSensors
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading.Tasks.Task{Tudormobile.Airthings.DevicesSamplesResponse}
+  commentId: T:System.Threading.Tasks.Task{Tudormobile.Airthings.DevicesSamplesResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DevicesSamplesResponse>
+  nameWithType: Task<DevicesSamplesResponse>
+  fullName: System.Threading.Tasks.Task<Tudormobile.Airthings.DevicesSamplesResponse>
+  nameWithType.vb: Task(Of DevicesSamplesResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of Tudormobile.Airthings.DevicesSamplesResponse)
+  name.vb: Task(Of DevicesSamplesResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Tudormobile.Airthings.DevicesSamplesResponse
+    name: DevicesSamplesResponse
+    isExternal: true
+    href: Tudormobile.Airthings.DevicesSamplesResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Tudormobile.Airthings.DevicesSamplesResponse
+    name: DevicesSamplesResponse
+    isExternal: true
+    href: Tudormobile.Airthings.DevicesSamplesResponse.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

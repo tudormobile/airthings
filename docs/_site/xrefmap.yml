@@ -1,0 +1,2430 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Tudormobile.Airthings
+  name: Tudormobile.Airthings
+  href: api/Tudormobile.Airthings.html
+  commentId: N:Tudormobile.Airthings
+  fullName: Tudormobile.Airthings
+  nameWithType: Tudormobile.Airthings
+- uid: Tudormobile.Airthings.AccountResponse
+  name: AccountResponse
+  href: api/Tudormobile.Airthings.AccountResponse.html
+  commentId: T:Tudormobile.Airthings.AccountResponse
+  fullName: Tudormobile.Airthings.AccountResponse
+  nameWithType: AccountResponse
+- uid: Tudormobile.Airthings.AccountResponse.#ctor
+  name: AccountResponse()
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse__ctor
+  commentId: M:Tudormobile.Airthings.AccountResponse.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.AccountResponse.AccountResponse()
+  fullName.vb: Tudormobile.Airthings.AccountResponse.New()
+  nameWithType: AccountResponse.AccountResponse()
+  nameWithType.vb: AccountResponse.New()
+- uid: Tudormobile.Airthings.AccountResponse.#ctor(Tudormobile.Airthings.AccountResponse)
+  name: AccountResponse(AccountResponse)
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse__ctor_Tudormobile_Airthings_AccountResponse_
+  commentId: M:Tudormobile.Airthings.AccountResponse.#ctor(Tudormobile.Airthings.AccountResponse)
+  name.vb: New(AccountResponse)
+  fullName: Tudormobile.Airthings.AccountResponse.AccountResponse(Tudormobile.Airthings.AccountResponse)
+  fullName.vb: Tudormobile.Airthings.AccountResponse.New(Tudormobile.Airthings.AccountResponse)
+  nameWithType: AccountResponse.AccountResponse(AccountResponse)
+  nameWithType.vb: AccountResponse.New(AccountResponse)
+- uid: Tudormobile.Airthings.AccountResponse.#ctor*
+  name: AccountResponse
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse__ctor_
+  commentId: Overload:Tudormobile.Airthings.AccountResponse.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.AccountResponse.AccountResponse
+  fullName.vb: Tudormobile.Airthings.AccountResponse.New
+  nameWithType: AccountResponse.AccountResponse
+  nameWithType.vb: AccountResponse.New
+- uid: Tudormobile.Airthings.AccountResponse.EqualityContract
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_EqualityContract
+  commentId: P:Tudormobile.Airthings.AccountResponse.EqualityContract
+  fullName: Tudormobile.Airthings.AccountResponse.EqualityContract
+  nameWithType: AccountResponse.EqualityContract
+- uid: Tudormobile.Airthings.AccountResponse.EqualityContract*
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_EqualityContract_
+  commentId: Overload:Tudormobile.Airthings.AccountResponse.EqualityContract
+  fullName: Tudormobile.Airthings.AccountResponse.EqualityContract
+  nameWithType: AccountResponse.EqualityContract
+- uid: Tudormobile.Airthings.AccountResponse.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.AccountResponse.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.AccountResponse.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.AccountResponse.Equals(Object)
+  nameWithType: AccountResponse.Equals(object?)
+  nameWithType.vb: AccountResponse.Equals(Object)
+- uid: Tudormobile.Airthings.AccountResponse.Equals(Tudormobile.Airthings.AccountResponse)
+  name: Equals(AccountResponse?)
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_Equals_Tudormobile_Airthings_AccountResponse_
+  commentId: M:Tudormobile.Airthings.AccountResponse.Equals(Tudormobile.Airthings.AccountResponse)
+  name.vb: Equals(AccountResponse)
+  fullName: Tudormobile.Airthings.AccountResponse.Equals(Tudormobile.Airthings.AccountResponse?)
+  fullName.vb: Tudormobile.Airthings.AccountResponse.Equals(Tudormobile.Airthings.AccountResponse)
+  nameWithType: AccountResponse.Equals(AccountResponse?)
+  nameWithType.vb: AccountResponse.Equals(AccountResponse)
+- uid: Tudormobile.Airthings.AccountResponse.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_Equals_
+  commentId: Overload:Tudormobile.Airthings.AccountResponse.Equals
+  fullName: Tudormobile.Airthings.AccountResponse.Equals
+  nameWithType: AccountResponse.Equals
+- uid: Tudormobile.Airthings.AccountResponse.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_GetHashCode
+  commentId: M:Tudormobile.Airthings.AccountResponse.GetHashCode
+  fullName: Tudormobile.Airthings.AccountResponse.GetHashCode()
+  nameWithType: AccountResponse.GetHashCode()
+- uid: Tudormobile.Airthings.AccountResponse.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.AccountResponse.GetHashCode
+  fullName: Tudormobile.Airthings.AccountResponse.GetHashCode
+  nameWithType: AccountResponse.GetHashCode
+- uid: Tudormobile.Airthings.AccountResponse.Id
+  name: Id
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_Id
+  commentId: P:Tudormobile.Airthings.AccountResponse.Id
+  fullName: Tudormobile.Airthings.AccountResponse.Id
+  nameWithType: AccountResponse.Id
+- uid: Tudormobile.Airthings.AccountResponse.Id*
+  name: Id
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_Id_
+  commentId: Overload:Tudormobile.Airthings.AccountResponse.Id
+  fullName: Tudormobile.Airthings.AccountResponse.Id
+  nameWithType: AccountResponse.Id
+- uid: Tudormobile.Airthings.AccountResponse.PrintMembers(System.Text.StringBuilder)
+  name: PrintMembers(StringBuilder)
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_PrintMembers_System_Text_StringBuilder_
+  commentId: M:Tudormobile.Airthings.AccountResponse.PrintMembers(System.Text.StringBuilder)
+  fullName: Tudormobile.Airthings.AccountResponse.PrintMembers(System.Text.StringBuilder)
+  nameWithType: AccountResponse.PrintMembers(StringBuilder)
+- uid: Tudormobile.Airthings.AccountResponse.PrintMembers*
+  name: PrintMembers
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_PrintMembers_
+  commentId: Overload:Tudormobile.Airthings.AccountResponse.PrintMembers
+  fullName: Tudormobile.Airthings.AccountResponse.PrintMembers
+  nameWithType: AccountResponse.PrintMembers
+- uid: Tudormobile.Airthings.AccountResponse.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_ToString
+  commentId: M:Tudormobile.Airthings.AccountResponse.ToString
+  fullName: Tudormobile.Airthings.AccountResponse.ToString()
+  nameWithType: AccountResponse.ToString()
+- uid: Tudormobile.Airthings.AccountResponse.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_ToString_
+  commentId: Overload:Tudormobile.Airthings.AccountResponse.ToString
+  fullName: Tudormobile.Airthings.AccountResponse.ToString
+  nameWithType: AccountResponse.ToString
+- uid: Tudormobile.Airthings.AccountResponse.op_Equality(Tudormobile.Airthings.AccountResponse,Tudormobile.Airthings.AccountResponse)
+  name: operator ==(AccountResponse?, AccountResponse?)
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_op_Equality_Tudormobile_Airthings_AccountResponse_Tudormobile_Airthings_AccountResponse_
+  commentId: M:Tudormobile.Airthings.AccountResponse.op_Equality(Tudormobile.Airthings.AccountResponse,Tudormobile.Airthings.AccountResponse)
+  name.vb: =(AccountResponse, AccountResponse)
+  fullName: Tudormobile.Airthings.AccountResponse.operator ==(Tudormobile.Airthings.AccountResponse?, Tudormobile.Airthings.AccountResponse?)
+  fullName.vb: Tudormobile.Airthings.AccountResponse.=(Tudormobile.Airthings.AccountResponse, Tudormobile.Airthings.AccountResponse)
+  nameWithType: AccountResponse.operator ==(AccountResponse?, AccountResponse?)
+  nameWithType.vb: AccountResponse.=(AccountResponse, AccountResponse)
+- uid: Tudormobile.Airthings.AccountResponse.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.AccountResponse.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.AccountResponse.operator ==
+  fullName.vb: Tudormobile.Airthings.AccountResponse.=
+  nameWithType: AccountResponse.operator ==
+  nameWithType.vb: AccountResponse.=
+- uid: Tudormobile.Airthings.AccountResponse.op_Inequality(Tudormobile.Airthings.AccountResponse,Tudormobile.Airthings.AccountResponse)
+  name: operator !=(AccountResponse?, AccountResponse?)
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_op_Inequality_Tudormobile_Airthings_AccountResponse_Tudormobile_Airthings_AccountResponse_
+  commentId: M:Tudormobile.Airthings.AccountResponse.op_Inequality(Tudormobile.Airthings.AccountResponse,Tudormobile.Airthings.AccountResponse)
+  name.vb: <>(AccountResponse, AccountResponse)
+  fullName: Tudormobile.Airthings.AccountResponse.operator !=(Tudormobile.Airthings.AccountResponse?, Tudormobile.Airthings.AccountResponse?)
+  fullName.vb: Tudormobile.Airthings.AccountResponse.<>(Tudormobile.Airthings.AccountResponse, Tudormobile.Airthings.AccountResponse)
+  nameWithType: AccountResponse.operator !=(AccountResponse?, AccountResponse?)
+  nameWithType.vb: AccountResponse.<>(AccountResponse, AccountResponse)
+- uid: Tudormobile.Airthings.AccountResponse.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.AccountResponse.html#Tudormobile_Airthings_AccountResponse_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.AccountResponse.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.AccountResponse.operator !=
+  fullName.vb: Tudormobile.Airthings.AccountResponse.<>
+  nameWithType: AccountResponse.operator !=
+  nameWithType.vb: AccountResponse.<>
+- uid: Tudormobile.Airthings.AccountsResponse
+  name: AccountsResponse
+  href: api/Tudormobile.Airthings.AccountsResponse.html
+  commentId: T:Tudormobile.Airthings.AccountsResponse
+  fullName: Tudormobile.Airthings.AccountsResponse
+  nameWithType: AccountsResponse
+- uid: Tudormobile.Airthings.AccountsResponse.#ctor
+  name: AccountsResponse()
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse__ctor
+  commentId: M:Tudormobile.Airthings.AccountsResponse.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.AccountsResponse.AccountsResponse()
+  fullName.vb: Tudormobile.Airthings.AccountsResponse.New()
+  nameWithType: AccountsResponse.AccountsResponse()
+  nameWithType.vb: AccountsResponse.New()
+- uid: Tudormobile.Airthings.AccountsResponse.#ctor(Tudormobile.Airthings.AccountsResponse)
+  name: AccountsResponse(AccountsResponse)
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse__ctor_Tudormobile_Airthings_AccountsResponse_
+  commentId: M:Tudormobile.Airthings.AccountsResponse.#ctor(Tudormobile.Airthings.AccountsResponse)
+  name.vb: New(AccountsResponse)
+  fullName: Tudormobile.Airthings.AccountsResponse.AccountsResponse(Tudormobile.Airthings.AccountsResponse)
+  fullName.vb: Tudormobile.Airthings.AccountsResponse.New(Tudormobile.Airthings.AccountsResponse)
+  nameWithType: AccountsResponse.AccountsResponse(AccountsResponse)
+  nameWithType.vb: AccountsResponse.New(AccountsResponse)
+- uid: Tudormobile.Airthings.AccountsResponse.#ctor*
+  name: AccountsResponse
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse__ctor_
+  commentId: Overload:Tudormobile.Airthings.AccountsResponse.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.AccountsResponse.AccountsResponse
+  fullName.vb: Tudormobile.Airthings.AccountsResponse.New
+  nameWithType: AccountsResponse.AccountsResponse
+  nameWithType.vb: AccountsResponse.New
+- uid: Tudormobile.Airthings.AccountsResponse.Accounts
+  name: Accounts
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_Accounts
+  commentId: P:Tudormobile.Airthings.AccountsResponse.Accounts
+  fullName: Tudormobile.Airthings.AccountsResponse.Accounts
+  nameWithType: AccountsResponse.Accounts
+- uid: Tudormobile.Airthings.AccountsResponse.Accounts*
+  name: Accounts
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_Accounts_
+  commentId: Overload:Tudormobile.Airthings.AccountsResponse.Accounts
+  fullName: Tudormobile.Airthings.AccountsResponse.Accounts
+  nameWithType: AccountsResponse.Accounts
+- uid: Tudormobile.Airthings.AccountsResponse.EqualityContract
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_EqualityContract
+  commentId: P:Tudormobile.Airthings.AccountsResponse.EqualityContract
+  fullName: Tudormobile.Airthings.AccountsResponse.EqualityContract
+  nameWithType: AccountsResponse.EqualityContract
+- uid: Tudormobile.Airthings.AccountsResponse.EqualityContract*
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_EqualityContract_
+  commentId: Overload:Tudormobile.Airthings.AccountsResponse.EqualityContract
+  fullName: Tudormobile.Airthings.AccountsResponse.EqualityContract
+  nameWithType: AccountsResponse.EqualityContract
+- uid: Tudormobile.Airthings.AccountsResponse.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.AccountsResponse.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.AccountsResponse.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.AccountsResponse.Equals(Object)
+  nameWithType: AccountsResponse.Equals(object?)
+  nameWithType.vb: AccountsResponse.Equals(Object)
+- uid: Tudormobile.Airthings.AccountsResponse.Equals(Tudormobile.Airthings.AccountsResponse)
+  name: Equals(AccountsResponse?)
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_Equals_Tudormobile_Airthings_AccountsResponse_
+  commentId: M:Tudormobile.Airthings.AccountsResponse.Equals(Tudormobile.Airthings.AccountsResponse)
+  name.vb: Equals(AccountsResponse)
+  fullName: Tudormobile.Airthings.AccountsResponse.Equals(Tudormobile.Airthings.AccountsResponse?)
+  fullName.vb: Tudormobile.Airthings.AccountsResponse.Equals(Tudormobile.Airthings.AccountsResponse)
+  nameWithType: AccountsResponse.Equals(AccountsResponse?)
+  nameWithType.vb: AccountsResponse.Equals(AccountsResponse)
+- uid: Tudormobile.Airthings.AccountsResponse.Equals(Tudormobile.Airthings.ApiResponse)
+  name: Equals(ApiResponse?)
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_Equals_Tudormobile_Airthings_ApiResponse_
+  commentId: M:Tudormobile.Airthings.AccountsResponse.Equals(Tudormobile.Airthings.ApiResponse)
+  name.vb: Equals(ApiResponse)
+  fullName: Tudormobile.Airthings.AccountsResponse.Equals(Tudormobile.Airthings.ApiResponse?)
+  fullName.vb: Tudormobile.Airthings.AccountsResponse.Equals(Tudormobile.Airthings.ApiResponse)
+  nameWithType: AccountsResponse.Equals(ApiResponse?)
+  nameWithType.vb: AccountsResponse.Equals(ApiResponse)
+- uid: Tudormobile.Airthings.AccountsResponse.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_Equals_
+  commentId: Overload:Tudormobile.Airthings.AccountsResponse.Equals
+  fullName: Tudormobile.Airthings.AccountsResponse.Equals
+  nameWithType: AccountsResponse.Equals
+- uid: Tudormobile.Airthings.AccountsResponse.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_GetHashCode
+  commentId: M:Tudormobile.Airthings.AccountsResponse.GetHashCode
+  fullName: Tudormobile.Airthings.AccountsResponse.GetHashCode()
+  nameWithType: AccountsResponse.GetHashCode()
+- uid: Tudormobile.Airthings.AccountsResponse.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.AccountsResponse.GetHashCode
+  fullName: Tudormobile.Airthings.AccountsResponse.GetHashCode
+  nameWithType: AccountsResponse.GetHashCode
+- uid: Tudormobile.Airthings.AccountsResponse.PrintMembers(System.Text.StringBuilder)
+  name: PrintMembers(StringBuilder)
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_PrintMembers_System_Text_StringBuilder_
+  commentId: M:Tudormobile.Airthings.AccountsResponse.PrintMembers(System.Text.StringBuilder)
+  fullName: Tudormobile.Airthings.AccountsResponse.PrintMembers(System.Text.StringBuilder)
+  nameWithType: AccountsResponse.PrintMembers(StringBuilder)
+- uid: Tudormobile.Airthings.AccountsResponse.PrintMembers*
+  name: PrintMembers
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_PrintMembers_
+  commentId: Overload:Tudormobile.Airthings.AccountsResponse.PrintMembers
+  fullName: Tudormobile.Airthings.AccountsResponse.PrintMembers
+  nameWithType: AccountsResponse.PrintMembers
+- uid: Tudormobile.Airthings.AccountsResponse.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_ToString
+  commentId: M:Tudormobile.Airthings.AccountsResponse.ToString
+  fullName: Tudormobile.Airthings.AccountsResponse.ToString()
+  nameWithType: AccountsResponse.ToString()
+- uid: Tudormobile.Airthings.AccountsResponse.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_ToString_
+  commentId: Overload:Tudormobile.Airthings.AccountsResponse.ToString
+  fullName: Tudormobile.Airthings.AccountsResponse.ToString
+  nameWithType: AccountsResponse.ToString
+- uid: Tudormobile.Airthings.AccountsResponse.op_Equality(Tudormobile.Airthings.AccountsResponse,Tudormobile.Airthings.AccountsResponse)
+  name: operator ==(AccountsResponse?, AccountsResponse?)
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_op_Equality_Tudormobile_Airthings_AccountsResponse_Tudormobile_Airthings_AccountsResponse_
+  commentId: M:Tudormobile.Airthings.AccountsResponse.op_Equality(Tudormobile.Airthings.AccountsResponse,Tudormobile.Airthings.AccountsResponse)
+  name.vb: =(AccountsResponse, AccountsResponse)
+  fullName: Tudormobile.Airthings.AccountsResponse.operator ==(Tudormobile.Airthings.AccountsResponse?, Tudormobile.Airthings.AccountsResponse?)
+  fullName.vb: Tudormobile.Airthings.AccountsResponse.=(Tudormobile.Airthings.AccountsResponse, Tudormobile.Airthings.AccountsResponse)
+  nameWithType: AccountsResponse.operator ==(AccountsResponse?, AccountsResponse?)
+  nameWithType.vb: AccountsResponse.=(AccountsResponse, AccountsResponse)
+- uid: Tudormobile.Airthings.AccountsResponse.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.AccountsResponse.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.AccountsResponse.operator ==
+  fullName.vb: Tudormobile.Airthings.AccountsResponse.=
+  nameWithType: AccountsResponse.operator ==
+  nameWithType.vb: AccountsResponse.=
+- uid: Tudormobile.Airthings.AccountsResponse.op_Inequality(Tudormobile.Airthings.AccountsResponse,Tudormobile.Airthings.AccountsResponse)
+  name: operator !=(AccountsResponse?, AccountsResponse?)
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_op_Inequality_Tudormobile_Airthings_AccountsResponse_Tudormobile_Airthings_AccountsResponse_
+  commentId: M:Tudormobile.Airthings.AccountsResponse.op_Inequality(Tudormobile.Airthings.AccountsResponse,Tudormobile.Airthings.AccountsResponse)
+  name.vb: <>(AccountsResponse, AccountsResponse)
+  fullName: Tudormobile.Airthings.AccountsResponse.operator !=(Tudormobile.Airthings.AccountsResponse?, Tudormobile.Airthings.AccountsResponse?)
+  fullName.vb: Tudormobile.Airthings.AccountsResponse.<>(Tudormobile.Airthings.AccountsResponse, Tudormobile.Airthings.AccountsResponse)
+  nameWithType: AccountsResponse.operator !=(AccountsResponse?, AccountsResponse?)
+  nameWithType.vb: AccountsResponse.<>(AccountsResponse, AccountsResponse)
+- uid: Tudormobile.Airthings.AccountsResponse.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.AccountsResponse.html#Tudormobile_Airthings_AccountsResponse_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.AccountsResponse.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.AccountsResponse.operator !=
+  fullName.vb: Tudormobile.Airthings.AccountsResponse.<>
+  nameWithType: AccountsResponse.operator !=
+  nameWithType.vb: AccountsResponse.<>
+- uid: Tudormobile.Airthings.AirthingsClient
+  name: AirthingsClient
+  href: api/Tudormobile.Airthings.AirthingsClient.html
+  commentId: T:Tudormobile.Airthings.AirthingsClient
+  fullName: Tudormobile.Airthings.AirthingsClient
+  nameWithType: AirthingsClient
+- uid: Tudormobile.Airthings.AirthingsClient.#ctor(System.Net.Http.HttpClient,System.String,System.String,System.String)
+  name: AirthingsClient(HttpClient, string, string, string)
+  href: api/Tudormobile.Airthings.AirthingsClient.html#Tudormobile_Airthings_AirthingsClient__ctor_System_Net_Http_HttpClient_System_String_System_String_System_String_
+  commentId: M:Tudormobile.Airthings.AirthingsClient.#ctor(System.Net.Http.HttpClient,System.String,System.String,System.String)
+  name.vb: New(HttpClient, String, String, String)
+  fullName: Tudormobile.Airthings.AirthingsClient.AirthingsClient(System.Net.Http.HttpClient, string, string, string)
+  fullName.vb: Tudormobile.Airthings.AirthingsClient.New(System.Net.Http.HttpClient, String, String, String)
+  nameWithType: AirthingsClient.AirthingsClient(HttpClient, string, string, string)
+  nameWithType.vb: AirthingsClient.New(HttpClient, String, String, String)
+- uid: Tudormobile.Airthings.AirthingsClient.#ctor*
+  name: AirthingsClient
+  href: api/Tudormobile.Airthings.AirthingsClient.html#Tudormobile_Airthings_AirthingsClient__ctor_
+  commentId: Overload:Tudormobile.Airthings.AirthingsClient.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.AirthingsClient.AirthingsClient
+  fullName.vb: Tudormobile.Airthings.AirthingsClient.New
+  nameWithType: AirthingsClient.AirthingsClient
+  nameWithType.vb: AirthingsClient.New
+- uid: Tudormobile.Airthings.AirthingsClient.AccessToken
+  name: AccessToken
+  href: api/Tudormobile.Airthings.AirthingsClient.html#Tudormobile_Airthings_AirthingsClient_AccessToken
+  commentId: P:Tudormobile.Airthings.AirthingsClient.AccessToken
+  fullName: Tudormobile.Airthings.AirthingsClient.AccessToken
+  nameWithType: AirthingsClient.AccessToken
+- uid: Tudormobile.Airthings.AirthingsClient.AccessToken*
+  name: AccessToken
+  href: api/Tudormobile.Airthings.AirthingsClient.html#Tudormobile_Airthings_AirthingsClient_AccessToken_
+  commentId: Overload:Tudormobile.Airthings.AirthingsClient.AccessToken
+  fullName: Tudormobile.Airthings.AirthingsClient.AccessToken
+  nameWithType: AirthingsClient.AccessToken
+- uid: Tudormobile.Airthings.AirthingsClient.Dispose
+  name: Dispose()
+  href: api/Tudormobile.Airthings.AirthingsClient.html#Tudormobile_Airthings_AirthingsClient_Dispose
+  commentId: M:Tudormobile.Airthings.AirthingsClient.Dispose
+  fullName: Tudormobile.Airthings.AirthingsClient.Dispose()
+  nameWithType: AirthingsClient.Dispose()
+- uid: Tudormobile.Airthings.AirthingsClient.Dispose*
+  name: Dispose
+  href: api/Tudormobile.Airthings.AirthingsClient.html#Tudormobile_Airthings_AirthingsClient_Dispose_
+  commentId: Overload:Tudormobile.Airthings.AirthingsClient.Dispose
+  fullName: Tudormobile.Airthings.AirthingsClient.Dispose
+  nameWithType: AirthingsClient.Dispose
+- uid: Tudormobile.Airthings.AirthingsClient.ListAccounts(System.Threading.CancellationToken)
+  name: ListAccounts(CancellationToken)
+  href: api/Tudormobile.Airthings.AirthingsClient.html#Tudormobile_Airthings_AirthingsClient_ListAccounts_System_Threading_CancellationToken_
+  commentId: M:Tudormobile.Airthings.AirthingsClient.ListAccounts(System.Threading.CancellationToken)
+  fullName: Tudormobile.Airthings.AirthingsClient.ListAccounts(System.Threading.CancellationToken)
+  nameWithType: AirthingsClient.ListAccounts(CancellationToken)
+- uid: Tudormobile.Airthings.AirthingsClient.ListAccounts*
+  name: ListAccounts
+  href: api/Tudormobile.Airthings.AirthingsClient.html#Tudormobile_Airthings_AirthingsClient_ListAccounts_
+  commentId: Overload:Tudormobile.Airthings.AirthingsClient.ListAccounts
+  fullName: Tudormobile.Airthings.AirthingsClient.ListAccounts
+  nameWithType: AirthingsClient.ListAccounts
+- uid: Tudormobile.Airthings.AirthingsClient.ListDevices(System.String,System.Threading.CancellationToken)
+  name: ListDevices(string, CancellationToken)
+  href: api/Tudormobile.Airthings.AirthingsClient.html#Tudormobile_Airthings_AirthingsClient_ListDevices_System_String_System_Threading_CancellationToken_
+  commentId: M:Tudormobile.Airthings.AirthingsClient.ListDevices(System.String,System.Threading.CancellationToken)
+  name.vb: ListDevices(String, CancellationToken)
+  fullName: Tudormobile.Airthings.AirthingsClient.ListDevices(string, System.Threading.CancellationToken)
+  fullName.vb: Tudormobile.Airthings.AirthingsClient.ListDevices(String, System.Threading.CancellationToken)
+  nameWithType: AirthingsClient.ListDevices(string, CancellationToken)
+  nameWithType.vb: AirthingsClient.ListDevices(String, CancellationToken)
+- uid: Tudormobile.Airthings.AirthingsClient.ListDevices*
+  name: ListDevices
+  href: api/Tudormobile.Airthings.AirthingsClient.html#Tudormobile_Airthings_AirthingsClient_ListDevices_
+  commentId: Overload:Tudormobile.Airthings.AirthingsClient.ListDevices
+  fullName: Tudormobile.Airthings.AirthingsClient.ListDevices
+  nameWithType: AirthingsClient.ListDevices
+- uid: Tudormobile.Airthings.AirthingsClient.ReadSensors(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  name: ReadSensors(string, IEnumerable<string>, CancellationToken)
+  href: api/Tudormobile.Airthings.AirthingsClient.html#Tudormobile_Airthings_AirthingsClient_ReadSensors_System_String_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_
+  commentId: M:Tudormobile.Airthings.AirthingsClient.ReadSensors(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  name.vb: ReadSensors(String, IEnumerable(Of String), CancellationToken)
+  fullName: Tudormobile.Airthings.AirthingsClient.ReadSensors(string, System.Collections.Generic.IEnumerable<string>, System.Threading.CancellationToken)
+  fullName.vb: Tudormobile.Airthings.AirthingsClient.ReadSensors(String, System.Collections.Generic.IEnumerable(Of String), System.Threading.CancellationToken)
+  nameWithType: AirthingsClient.ReadSensors(string, IEnumerable<string>, CancellationToken)
+  nameWithType.vb: AirthingsClient.ReadSensors(String, IEnumerable(Of String), CancellationToken)
+- uid: Tudormobile.Airthings.AirthingsClient.ReadSensors*
+  name: ReadSensors
+  href: api/Tudormobile.Airthings.AirthingsClient.html#Tudormobile_Airthings_AirthingsClient_ReadSensors_
+  commentId: Overload:Tudormobile.Airthings.AirthingsClient.ReadSensors
+  fullName: Tudormobile.Airthings.AirthingsClient.ReadSensors
+  nameWithType: AirthingsClient.ReadSensors
+- uid: Tudormobile.Airthings.ApiResponse
+  name: ApiResponse
+  href: api/Tudormobile.Airthings.ApiResponse.html
+  commentId: T:Tudormobile.Airthings.ApiResponse
+  fullName: Tudormobile.Airthings.ApiResponse
+  nameWithType: ApiResponse
+- uid: Tudormobile.Airthings.ApiResponse.#ctor
+  name: ApiResponse()
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse__ctor
+  commentId: M:Tudormobile.Airthings.ApiResponse.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.ApiResponse.ApiResponse()
+  fullName.vb: Tudormobile.Airthings.ApiResponse.New()
+  nameWithType: ApiResponse.ApiResponse()
+  nameWithType.vb: ApiResponse.New()
+- uid: Tudormobile.Airthings.ApiResponse.#ctor(Tudormobile.Airthings.ApiResponse)
+  name: ApiResponse(ApiResponse)
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse__ctor_Tudormobile_Airthings_ApiResponse_
+  commentId: M:Tudormobile.Airthings.ApiResponse.#ctor(Tudormobile.Airthings.ApiResponse)
+  name.vb: New(ApiResponse)
+  fullName: Tudormobile.Airthings.ApiResponse.ApiResponse(Tudormobile.Airthings.ApiResponse)
+  fullName.vb: Tudormobile.Airthings.ApiResponse.New(Tudormobile.Airthings.ApiResponse)
+  nameWithType: ApiResponse.ApiResponse(ApiResponse)
+  nameWithType.vb: ApiResponse.New(ApiResponse)
+- uid: Tudormobile.Airthings.ApiResponse.#ctor*
+  name: ApiResponse
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse__ctor_
+  commentId: Overload:Tudormobile.Airthings.ApiResponse.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.ApiResponse.ApiResponse
+  fullName.vb: Tudormobile.Airthings.ApiResponse.New
+  nameWithType: ApiResponse.ApiResponse
+  nameWithType.vb: ApiResponse.New
+- uid: Tudormobile.Airthings.ApiResponse.EqualityContract
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_EqualityContract
+  commentId: P:Tudormobile.Airthings.ApiResponse.EqualityContract
+  fullName: Tudormobile.Airthings.ApiResponse.EqualityContract
+  nameWithType: ApiResponse.EqualityContract
+- uid: Tudormobile.Airthings.ApiResponse.EqualityContract*
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_EqualityContract_
+  commentId: Overload:Tudormobile.Airthings.ApiResponse.EqualityContract
+  fullName: Tudormobile.Airthings.ApiResponse.EqualityContract
+  nameWithType: ApiResponse.EqualityContract
+- uid: Tudormobile.Airthings.ApiResponse.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.ApiResponse.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.ApiResponse.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.ApiResponse.Equals(Object)
+  nameWithType: ApiResponse.Equals(object?)
+  nameWithType.vb: ApiResponse.Equals(Object)
+- uid: Tudormobile.Airthings.ApiResponse.Equals(Tudormobile.Airthings.ApiResponse)
+  name: Equals(ApiResponse?)
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_Equals_Tudormobile_Airthings_ApiResponse_
+  commentId: M:Tudormobile.Airthings.ApiResponse.Equals(Tudormobile.Airthings.ApiResponse)
+  name.vb: Equals(ApiResponse)
+  fullName: Tudormobile.Airthings.ApiResponse.Equals(Tudormobile.Airthings.ApiResponse?)
+  fullName.vb: Tudormobile.Airthings.ApiResponse.Equals(Tudormobile.Airthings.ApiResponse)
+  nameWithType: ApiResponse.Equals(ApiResponse?)
+  nameWithType.vb: ApiResponse.Equals(ApiResponse)
+- uid: Tudormobile.Airthings.ApiResponse.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_Equals_
+  commentId: Overload:Tudormobile.Airthings.ApiResponse.Equals
+  fullName: Tudormobile.Airthings.ApiResponse.Equals
+  nameWithType: ApiResponse.Equals
+- uid: Tudormobile.Airthings.ApiResponse.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_GetHashCode
+  commentId: M:Tudormobile.Airthings.ApiResponse.GetHashCode
+  fullName: Tudormobile.Airthings.ApiResponse.GetHashCode()
+  nameWithType: ApiResponse.GetHashCode()
+- uid: Tudormobile.Airthings.ApiResponse.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.ApiResponse.GetHashCode
+  fullName: Tudormobile.Airthings.ApiResponse.GetHashCode
+  nameWithType: ApiResponse.GetHashCode
+- uid: Tudormobile.Airthings.ApiResponse.IsSuccess
+  name: IsSuccess
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_IsSuccess
+  commentId: P:Tudormobile.Airthings.ApiResponse.IsSuccess
+  fullName: Tudormobile.Airthings.ApiResponse.IsSuccess
+  nameWithType: ApiResponse.IsSuccess
+- uid: Tudormobile.Airthings.ApiResponse.IsSuccess*
+  name: IsSuccess
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_IsSuccess_
+  commentId: Overload:Tudormobile.Airthings.ApiResponse.IsSuccess
+  fullName: Tudormobile.Airthings.ApiResponse.IsSuccess
+  nameWithType: ApiResponse.IsSuccess
+- uid: Tudormobile.Airthings.ApiResponse.Message
+  name: Message
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_Message
+  commentId: P:Tudormobile.Airthings.ApiResponse.Message
+  fullName: Tudormobile.Airthings.ApiResponse.Message
+  nameWithType: ApiResponse.Message
+- uid: Tudormobile.Airthings.ApiResponse.Message*
+  name: Message
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_Message_
+  commentId: Overload:Tudormobile.Airthings.ApiResponse.Message
+  fullName: Tudormobile.Airthings.ApiResponse.Message
+  nameWithType: ApiResponse.Message
+- uid: Tudormobile.Airthings.ApiResponse.PrintMembers(System.Text.StringBuilder)
+  name: PrintMembers(StringBuilder)
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_PrintMembers_System_Text_StringBuilder_
+  commentId: M:Tudormobile.Airthings.ApiResponse.PrintMembers(System.Text.StringBuilder)
+  fullName: Tudormobile.Airthings.ApiResponse.PrintMembers(System.Text.StringBuilder)
+  nameWithType: ApiResponse.PrintMembers(StringBuilder)
+- uid: Tudormobile.Airthings.ApiResponse.PrintMembers*
+  name: PrintMembers
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_PrintMembers_
+  commentId: Overload:Tudormobile.Airthings.ApiResponse.PrintMembers
+  fullName: Tudormobile.Airthings.ApiResponse.PrintMembers
+  nameWithType: ApiResponse.PrintMembers
+- uid: Tudormobile.Airthings.ApiResponse.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_ToString
+  commentId: M:Tudormobile.Airthings.ApiResponse.ToString
+  fullName: Tudormobile.Airthings.ApiResponse.ToString()
+  nameWithType: ApiResponse.ToString()
+- uid: Tudormobile.Airthings.ApiResponse.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_ToString_
+  commentId: Overload:Tudormobile.Airthings.ApiResponse.ToString
+  fullName: Tudormobile.Airthings.ApiResponse.ToString
+  nameWithType: ApiResponse.ToString
+- uid: Tudormobile.Airthings.ApiResponse.op_Equality(Tudormobile.Airthings.ApiResponse,Tudormobile.Airthings.ApiResponse)
+  name: operator ==(ApiResponse?, ApiResponse?)
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_op_Equality_Tudormobile_Airthings_ApiResponse_Tudormobile_Airthings_ApiResponse_
+  commentId: M:Tudormobile.Airthings.ApiResponse.op_Equality(Tudormobile.Airthings.ApiResponse,Tudormobile.Airthings.ApiResponse)
+  name.vb: =(ApiResponse, ApiResponse)
+  fullName: Tudormobile.Airthings.ApiResponse.operator ==(Tudormobile.Airthings.ApiResponse?, Tudormobile.Airthings.ApiResponse?)
+  fullName.vb: Tudormobile.Airthings.ApiResponse.=(Tudormobile.Airthings.ApiResponse, Tudormobile.Airthings.ApiResponse)
+  nameWithType: ApiResponse.operator ==(ApiResponse?, ApiResponse?)
+  nameWithType.vb: ApiResponse.=(ApiResponse, ApiResponse)
+- uid: Tudormobile.Airthings.ApiResponse.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.ApiResponse.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.ApiResponse.operator ==
+  fullName.vb: Tudormobile.Airthings.ApiResponse.=
+  nameWithType: ApiResponse.operator ==
+  nameWithType.vb: ApiResponse.=
+- uid: Tudormobile.Airthings.ApiResponse.op_Inequality(Tudormobile.Airthings.ApiResponse,Tudormobile.Airthings.ApiResponse)
+  name: operator !=(ApiResponse?, ApiResponse?)
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_op_Inequality_Tudormobile_Airthings_ApiResponse_Tudormobile_Airthings_ApiResponse_
+  commentId: M:Tudormobile.Airthings.ApiResponse.op_Inequality(Tudormobile.Airthings.ApiResponse,Tudormobile.Airthings.ApiResponse)
+  name.vb: <>(ApiResponse, ApiResponse)
+  fullName: Tudormobile.Airthings.ApiResponse.operator !=(Tudormobile.Airthings.ApiResponse?, Tudormobile.Airthings.ApiResponse?)
+  fullName.vb: Tudormobile.Airthings.ApiResponse.<>(Tudormobile.Airthings.ApiResponse, Tudormobile.Airthings.ApiResponse)
+  nameWithType: ApiResponse.operator !=(ApiResponse?, ApiResponse?)
+  nameWithType.vb: ApiResponse.<>(ApiResponse, ApiResponse)
+- uid: Tudormobile.Airthings.ApiResponse.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.ApiResponse.html#Tudormobile_Airthings_ApiResponse_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.ApiResponse.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.ApiResponse.operator !=
+  fullName.vb: Tudormobile.Airthings.ApiResponse.<>
+  nameWithType: ApiResponse.operator !=
+  nameWithType.vb: ApiResponse.<>
+- uid: Tudormobile.Airthings.DeviceResponse
+  name: DeviceResponse
+  href: api/Tudormobile.Airthings.DeviceResponse.html
+  commentId: T:Tudormobile.Airthings.DeviceResponse
+  fullName: Tudormobile.Airthings.DeviceResponse
+  nameWithType: DeviceResponse
+- uid: Tudormobile.Airthings.DeviceResponse.#ctor
+  name: DeviceResponse()
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse__ctor
+  commentId: M:Tudormobile.Airthings.DeviceResponse.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.DeviceResponse.DeviceResponse()
+  fullName.vb: Tudormobile.Airthings.DeviceResponse.New()
+  nameWithType: DeviceResponse.DeviceResponse()
+  nameWithType.vb: DeviceResponse.New()
+- uid: Tudormobile.Airthings.DeviceResponse.#ctor(Tudormobile.Airthings.DeviceResponse)
+  name: DeviceResponse(DeviceResponse)
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse__ctor_Tudormobile_Airthings_DeviceResponse_
+  commentId: M:Tudormobile.Airthings.DeviceResponse.#ctor(Tudormobile.Airthings.DeviceResponse)
+  name.vb: New(DeviceResponse)
+  fullName: Tudormobile.Airthings.DeviceResponse.DeviceResponse(Tudormobile.Airthings.DeviceResponse)
+  fullName.vb: Tudormobile.Airthings.DeviceResponse.New(Tudormobile.Airthings.DeviceResponse)
+  nameWithType: DeviceResponse.DeviceResponse(DeviceResponse)
+  nameWithType.vb: DeviceResponse.New(DeviceResponse)
+- uid: Tudormobile.Airthings.DeviceResponse.#ctor*
+  name: DeviceResponse
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse__ctor_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.DeviceResponse.DeviceResponse
+  fullName.vb: Tudormobile.Airthings.DeviceResponse.New
+  nameWithType: DeviceResponse.DeviceResponse
+  nameWithType.vb: DeviceResponse.New
+- uid: Tudormobile.Airthings.DeviceResponse.EqualityContract
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_EqualityContract
+  commentId: P:Tudormobile.Airthings.DeviceResponse.EqualityContract
+  fullName: Tudormobile.Airthings.DeviceResponse.EqualityContract
+  nameWithType: DeviceResponse.EqualityContract
+- uid: Tudormobile.Airthings.DeviceResponse.EqualityContract*
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_EqualityContract_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.EqualityContract
+  fullName: Tudormobile.Airthings.DeviceResponse.EqualityContract
+  nameWithType: DeviceResponse.EqualityContract
+- uid: Tudormobile.Airthings.DeviceResponse.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.DeviceResponse.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.DeviceResponse.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.DeviceResponse.Equals(Object)
+  nameWithType: DeviceResponse.Equals(object?)
+  nameWithType.vb: DeviceResponse.Equals(Object)
+- uid: Tudormobile.Airthings.DeviceResponse.Equals(Tudormobile.Airthings.DeviceResponse)
+  name: Equals(DeviceResponse?)
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_Equals_Tudormobile_Airthings_DeviceResponse_
+  commentId: M:Tudormobile.Airthings.DeviceResponse.Equals(Tudormobile.Airthings.DeviceResponse)
+  name.vb: Equals(DeviceResponse)
+  fullName: Tudormobile.Airthings.DeviceResponse.Equals(Tudormobile.Airthings.DeviceResponse?)
+  fullName.vb: Tudormobile.Airthings.DeviceResponse.Equals(Tudormobile.Airthings.DeviceResponse)
+  nameWithType: DeviceResponse.Equals(DeviceResponse?)
+  nameWithType.vb: DeviceResponse.Equals(DeviceResponse)
+- uid: Tudormobile.Airthings.DeviceResponse.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_Equals_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.Equals
+  fullName: Tudormobile.Airthings.DeviceResponse.Equals
+  nameWithType: DeviceResponse.Equals
+- uid: Tudormobile.Airthings.DeviceResponse.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_GetHashCode
+  commentId: M:Tudormobile.Airthings.DeviceResponse.GetHashCode
+  fullName: Tudormobile.Airthings.DeviceResponse.GetHashCode()
+  nameWithType: DeviceResponse.GetHashCode()
+- uid: Tudormobile.Airthings.DeviceResponse.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.GetHashCode
+  fullName: Tudormobile.Airthings.DeviceResponse.GetHashCode
+  nameWithType: DeviceResponse.GetHashCode
+- uid: Tudormobile.Airthings.DeviceResponse.Home
+  name: Home
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_Home
+  commentId: P:Tudormobile.Airthings.DeviceResponse.Home
+  fullName: Tudormobile.Airthings.DeviceResponse.Home
+  nameWithType: DeviceResponse.Home
+- uid: Tudormobile.Airthings.DeviceResponse.Home*
+  name: Home
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_Home_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.Home
+  fullName: Tudormobile.Airthings.DeviceResponse.Home
+  nameWithType: DeviceResponse.Home
+- uid: Tudormobile.Airthings.DeviceResponse.Name
+  name: Name
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_Name
+  commentId: P:Tudormobile.Airthings.DeviceResponse.Name
+  fullName: Tudormobile.Airthings.DeviceResponse.Name
+  nameWithType: DeviceResponse.Name
+- uid: Tudormobile.Airthings.DeviceResponse.Name*
+  name: Name
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_Name_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.Name
+  fullName: Tudormobile.Airthings.DeviceResponse.Name
+  nameWithType: DeviceResponse.Name
+- uid: Tudormobile.Airthings.DeviceResponse.PrintMembers(System.Text.StringBuilder)
+  name: PrintMembers(StringBuilder)
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_PrintMembers_System_Text_StringBuilder_
+  commentId: M:Tudormobile.Airthings.DeviceResponse.PrintMembers(System.Text.StringBuilder)
+  fullName: Tudormobile.Airthings.DeviceResponse.PrintMembers(System.Text.StringBuilder)
+  nameWithType: DeviceResponse.PrintMembers(StringBuilder)
+- uid: Tudormobile.Airthings.DeviceResponse.PrintMembers*
+  name: PrintMembers
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_PrintMembers_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.PrintMembers
+  fullName: Tudormobile.Airthings.DeviceResponse.PrintMembers
+  nameWithType: DeviceResponse.PrintMembers
+- uid: Tudormobile.Airthings.DeviceResponse.Sensors
+  name: Sensors
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_Sensors
+  commentId: P:Tudormobile.Airthings.DeviceResponse.Sensors
+  fullName: Tudormobile.Airthings.DeviceResponse.Sensors
+  nameWithType: DeviceResponse.Sensors
+- uid: Tudormobile.Airthings.DeviceResponse.Sensors*
+  name: Sensors
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_Sensors_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.Sensors
+  fullName: Tudormobile.Airthings.DeviceResponse.Sensors
+  nameWithType: DeviceResponse.Sensors
+- uid: Tudormobile.Airthings.DeviceResponse.SerialNumber
+  name: SerialNumber
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_SerialNumber
+  commentId: P:Tudormobile.Airthings.DeviceResponse.SerialNumber
+  fullName: Tudormobile.Airthings.DeviceResponse.SerialNumber
+  nameWithType: DeviceResponse.SerialNumber
+- uid: Tudormobile.Airthings.DeviceResponse.SerialNumber*
+  name: SerialNumber
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_SerialNumber_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.SerialNumber
+  fullName: Tudormobile.Airthings.DeviceResponse.SerialNumber
+  nameWithType: DeviceResponse.SerialNumber
+- uid: Tudormobile.Airthings.DeviceResponse.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_ToString
+  commentId: M:Tudormobile.Airthings.DeviceResponse.ToString
+  fullName: Tudormobile.Airthings.DeviceResponse.ToString()
+  nameWithType: DeviceResponse.ToString()
+- uid: Tudormobile.Airthings.DeviceResponse.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_ToString_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.ToString
+  fullName: Tudormobile.Airthings.DeviceResponse.ToString
+  nameWithType: DeviceResponse.ToString
+- uid: Tudormobile.Airthings.DeviceResponse.Type
+  name: Type
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_Type
+  commentId: P:Tudormobile.Airthings.DeviceResponse.Type
+  fullName: Tudormobile.Airthings.DeviceResponse.Type
+  nameWithType: DeviceResponse.Type
+- uid: Tudormobile.Airthings.DeviceResponse.Type*
+  name: Type
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_Type_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.Type
+  fullName: Tudormobile.Airthings.DeviceResponse.Type
+  nameWithType: DeviceResponse.Type
+- uid: Tudormobile.Airthings.DeviceResponse.op_Equality(Tudormobile.Airthings.DeviceResponse,Tudormobile.Airthings.DeviceResponse)
+  name: operator ==(DeviceResponse?, DeviceResponse?)
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_op_Equality_Tudormobile_Airthings_DeviceResponse_Tudormobile_Airthings_DeviceResponse_
+  commentId: M:Tudormobile.Airthings.DeviceResponse.op_Equality(Tudormobile.Airthings.DeviceResponse,Tudormobile.Airthings.DeviceResponse)
+  name.vb: =(DeviceResponse, DeviceResponse)
+  fullName: Tudormobile.Airthings.DeviceResponse.operator ==(Tudormobile.Airthings.DeviceResponse?, Tudormobile.Airthings.DeviceResponse?)
+  fullName.vb: Tudormobile.Airthings.DeviceResponse.=(Tudormobile.Airthings.DeviceResponse, Tudormobile.Airthings.DeviceResponse)
+  nameWithType: DeviceResponse.operator ==(DeviceResponse?, DeviceResponse?)
+  nameWithType.vb: DeviceResponse.=(DeviceResponse, DeviceResponse)
+- uid: Tudormobile.Airthings.DeviceResponse.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.DeviceResponse.operator ==
+  fullName.vb: Tudormobile.Airthings.DeviceResponse.=
+  nameWithType: DeviceResponse.operator ==
+  nameWithType.vb: DeviceResponse.=
+- uid: Tudormobile.Airthings.DeviceResponse.op_Inequality(Tudormobile.Airthings.DeviceResponse,Tudormobile.Airthings.DeviceResponse)
+  name: operator !=(DeviceResponse?, DeviceResponse?)
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_op_Inequality_Tudormobile_Airthings_DeviceResponse_Tudormobile_Airthings_DeviceResponse_
+  commentId: M:Tudormobile.Airthings.DeviceResponse.op_Inequality(Tudormobile.Airthings.DeviceResponse,Tudormobile.Airthings.DeviceResponse)
+  name.vb: <>(DeviceResponse, DeviceResponse)
+  fullName: Tudormobile.Airthings.DeviceResponse.operator !=(Tudormobile.Airthings.DeviceResponse?, Tudormobile.Airthings.DeviceResponse?)
+  fullName.vb: Tudormobile.Airthings.DeviceResponse.<>(Tudormobile.Airthings.DeviceResponse, Tudormobile.Airthings.DeviceResponse)
+  nameWithType: DeviceResponse.operator !=(DeviceResponse?, DeviceResponse?)
+  nameWithType.vb: DeviceResponse.<>(DeviceResponse, DeviceResponse)
+- uid: Tudormobile.Airthings.DeviceResponse.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.DeviceResponse.html#Tudormobile_Airthings_DeviceResponse_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.DeviceResponse.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.DeviceResponse.operator !=
+  fullName.vb: Tudormobile.Airthings.DeviceResponse.<>
+  nameWithType: DeviceResponse.operator !=
+  nameWithType.vb: DeviceResponse.<>
+- uid: Tudormobile.Airthings.DevicesResponse
+  name: DevicesResponse
+  href: api/Tudormobile.Airthings.DevicesResponse.html
+  commentId: T:Tudormobile.Airthings.DevicesResponse
+  fullName: Tudormobile.Airthings.DevicesResponse
+  nameWithType: DevicesResponse
+- uid: Tudormobile.Airthings.DevicesResponse.#ctor
+  name: DevicesResponse()
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse__ctor
+  commentId: M:Tudormobile.Airthings.DevicesResponse.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.DevicesResponse.DevicesResponse()
+  fullName.vb: Tudormobile.Airthings.DevicesResponse.New()
+  nameWithType: DevicesResponse.DevicesResponse()
+  nameWithType.vb: DevicesResponse.New()
+- uid: Tudormobile.Airthings.DevicesResponse.#ctor(Tudormobile.Airthings.DevicesResponse)
+  name: DevicesResponse(DevicesResponse)
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse__ctor_Tudormobile_Airthings_DevicesResponse_
+  commentId: M:Tudormobile.Airthings.DevicesResponse.#ctor(Tudormobile.Airthings.DevicesResponse)
+  name.vb: New(DevicesResponse)
+  fullName: Tudormobile.Airthings.DevicesResponse.DevicesResponse(Tudormobile.Airthings.DevicesResponse)
+  fullName.vb: Tudormobile.Airthings.DevicesResponse.New(Tudormobile.Airthings.DevicesResponse)
+  nameWithType: DevicesResponse.DevicesResponse(DevicesResponse)
+  nameWithType.vb: DevicesResponse.New(DevicesResponse)
+- uid: Tudormobile.Airthings.DevicesResponse.#ctor*
+  name: DevicesResponse
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse__ctor_
+  commentId: Overload:Tudormobile.Airthings.DevicesResponse.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.DevicesResponse.DevicesResponse
+  fullName.vb: Tudormobile.Airthings.DevicesResponse.New
+  nameWithType: DevicesResponse.DevicesResponse
+  nameWithType.vb: DevicesResponse.New
+- uid: Tudormobile.Airthings.DevicesResponse.Devices
+  name: Devices
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_Devices
+  commentId: P:Tudormobile.Airthings.DevicesResponse.Devices
+  fullName: Tudormobile.Airthings.DevicesResponse.Devices
+  nameWithType: DevicesResponse.Devices
+- uid: Tudormobile.Airthings.DevicesResponse.Devices*
+  name: Devices
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_Devices_
+  commentId: Overload:Tudormobile.Airthings.DevicesResponse.Devices
+  fullName: Tudormobile.Airthings.DevicesResponse.Devices
+  nameWithType: DevicesResponse.Devices
+- uid: Tudormobile.Airthings.DevicesResponse.EqualityContract
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_EqualityContract
+  commentId: P:Tudormobile.Airthings.DevicesResponse.EqualityContract
+  fullName: Tudormobile.Airthings.DevicesResponse.EqualityContract
+  nameWithType: DevicesResponse.EqualityContract
+- uid: Tudormobile.Airthings.DevicesResponse.EqualityContract*
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_EqualityContract_
+  commentId: Overload:Tudormobile.Airthings.DevicesResponse.EqualityContract
+  fullName: Tudormobile.Airthings.DevicesResponse.EqualityContract
+  nameWithType: DevicesResponse.EqualityContract
+- uid: Tudormobile.Airthings.DevicesResponse.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.DevicesResponse.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.DevicesResponse.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.DevicesResponse.Equals(Object)
+  nameWithType: DevicesResponse.Equals(object?)
+  nameWithType.vb: DevicesResponse.Equals(Object)
+- uid: Tudormobile.Airthings.DevicesResponse.Equals(Tudormobile.Airthings.ApiResponse)
+  name: Equals(ApiResponse?)
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_Equals_Tudormobile_Airthings_ApiResponse_
+  commentId: M:Tudormobile.Airthings.DevicesResponse.Equals(Tudormobile.Airthings.ApiResponse)
+  name.vb: Equals(ApiResponse)
+  fullName: Tudormobile.Airthings.DevicesResponse.Equals(Tudormobile.Airthings.ApiResponse?)
+  fullName.vb: Tudormobile.Airthings.DevicesResponse.Equals(Tudormobile.Airthings.ApiResponse)
+  nameWithType: DevicesResponse.Equals(ApiResponse?)
+  nameWithType.vb: DevicesResponse.Equals(ApiResponse)
+- uid: Tudormobile.Airthings.DevicesResponse.Equals(Tudormobile.Airthings.DevicesResponse)
+  name: Equals(DevicesResponse?)
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_Equals_Tudormobile_Airthings_DevicesResponse_
+  commentId: M:Tudormobile.Airthings.DevicesResponse.Equals(Tudormobile.Airthings.DevicesResponse)
+  name.vb: Equals(DevicesResponse)
+  fullName: Tudormobile.Airthings.DevicesResponse.Equals(Tudormobile.Airthings.DevicesResponse?)
+  fullName.vb: Tudormobile.Airthings.DevicesResponse.Equals(Tudormobile.Airthings.DevicesResponse)
+  nameWithType: DevicesResponse.Equals(DevicesResponse?)
+  nameWithType.vb: DevicesResponse.Equals(DevicesResponse)
+- uid: Tudormobile.Airthings.DevicesResponse.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_Equals_
+  commentId: Overload:Tudormobile.Airthings.DevicesResponse.Equals
+  fullName: Tudormobile.Airthings.DevicesResponse.Equals
+  nameWithType: DevicesResponse.Equals
+- uid: Tudormobile.Airthings.DevicesResponse.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_GetHashCode
+  commentId: M:Tudormobile.Airthings.DevicesResponse.GetHashCode
+  fullName: Tudormobile.Airthings.DevicesResponse.GetHashCode()
+  nameWithType: DevicesResponse.GetHashCode()
+- uid: Tudormobile.Airthings.DevicesResponse.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.DevicesResponse.GetHashCode
+  fullName: Tudormobile.Airthings.DevicesResponse.GetHashCode
+  nameWithType: DevicesResponse.GetHashCode
+- uid: Tudormobile.Airthings.DevicesResponse.PrintMembers(System.Text.StringBuilder)
+  name: PrintMembers(StringBuilder)
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_PrintMembers_System_Text_StringBuilder_
+  commentId: M:Tudormobile.Airthings.DevicesResponse.PrintMembers(System.Text.StringBuilder)
+  fullName: Tudormobile.Airthings.DevicesResponse.PrintMembers(System.Text.StringBuilder)
+  nameWithType: DevicesResponse.PrintMembers(StringBuilder)
+- uid: Tudormobile.Airthings.DevicesResponse.PrintMembers*
+  name: PrintMembers
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_PrintMembers_
+  commentId: Overload:Tudormobile.Airthings.DevicesResponse.PrintMembers
+  fullName: Tudormobile.Airthings.DevicesResponse.PrintMembers
+  nameWithType: DevicesResponse.PrintMembers
+- uid: Tudormobile.Airthings.DevicesResponse.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_ToString
+  commentId: M:Tudormobile.Airthings.DevicesResponse.ToString
+  fullName: Tudormobile.Airthings.DevicesResponse.ToString()
+  nameWithType: DevicesResponse.ToString()
+- uid: Tudormobile.Airthings.DevicesResponse.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_ToString_
+  commentId: Overload:Tudormobile.Airthings.DevicesResponse.ToString
+  fullName: Tudormobile.Airthings.DevicesResponse.ToString
+  nameWithType: DevicesResponse.ToString
+- uid: Tudormobile.Airthings.DevicesResponse.op_Equality(Tudormobile.Airthings.DevicesResponse,Tudormobile.Airthings.DevicesResponse)
+  name: operator ==(DevicesResponse?, DevicesResponse?)
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_op_Equality_Tudormobile_Airthings_DevicesResponse_Tudormobile_Airthings_DevicesResponse_
+  commentId: M:Tudormobile.Airthings.DevicesResponse.op_Equality(Tudormobile.Airthings.DevicesResponse,Tudormobile.Airthings.DevicesResponse)
+  name.vb: =(DevicesResponse, DevicesResponse)
+  fullName: Tudormobile.Airthings.DevicesResponse.operator ==(Tudormobile.Airthings.DevicesResponse?, Tudormobile.Airthings.DevicesResponse?)
+  fullName.vb: Tudormobile.Airthings.DevicesResponse.=(Tudormobile.Airthings.DevicesResponse, Tudormobile.Airthings.DevicesResponse)
+  nameWithType: DevicesResponse.operator ==(DevicesResponse?, DevicesResponse?)
+  nameWithType.vb: DevicesResponse.=(DevicesResponse, DevicesResponse)
+- uid: Tudormobile.Airthings.DevicesResponse.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.DevicesResponse.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.DevicesResponse.operator ==
+  fullName.vb: Tudormobile.Airthings.DevicesResponse.=
+  nameWithType: DevicesResponse.operator ==
+  nameWithType.vb: DevicesResponse.=
+- uid: Tudormobile.Airthings.DevicesResponse.op_Inequality(Tudormobile.Airthings.DevicesResponse,Tudormobile.Airthings.DevicesResponse)
+  name: operator !=(DevicesResponse?, DevicesResponse?)
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_op_Inequality_Tudormobile_Airthings_DevicesResponse_Tudormobile_Airthings_DevicesResponse_
+  commentId: M:Tudormobile.Airthings.DevicesResponse.op_Inequality(Tudormobile.Airthings.DevicesResponse,Tudormobile.Airthings.DevicesResponse)
+  name.vb: <>(DevicesResponse, DevicesResponse)
+  fullName: Tudormobile.Airthings.DevicesResponse.operator !=(Tudormobile.Airthings.DevicesResponse?, Tudormobile.Airthings.DevicesResponse?)
+  fullName.vb: Tudormobile.Airthings.DevicesResponse.<>(Tudormobile.Airthings.DevicesResponse, Tudormobile.Airthings.DevicesResponse)
+  nameWithType: DevicesResponse.operator !=(DevicesResponse?, DevicesResponse?)
+  nameWithType.vb: DevicesResponse.<>(DevicesResponse, DevicesResponse)
+- uid: Tudormobile.Airthings.DevicesResponse.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.DevicesResponse.html#Tudormobile_Airthings_DevicesResponse_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.DevicesResponse.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.DevicesResponse.operator !=
+  fullName.vb: Tudormobile.Airthings.DevicesResponse.<>
+  nameWithType: DevicesResponse.operator !=
+  nameWithType.vb: DevicesResponse.<>
+- uid: Tudormobile.Airthings.DevicesSamplesResponse
+  name: DevicesSamplesResponse
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html
+  commentId: T:Tudormobile.Airthings.DevicesSamplesResponse
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse
+  nameWithType: DevicesSamplesResponse
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.#ctor
+  name: DevicesSamplesResponse()
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse__ctor
+  commentId: M:Tudormobile.Airthings.DevicesSamplesResponse.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.DevicesSamplesResponse()
+  fullName.vb: Tudormobile.Airthings.DevicesSamplesResponse.New()
+  nameWithType: DevicesSamplesResponse.DevicesSamplesResponse()
+  nameWithType.vb: DevicesSamplesResponse.New()
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.#ctor(Tudormobile.Airthings.DevicesSamplesResponse)
+  name: DevicesSamplesResponse(DevicesSamplesResponse)
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse__ctor_Tudormobile_Airthings_DevicesSamplesResponse_
+  commentId: M:Tudormobile.Airthings.DevicesSamplesResponse.#ctor(Tudormobile.Airthings.DevicesSamplesResponse)
+  name.vb: New(DevicesSamplesResponse)
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.DevicesSamplesResponse(Tudormobile.Airthings.DevicesSamplesResponse)
+  fullName.vb: Tudormobile.Airthings.DevicesSamplesResponse.New(Tudormobile.Airthings.DevicesSamplesResponse)
+  nameWithType: DevicesSamplesResponse.DevicesSamplesResponse(DevicesSamplesResponse)
+  nameWithType.vb: DevicesSamplesResponse.New(DevicesSamplesResponse)
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.#ctor*
+  name: DevicesSamplesResponse
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse__ctor_
+  commentId: Overload:Tudormobile.Airthings.DevicesSamplesResponse.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.DevicesSamplesResponse
+  fullName.vb: Tudormobile.Airthings.DevicesSamplesResponse.New
+  nameWithType: DevicesSamplesResponse.DevicesSamplesResponse
+  nameWithType.vb: DevicesSamplesResponse.New
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.EqualityContract
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_EqualityContract
+  commentId: P:Tudormobile.Airthings.DevicesSamplesResponse.EqualityContract
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.EqualityContract
+  nameWithType: DevicesSamplesResponse.EqualityContract
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.EqualityContract*
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_EqualityContract_
+  commentId: Overload:Tudormobile.Airthings.DevicesSamplesResponse.EqualityContract
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.EqualityContract
+  nameWithType: DevicesSamplesResponse.EqualityContract
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.DevicesSamplesResponse.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.DevicesSamplesResponse.Equals(Object)
+  nameWithType: DevicesSamplesResponse.Equals(object?)
+  nameWithType.vb: DevicesSamplesResponse.Equals(Object)
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.Equals(Tudormobile.Airthings.ApiResponse)
+  name: Equals(ApiResponse?)
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_Equals_Tudormobile_Airthings_ApiResponse_
+  commentId: M:Tudormobile.Airthings.DevicesSamplesResponse.Equals(Tudormobile.Airthings.ApiResponse)
+  name.vb: Equals(ApiResponse)
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.Equals(Tudormobile.Airthings.ApiResponse?)
+  fullName.vb: Tudormobile.Airthings.DevicesSamplesResponse.Equals(Tudormobile.Airthings.ApiResponse)
+  nameWithType: DevicesSamplesResponse.Equals(ApiResponse?)
+  nameWithType.vb: DevicesSamplesResponse.Equals(ApiResponse)
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.Equals(Tudormobile.Airthings.DevicesSamplesResponse)
+  name: Equals(DevicesSamplesResponse?)
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_Equals_Tudormobile_Airthings_DevicesSamplesResponse_
+  commentId: M:Tudormobile.Airthings.DevicesSamplesResponse.Equals(Tudormobile.Airthings.DevicesSamplesResponse)
+  name.vb: Equals(DevicesSamplesResponse)
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.Equals(Tudormobile.Airthings.DevicesSamplesResponse?)
+  fullName.vb: Tudormobile.Airthings.DevicesSamplesResponse.Equals(Tudormobile.Airthings.DevicesSamplesResponse)
+  nameWithType: DevicesSamplesResponse.Equals(DevicesSamplesResponse?)
+  nameWithType.vb: DevicesSamplesResponse.Equals(DevicesSamplesResponse)
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_Equals_
+  commentId: Overload:Tudormobile.Airthings.DevicesSamplesResponse.Equals
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.Equals
+  nameWithType: DevicesSamplesResponse.Equals
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_GetHashCode
+  commentId: M:Tudormobile.Airthings.DevicesSamplesResponse.GetHashCode
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.GetHashCode()
+  nameWithType: DevicesSamplesResponse.GetHashCode()
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.DevicesSamplesResponse.GetHashCode
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.GetHashCode
+  nameWithType: DevicesSamplesResponse.GetHashCode
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.HasNext
+  name: HasNext
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_HasNext
+  commentId: P:Tudormobile.Airthings.DevicesSamplesResponse.HasNext
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.HasNext
+  nameWithType: DevicesSamplesResponse.HasNext
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.HasNext*
+  name: HasNext
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_HasNext_
+  commentId: Overload:Tudormobile.Airthings.DevicesSamplesResponse.HasNext
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.HasNext
+  nameWithType: DevicesSamplesResponse.HasNext
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.PrintMembers(System.Text.StringBuilder)
+  name: PrintMembers(StringBuilder)
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_PrintMembers_System_Text_StringBuilder_
+  commentId: M:Tudormobile.Airthings.DevicesSamplesResponse.PrintMembers(System.Text.StringBuilder)
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.PrintMembers(System.Text.StringBuilder)
+  nameWithType: DevicesSamplesResponse.PrintMembers(StringBuilder)
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.PrintMembers*
+  name: PrintMembers
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_PrintMembers_
+  commentId: Overload:Tudormobile.Airthings.DevicesSamplesResponse.PrintMembers
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.PrintMembers
+  nameWithType: DevicesSamplesResponse.PrintMembers
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.Results
+  name: Results
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_Results
+  commentId: P:Tudormobile.Airthings.DevicesSamplesResponse.Results
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.Results
+  nameWithType: DevicesSamplesResponse.Results
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.Results*
+  name: Results
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_Results_
+  commentId: Overload:Tudormobile.Airthings.DevicesSamplesResponse.Results
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.Results
+  nameWithType: DevicesSamplesResponse.Results
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_ToString
+  commentId: M:Tudormobile.Airthings.DevicesSamplesResponse.ToString
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.ToString()
+  nameWithType: DevicesSamplesResponse.ToString()
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_ToString_
+  commentId: Overload:Tudormobile.Airthings.DevicesSamplesResponse.ToString
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.ToString
+  nameWithType: DevicesSamplesResponse.ToString
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.TotalPages
+  name: TotalPages
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_TotalPages
+  commentId: P:Tudormobile.Airthings.DevicesSamplesResponse.TotalPages
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.TotalPages
+  nameWithType: DevicesSamplesResponse.TotalPages
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.TotalPages*
+  name: TotalPages
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_TotalPages_
+  commentId: Overload:Tudormobile.Airthings.DevicesSamplesResponse.TotalPages
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.TotalPages
+  nameWithType: DevicesSamplesResponse.TotalPages
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.op_Equality(Tudormobile.Airthings.DevicesSamplesResponse,Tudormobile.Airthings.DevicesSamplesResponse)
+  name: operator ==(DevicesSamplesResponse?, DevicesSamplesResponse?)
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_op_Equality_Tudormobile_Airthings_DevicesSamplesResponse_Tudormobile_Airthings_DevicesSamplesResponse_
+  commentId: M:Tudormobile.Airthings.DevicesSamplesResponse.op_Equality(Tudormobile.Airthings.DevicesSamplesResponse,Tudormobile.Airthings.DevicesSamplesResponse)
+  name.vb: =(DevicesSamplesResponse, DevicesSamplesResponse)
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.operator ==(Tudormobile.Airthings.DevicesSamplesResponse?, Tudormobile.Airthings.DevicesSamplesResponse?)
+  fullName.vb: Tudormobile.Airthings.DevicesSamplesResponse.=(Tudormobile.Airthings.DevicesSamplesResponse, Tudormobile.Airthings.DevicesSamplesResponse)
+  nameWithType: DevicesSamplesResponse.operator ==(DevicesSamplesResponse?, DevicesSamplesResponse?)
+  nameWithType.vb: DevicesSamplesResponse.=(DevicesSamplesResponse, DevicesSamplesResponse)
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.DevicesSamplesResponse.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.operator ==
+  fullName.vb: Tudormobile.Airthings.DevicesSamplesResponse.=
+  nameWithType: DevicesSamplesResponse.operator ==
+  nameWithType.vb: DevicesSamplesResponse.=
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.op_Inequality(Tudormobile.Airthings.DevicesSamplesResponse,Tudormobile.Airthings.DevicesSamplesResponse)
+  name: operator !=(DevicesSamplesResponse?, DevicesSamplesResponse?)
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_op_Inequality_Tudormobile_Airthings_DevicesSamplesResponse_Tudormobile_Airthings_DevicesSamplesResponse_
+  commentId: M:Tudormobile.Airthings.DevicesSamplesResponse.op_Inequality(Tudormobile.Airthings.DevicesSamplesResponse,Tudormobile.Airthings.DevicesSamplesResponse)
+  name.vb: <>(DevicesSamplesResponse, DevicesSamplesResponse)
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.operator !=(Tudormobile.Airthings.DevicesSamplesResponse?, Tudormobile.Airthings.DevicesSamplesResponse?)
+  fullName.vb: Tudormobile.Airthings.DevicesSamplesResponse.<>(Tudormobile.Airthings.DevicesSamplesResponse, Tudormobile.Airthings.DevicesSamplesResponse)
+  nameWithType: DevicesSamplesResponse.operator !=(DevicesSamplesResponse?, DevicesSamplesResponse?)
+  nameWithType.vb: DevicesSamplesResponse.<>(DevicesSamplesResponse, DevicesSamplesResponse)
+- uid: Tudormobile.Airthings.DevicesSamplesResponse.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.DevicesSamplesResponse.html#Tudormobile_Airthings_DevicesSamplesResponse_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.DevicesSamplesResponse.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse.operator !=
+  fullName.vb: Tudormobile.Airthings.DevicesSamplesResponse.<>
+  nameWithType: DevicesSamplesResponse.operator !=
+  nameWithType.vb: DevicesSamplesResponse.<>
+- uid: Tudormobile.Airthings.IAirthingsClient
+  name: IAirthingsClient
+  href: api/Tudormobile.Airthings.IAirthingsClient.html
+  commentId: T:Tudormobile.Airthings.IAirthingsClient
+  fullName: Tudormobile.Airthings.IAirthingsClient
+  nameWithType: IAirthingsClient
+- uid: Tudormobile.Airthings.IAirthingsClient.ListAccounts(System.Threading.CancellationToken)
+  name: ListAccounts(CancellationToken)
+  href: api/Tudormobile.Airthings.IAirthingsClient.html#Tudormobile_Airthings_IAirthingsClient_ListAccounts_System_Threading_CancellationToken_
+  commentId: M:Tudormobile.Airthings.IAirthingsClient.ListAccounts(System.Threading.CancellationToken)
+  fullName: Tudormobile.Airthings.IAirthingsClient.ListAccounts(System.Threading.CancellationToken)
+  nameWithType: IAirthingsClient.ListAccounts(CancellationToken)
+- uid: Tudormobile.Airthings.IAirthingsClient.ListAccounts*
+  name: ListAccounts
+  href: api/Tudormobile.Airthings.IAirthingsClient.html#Tudormobile_Airthings_IAirthingsClient_ListAccounts_
+  commentId: Overload:Tudormobile.Airthings.IAirthingsClient.ListAccounts
+  fullName: Tudormobile.Airthings.IAirthingsClient.ListAccounts
+  nameWithType: IAirthingsClient.ListAccounts
+- uid: Tudormobile.Airthings.IAirthingsClient.ListDevices(System.String,System.Threading.CancellationToken)
+  name: ListDevices(string, CancellationToken)
+  href: api/Tudormobile.Airthings.IAirthingsClient.html#Tudormobile_Airthings_IAirthingsClient_ListDevices_System_String_System_Threading_CancellationToken_
+  commentId: M:Tudormobile.Airthings.IAirthingsClient.ListDevices(System.String,System.Threading.CancellationToken)
+  name.vb: ListDevices(String, CancellationToken)
+  fullName: Tudormobile.Airthings.IAirthingsClient.ListDevices(string, System.Threading.CancellationToken)
+  fullName.vb: Tudormobile.Airthings.IAirthingsClient.ListDevices(String, System.Threading.CancellationToken)
+  nameWithType: IAirthingsClient.ListDevices(string, CancellationToken)
+  nameWithType.vb: IAirthingsClient.ListDevices(String, CancellationToken)
+- uid: Tudormobile.Airthings.IAirthingsClient.ListDevices*
+  name: ListDevices
+  href: api/Tudormobile.Airthings.IAirthingsClient.html#Tudormobile_Airthings_IAirthingsClient_ListDevices_
+  commentId: Overload:Tudormobile.Airthings.IAirthingsClient.ListDevices
+  fullName: Tudormobile.Airthings.IAirthingsClient.ListDevices
+  nameWithType: IAirthingsClient.ListDevices
+- uid: Tudormobile.Airthings.IAirthingsClient.ReadSensors(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  name: ReadSensors(string, IEnumerable<string>, CancellationToken)
+  href: api/Tudormobile.Airthings.IAirthingsClient.html#Tudormobile_Airthings_IAirthingsClient_ReadSensors_System_String_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_
+  commentId: M:Tudormobile.Airthings.IAirthingsClient.ReadSensors(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  name.vb: ReadSensors(String, IEnumerable(Of String), CancellationToken)
+  fullName: Tudormobile.Airthings.IAirthingsClient.ReadSensors(string, System.Collections.Generic.IEnumerable<string>, System.Threading.CancellationToken)
+  fullName.vb: Tudormobile.Airthings.IAirthingsClient.ReadSensors(String, System.Collections.Generic.IEnumerable(Of String), System.Threading.CancellationToken)
+  nameWithType: IAirthingsClient.ReadSensors(string, IEnumerable<string>, CancellationToken)
+  nameWithType.vb: IAirthingsClient.ReadSensors(String, IEnumerable(Of String), CancellationToken)
+- uid: Tudormobile.Airthings.IAirthingsClient.ReadSensors*
+  name: ReadSensors
+  href: api/Tudormobile.Airthings.IAirthingsClient.html#Tudormobile_Airthings_IAirthingsClient_ReadSensors_
+  commentId: Overload:Tudormobile.Airthings.IAirthingsClient.ReadSensors
+  fullName: Tudormobile.Airthings.IAirthingsClient.ReadSensors
+  nameWithType: IAirthingsClient.ReadSensors
+- uid: Tudormobile.Airthings.SensorResponse
+  name: SensorResponse
+  href: api/Tudormobile.Airthings.SensorResponse.html
+  commentId: T:Tudormobile.Airthings.SensorResponse
+  fullName: Tudormobile.Airthings.SensorResponse
+  nameWithType: SensorResponse
+- uid: Tudormobile.Airthings.SensorResponse.#ctor
+  name: SensorResponse()
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse__ctor
+  commentId: M:Tudormobile.Airthings.SensorResponse.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.SensorResponse.SensorResponse()
+  fullName.vb: Tudormobile.Airthings.SensorResponse.New()
+  nameWithType: SensorResponse.SensorResponse()
+  nameWithType.vb: SensorResponse.New()
+- uid: Tudormobile.Airthings.SensorResponse.#ctor(Tudormobile.Airthings.SensorResponse)
+  name: SensorResponse(SensorResponse)
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse__ctor_Tudormobile_Airthings_SensorResponse_
+  commentId: M:Tudormobile.Airthings.SensorResponse.#ctor(Tudormobile.Airthings.SensorResponse)
+  name.vb: New(SensorResponse)
+  fullName: Tudormobile.Airthings.SensorResponse.SensorResponse(Tudormobile.Airthings.SensorResponse)
+  fullName.vb: Tudormobile.Airthings.SensorResponse.New(Tudormobile.Airthings.SensorResponse)
+  nameWithType: SensorResponse.SensorResponse(SensorResponse)
+  nameWithType.vb: SensorResponse.New(SensorResponse)
+- uid: Tudormobile.Airthings.SensorResponse.#ctor*
+  name: SensorResponse
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse__ctor_
+  commentId: Overload:Tudormobile.Airthings.SensorResponse.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.SensorResponse.SensorResponse
+  fullName.vb: Tudormobile.Airthings.SensorResponse.New
+  nameWithType: SensorResponse.SensorResponse
+  nameWithType.vb: SensorResponse.New
+- uid: Tudormobile.Airthings.SensorResponse.EqualityContract
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_EqualityContract
+  commentId: P:Tudormobile.Airthings.SensorResponse.EqualityContract
+  fullName: Tudormobile.Airthings.SensorResponse.EqualityContract
+  nameWithType: SensorResponse.EqualityContract
+- uid: Tudormobile.Airthings.SensorResponse.EqualityContract*
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_EqualityContract_
+  commentId: Overload:Tudormobile.Airthings.SensorResponse.EqualityContract
+  fullName: Tudormobile.Airthings.SensorResponse.EqualityContract
+  nameWithType: SensorResponse.EqualityContract
+- uid: Tudormobile.Airthings.SensorResponse.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.SensorResponse.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.SensorResponse.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.SensorResponse.Equals(Object)
+  nameWithType: SensorResponse.Equals(object?)
+  nameWithType.vb: SensorResponse.Equals(Object)
+- uid: Tudormobile.Airthings.SensorResponse.Equals(Tudormobile.Airthings.SensorResponse)
+  name: Equals(SensorResponse?)
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_Equals_Tudormobile_Airthings_SensorResponse_
+  commentId: M:Tudormobile.Airthings.SensorResponse.Equals(Tudormobile.Airthings.SensorResponse)
+  name.vb: Equals(SensorResponse)
+  fullName: Tudormobile.Airthings.SensorResponse.Equals(Tudormobile.Airthings.SensorResponse?)
+  fullName.vb: Tudormobile.Airthings.SensorResponse.Equals(Tudormobile.Airthings.SensorResponse)
+  nameWithType: SensorResponse.Equals(SensorResponse?)
+  nameWithType.vb: SensorResponse.Equals(SensorResponse)
+- uid: Tudormobile.Airthings.SensorResponse.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_Equals_
+  commentId: Overload:Tudormobile.Airthings.SensorResponse.Equals
+  fullName: Tudormobile.Airthings.SensorResponse.Equals
+  nameWithType: SensorResponse.Equals
+- uid: Tudormobile.Airthings.SensorResponse.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_GetHashCode
+  commentId: M:Tudormobile.Airthings.SensorResponse.GetHashCode
+  fullName: Tudormobile.Airthings.SensorResponse.GetHashCode()
+  nameWithType: SensorResponse.GetHashCode()
+- uid: Tudormobile.Airthings.SensorResponse.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.SensorResponse.GetHashCode
+  fullName: Tudormobile.Airthings.SensorResponse.GetHashCode
+  nameWithType: SensorResponse.GetHashCode
+- uid: Tudormobile.Airthings.SensorResponse.PrintMembers(System.Text.StringBuilder)
+  name: PrintMembers(StringBuilder)
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_PrintMembers_System_Text_StringBuilder_
+  commentId: M:Tudormobile.Airthings.SensorResponse.PrintMembers(System.Text.StringBuilder)
+  fullName: Tudormobile.Airthings.SensorResponse.PrintMembers(System.Text.StringBuilder)
+  nameWithType: SensorResponse.PrintMembers(StringBuilder)
+- uid: Tudormobile.Airthings.SensorResponse.PrintMembers*
+  name: PrintMembers
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_PrintMembers_
+  commentId: Overload:Tudormobile.Airthings.SensorResponse.PrintMembers
+  fullName: Tudormobile.Airthings.SensorResponse.PrintMembers
+  nameWithType: SensorResponse.PrintMembers
+- uid: Tudormobile.Airthings.SensorResponse.SensorType
+  name: SensorType
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_SensorType
+  commentId: P:Tudormobile.Airthings.SensorResponse.SensorType
+  fullName: Tudormobile.Airthings.SensorResponse.SensorType
+  nameWithType: SensorResponse.SensorType
+- uid: Tudormobile.Airthings.SensorResponse.SensorType*
+  name: SensorType
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_SensorType_
+  commentId: Overload:Tudormobile.Airthings.SensorResponse.SensorType
+  fullName: Tudormobile.Airthings.SensorResponse.SensorType
+  nameWithType: SensorResponse.SensorType
+- uid: Tudormobile.Airthings.SensorResponse.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_ToString
+  commentId: M:Tudormobile.Airthings.SensorResponse.ToString
+  fullName: Tudormobile.Airthings.SensorResponse.ToString()
+  nameWithType: SensorResponse.ToString()
+- uid: Tudormobile.Airthings.SensorResponse.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_ToString_
+  commentId: Overload:Tudormobile.Airthings.SensorResponse.ToString
+  fullName: Tudormobile.Airthings.SensorResponse.ToString
+  nameWithType: SensorResponse.ToString
+- uid: Tudormobile.Airthings.SensorResponse.Unit
+  name: Unit
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_Unit
+  commentId: P:Tudormobile.Airthings.SensorResponse.Unit
+  fullName: Tudormobile.Airthings.SensorResponse.Unit
+  nameWithType: SensorResponse.Unit
+- uid: Tudormobile.Airthings.SensorResponse.Unit*
+  name: Unit
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_Unit_
+  commentId: Overload:Tudormobile.Airthings.SensorResponse.Unit
+  fullName: Tudormobile.Airthings.SensorResponse.Unit
+  nameWithType: SensorResponse.Unit
+- uid: Tudormobile.Airthings.SensorResponse.Value
+  name: Value
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_Value
+  commentId: P:Tudormobile.Airthings.SensorResponse.Value
+  fullName: Tudormobile.Airthings.SensorResponse.Value
+  nameWithType: SensorResponse.Value
+- uid: Tudormobile.Airthings.SensorResponse.Value*
+  name: Value
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_Value_
+  commentId: Overload:Tudormobile.Airthings.SensorResponse.Value
+  fullName: Tudormobile.Airthings.SensorResponse.Value
+  nameWithType: SensorResponse.Value
+- uid: Tudormobile.Airthings.SensorResponse.op_Equality(Tudormobile.Airthings.SensorResponse,Tudormobile.Airthings.SensorResponse)
+  name: operator ==(SensorResponse?, SensorResponse?)
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_op_Equality_Tudormobile_Airthings_SensorResponse_Tudormobile_Airthings_SensorResponse_
+  commentId: M:Tudormobile.Airthings.SensorResponse.op_Equality(Tudormobile.Airthings.SensorResponse,Tudormobile.Airthings.SensorResponse)
+  name.vb: =(SensorResponse, SensorResponse)
+  fullName: Tudormobile.Airthings.SensorResponse.operator ==(Tudormobile.Airthings.SensorResponse?, Tudormobile.Airthings.SensorResponse?)
+  fullName.vb: Tudormobile.Airthings.SensorResponse.=(Tudormobile.Airthings.SensorResponse, Tudormobile.Airthings.SensorResponse)
+  nameWithType: SensorResponse.operator ==(SensorResponse?, SensorResponse?)
+  nameWithType.vb: SensorResponse.=(SensorResponse, SensorResponse)
+- uid: Tudormobile.Airthings.SensorResponse.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.SensorResponse.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.SensorResponse.operator ==
+  fullName.vb: Tudormobile.Airthings.SensorResponse.=
+  nameWithType: SensorResponse.operator ==
+  nameWithType.vb: SensorResponse.=
+- uid: Tudormobile.Airthings.SensorResponse.op_Inequality(Tudormobile.Airthings.SensorResponse,Tudormobile.Airthings.SensorResponse)
+  name: operator !=(SensorResponse?, SensorResponse?)
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_op_Inequality_Tudormobile_Airthings_SensorResponse_Tudormobile_Airthings_SensorResponse_
+  commentId: M:Tudormobile.Airthings.SensorResponse.op_Inequality(Tudormobile.Airthings.SensorResponse,Tudormobile.Airthings.SensorResponse)
+  name.vb: <>(SensorResponse, SensorResponse)
+  fullName: Tudormobile.Airthings.SensorResponse.operator !=(Tudormobile.Airthings.SensorResponse?, Tudormobile.Airthings.SensorResponse?)
+  fullName.vb: Tudormobile.Airthings.SensorResponse.<>(Tudormobile.Airthings.SensorResponse, Tudormobile.Airthings.SensorResponse)
+  nameWithType: SensorResponse.operator !=(SensorResponse?, SensorResponse?)
+  nameWithType.vb: SensorResponse.<>(SensorResponse, SensorResponse)
+- uid: Tudormobile.Airthings.SensorResponse.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.SensorResponse.html#Tudormobile_Airthings_SensorResponse_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.SensorResponse.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.SensorResponse.operator !=
+  fullName.vb: Tudormobile.Airthings.SensorResponse.<>
+  nameWithType: SensorResponse.operator !=
+  nameWithType.vb: SensorResponse.<>
+- uid: Tudormobile.Airthings.SensorsResponse
+  name: SensorsResponse
+  href: api/Tudormobile.Airthings.SensorsResponse.html
+  commentId: T:Tudormobile.Airthings.SensorsResponse
+  fullName: Tudormobile.Airthings.SensorsResponse
+  nameWithType: SensorsResponse
+- uid: Tudormobile.Airthings.SensorsResponse.#ctor
+  name: SensorsResponse()
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse__ctor
+  commentId: M:Tudormobile.Airthings.SensorsResponse.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.SensorsResponse.SensorsResponse()
+  fullName.vb: Tudormobile.Airthings.SensorsResponse.New()
+  nameWithType: SensorsResponse.SensorsResponse()
+  nameWithType.vb: SensorsResponse.New()
+- uid: Tudormobile.Airthings.SensorsResponse.#ctor(Tudormobile.Airthings.SensorsResponse)
+  name: SensorsResponse(SensorsResponse)
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse__ctor_Tudormobile_Airthings_SensorsResponse_
+  commentId: M:Tudormobile.Airthings.SensorsResponse.#ctor(Tudormobile.Airthings.SensorsResponse)
+  name.vb: New(SensorsResponse)
+  fullName: Tudormobile.Airthings.SensorsResponse.SensorsResponse(Tudormobile.Airthings.SensorsResponse)
+  fullName.vb: Tudormobile.Airthings.SensorsResponse.New(Tudormobile.Airthings.SensorsResponse)
+  nameWithType: SensorsResponse.SensorsResponse(SensorsResponse)
+  nameWithType.vb: SensorsResponse.New(SensorsResponse)
+- uid: Tudormobile.Airthings.SensorsResponse.#ctor*
+  name: SensorsResponse
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse__ctor_
+  commentId: Overload:Tudormobile.Airthings.SensorsResponse.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.SensorsResponse.SensorsResponse
+  fullName.vb: Tudormobile.Airthings.SensorsResponse.New
+  nameWithType: SensorsResponse.SensorsResponse
+  nameWithType.vb: SensorsResponse.New
+- uid: Tudormobile.Airthings.SensorsResponse.BatteryPercentage
+  name: BatteryPercentage
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_BatteryPercentage
+  commentId: P:Tudormobile.Airthings.SensorsResponse.BatteryPercentage
+  fullName: Tudormobile.Airthings.SensorsResponse.BatteryPercentage
+  nameWithType: SensorsResponse.BatteryPercentage
+- uid: Tudormobile.Airthings.SensorsResponse.BatteryPercentage*
+  name: BatteryPercentage
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_BatteryPercentage_
+  commentId: Overload:Tudormobile.Airthings.SensorsResponse.BatteryPercentage
+  fullName: Tudormobile.Airthings.SensorsResponse.BatteryPercentage
+  nameWithType: SensorsResponse.BatteryPercentage
+- uid: Tudormobile.Airthings.SensorsResponse.EqualityContract
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_EqualityContract
+  commentId: P:Tudormobile.Airthings.SensorsResponse.EqualityContract
+  fullName: Tudormobile.Airthings.SensorsResponse.EqualityContract
+  nameWithType: SensorsResponse.EqualityContract
+- uid: Tudormobile.Airthings.SensorsResponse.EqualityContract*
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_EqualityContract_
+  commentId: Overload:Tudormobile.Airthings.SensorsResponse.EqualityContract
+  fullName: Tudormobile.Airthings.SensorsResponse.EqualityContract
+  nameWithType: SensorsResponse.EqualityContract
+- uid: Tudormobile.Airthings.SensorsResponse.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.SensorsResponse.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.SensorsResponse.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.SensorsResponse.Equals(Object)
+  nameWithType: SensorsResponse.Equals(object?)
+  nameWithType.vb: SensorsResponse.Equals(Object)
+- uid: Tudormobile.Airthings.SensorsResponse.Equals(Tudormobile.Airthings.SensorsResponse)
+  name: Equals(SensorsResponse?)
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_Equals_Tudormobile_Airthings_SensorsResponse_
+  commentId: M:Tudormobile.Airthings.SensorsResponse.Equals(Tudormobile.Airthings.SensorsResponse)
+  name.vb: Equals(SensorsResponse)
+  fullName: Tudormobile.Airthings.SensorsResponse.Equals(Tudormobile.Airthings.SensorsResponse?)
+  fullName.vb: Tudormobile.Airthings.SensorsResponse.Equals(Tudormobile.Airthings.SensorsResponse)
+  nameWithType: SensorsResponse.Equals(SensorsResponse?)
+  nameWithType.vb: SensorsResponse.Equals(SensorsResponse)
+- uid: Tudormobile.Airthings.SensorsResponse.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_Equals_
+  commentId: Overload:Tudormobile.Airthings.SensorsResponse.Equals
+  fullName: Tudormobile.Airthings.SensorsResponse.Equals
+  nameWithType: SensorsResponse.Equals
+- uid: Tudormobile.Airthings.SensorsResponse.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_GetHashCode
+  commentId: M:Tudormobile.Airthings.SensorsResponse.GetHashCode
+  fullName: Tudormobile.Airthings.SensorsResponse.GetHashCode()
+  nameWithType: SensorsResponse.GetHashCode()
+- uid: Tudormobile.Airthings.SensorsResponse.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.SensorsResponse.GetHashCode
+  fullName: Tudormobile.Airthings.SensorsResponse.GetHashCode
+  nameWithType: SensorsResponse.GetHashCode
+- uid: Tudormobile.Airthings.SensorsResponse.PrintMembers(System.Text.StringBuilder)
+  name: PrintMembers(StringBuilder)
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_PrintMembers_System_Text_StringBuilder_
+  commentId: M:Tudormobile.Airthings.SensorsResponse.PrintMembers(System.Text.StringBuilder)
+  fullName: Tudormobile.Airthings.SensorsResponse.PrintMembers(System.Text.StringBuilder)
+  nameWithType: SensorsResponse.PrintMembers(StringBuilder)
+- uid: Tudormobile.Airthings.SensorsResponse.PrintMembers*
+  name: PrintMembers
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_PrintMembers_
+  commentId: Overload:Tudormobile.Airthings.SensorsResponse.PrintMembers
+  fullName: Tudormobile.Airthings.SensorsResponse.PrintMembers
+  nameWithType: SensorsResponse.PrintMembers
+- uid: Tudormobile.Airthings.SensorsResponse.Recorded
+  name: Recorded
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_Recorded
+  commentId: P:Tudormobile.Airthings.SensorsResponse.Recorded
+  fullName: Tudormobile.Airthings.SensorsResponse.Recorded
+  nameWithType: SensorsResponse.Recorded
+- uid: Tudormobile.Airthings.SensorsResponse.Recorded*
+  name: Recorded
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_Recorded_
+  commentId: Overload:Tudormobile.Airthings.SensorsResponse.Recorded
+  fullName: Tudormobile.Airthings.SensorsResponse.Recorded
+  nameWithType: SensorsResponse.Recorded
+- uid: Tudormobile.Airthings.SensorsResponse.Sensors
+  name: Sensors
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_Sensors
+  commentId: P:Tudormobile.Airthings.SensorsResponse.Sensors
+  fullName: Tudormobile.Airthings.SensorsResponse.Sensors
+  nameWithType: SensorsResponse.Sensors
+- uid: Tudormobile.Airthings.SensorsResponse.Sensors*
+  name: Sensors
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_Sensors_
+  commentId: Overload:Tudormobile.Airthings.SensorsResponse.Sensors
+  fullName: Tudormobile.Airthings.SensorsResponse.Sensors
+  nameWithType: SensorsResponse.Sensors
+- uid: Tudormobile.Airthings.SensorsResponse.SerialNumber
+  name: SerialNumber
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_SerialNumber
+  commentId: P:Tudormobile.Airthings.SensorsResponse.SerialNumber
+  fullName: Tudormobile.Airthings.SensorsResponse.SerialNumber
+  nameWithType: SensorsResponse.SerialNumber
+- uid: Tudormobile.Airthings.SensorsResponse.SerialNumber*
+  name: SerialNumber
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_SerialNumber_
+  commentId: Overload:Tudormobile.Airthings.SensorsResponse.SerialNumber
+  fullName: Tudormobile.Airthings.SensorsResponse.SerialNumber
+  nameWithType: SensorsResponse.SerialNumber
+- uid: Tudormobile.Airthings.SensorsResponse.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_ToString
+  commentId: M:Tudormobile.Airthings.SensorsResponse.ToString
+  fullName: Tudormobile.Airthings.SensorsResponse.ToString()
+  nameWithType: SensorsResponse.ToString()
+- uid: Tudormobile.Airthings.SensorsResponse.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_ToString_
+  commentId: Overload:Tudormobile.Airthings.SensorsResponse.ToString
+  fullName: Tudormobile.Airthings.SensorsResponse.ToString
+  nameWithType: SensorsResponse.ToString
+- uid: Tudormobile.Airthings.SensorsResponse.op_Equality(Tudormobile.Airthings.SensorsResponse,Tudormobile.Airthings.SensorsResponse)
+  name: operator ==(SensorsResponse?, SensorsResponse?)
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_op_Equality_Tudormobile_Airthings_SensorsResponse_Tudormobile_Airthings_SensorsResponse_
+  commentId: M:Tudormobile.Airthings.SensorsResponse.op_Equality(Tudormobile.Airthings.SensorsResponse,Tudormobile.Airthings.SensorsResponse)
+  name.vb: =(SensorsResponse, SensorsResponse)
+  fullName: Tudormobile.Airthings.SensorsResponse.operator ==(Tudormobile.Airthings.SensorsResponse?, Tudormobile.Airthings.SensorsResponse?)
+  fullName.vb: Tudormobile.Airthings.SensorsResponse.=(Tudormobile.Airthings.SensorsResponse, Tudormobile.Airthings.SensorsResponse)
+  nameWithType: SensorsResponse.operator ==(SensorsResponse?, SensorsResponse?)
+  nameWithType.vb: SensorsResponse.=(SensorsResponse, SensorsResponse)
+- uid: Tudormobile.Airthings.SensorsResponse.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.SensorsResponse.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.SensorsResponse.operator ==
+  fullName.vb: Tudormobile.Airthings.SensorsResponse.=
+  nameWithType: SensorsResponse.operator ==
+  nameWithType.vb: SensorsResponse.=
+- uid: Tudormobile.Airthings.SensorsResponse.op_Inequality(Tudormobile.Airthings.SensorsResponse,Tudormobile.Airthings.SensorsResponse)
+  name: operator !=(SensorsResponse?, SensorsResponse?)
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_op_Inequality_Tudormobile_Airthings_SensorsResponse_Tudormobile_Airthings_SensorsResponse_
+  commentId: M:Tudormobile.Airthings.SensorsResponse.op_Inequality(Tudormobile.Airthings.SensorsResponse,Tudormobile.Airthings.SensorsResponse)
+  name.vb: <>(SensorsResponse, SensorsResponse)
+  fullName: Tudormobile.Airthings.SensorsResponse.operator !=(Tudormobile.Airthings.SensorsResponse?, Tudormobile.Airthings.SensorsResponse?)
+  fullName.vb: Tudormobile.Airthings.SensorsResponse.<>(Tudormobile.Airthings.SensorsResponse, Tudormobile.Airthings.SensorsResponse)
+  nameWithType: SensorsResponse.operator !=(SensorsResponse?, SensorsResponse?)
+  nameWithType.vb: SensorsResponse.<>(SensorsResponse, SensorsResponse)
+- uid: Tudormobile.Airthings.SensorsResponse.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.SensorsResponse.html#Tudormobile_Airthings_SensorsResponse_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.SensorsResponse.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.SensorsResponse.operator !=
+  fullName.vb: Tudormobile.Airthings.SensorsResponse.<>
+  nameWithType: SensorsResponse.operator !=
+  nameWithType.vb: SensorsResponse.<>
+- uid: Tudormobile.Airthings.Service
+  name: Tudormobile.Airthings.Service
+  href: api/Tudormobile.Airthings.Service.html
+  commentId: N:Tudormobile.Airthings.Service
+  fullName: Tudormobile.Airthings.Service
+  nameWithType: Tudormobile.Airthings.Service
+- uid: Tudormobile.Airthings.Service.AirthingsOptions
+  name: AirthingsOptions
+  href: api/Tudormobile.Airthings.Service.AirthingsOptions.html
+  commentId: T:Tudormobile.Airthings.Service.AirthingsOptions
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions
+  nameWithType: AirthingsOptions
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.#ctor
+  name: AirthingsOptions()
+  href: api/Tudormobile.Airthings.Service.AirthingsOptions.html#Tudormobile_Airthings_Service_AirthingsOptions__ctor
+  commentId: M:Tudormobile.Airthings.Service.AirthingsOptions.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.AirthingsOptions()
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsOptions.New()
+  nameWithType: AirthingsOptions.AirthingsOptions()
+  nameWithType.vb: AirthingsOptions.New()
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.#ctor*
+  name: AirthingsOptions
+  href: api/Tudormobile.Airthings.Service.AirthingsOptions.html#Tudormobile_Airthings_Service_AirthingsOptions__ctor_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsOptions.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.AirthingsOptions
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsOptions.New
+  nameWithType: AirthingsOptions.AirthingsOptions
+  nameWithType.vb: AirthingsOptions.New
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.ApiKey
+  name: ApiKey
+  href: api/Tudormobile.Airthings.Service.AirthingsOptions.html#Tudormobile_Airthings_Service_AirthingsOptions_ApiKey
+  commentId: P:Tudormobile.Airthings.Service.AirthingsOptions.ApiKey
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.ApiKey
+  nameWithType: AirthingsOptions.ApiKey
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.ApiKey*
+  name: ApiKey
+  href: api/Tudormobile.Airthings.Service.AirthingsOptions.html#Tudormobile_Airthings_Service_AirthingsOptions_ApiKey_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsOptions.ApiKey
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.ApiKey
+  nameWithType: AirthingsOptions.ApiKey
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.ClientId
+  name: ClientId
+  href: api/Tudormobile.Airthings.Service.AirthingsOptions.html#Tudormobile_Airthings_Service_AirthingsOptions_ClientId
+  commentId: P:Tudormobile.Airthings.Service.AirthingsOptions.ClientId
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.ClientId
+  nameWithType: AirthingsOptions.ClientId
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.ClientId*
+  name: ClientId
+  href: api/Tudormobile.Airthings.Service.AirthingsOptions.html#Tudormobile_Airthings_Service_AirthingsOptions_ClientId_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsOptions.ClientId
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.ClientId
+  nameWithType: AirthingsOptions.ClientId
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret
+  name: ClientSecret
+  href: api/Tudormobile.Airthings.Service.AirthingsOptions.html#Tudormobile_Airthings_Service_AirthingsOptions_ClientSecret
+  commentId: P:Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret
+  nameWithType: AirthingsOptions.ClientSecret
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret*
+  name: ClientSecret
+  href: api/Tudormobile.Airthings.Service.AirthingsOptions.html#Tudormobile_Airthings_Service_AirthingsOptions_ClientSecret_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret
+  nameWithType: AirthingsOptions.ClientSecret
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1
+  name: AirthingsResponse<T>
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html
+  commentId: T:Tudormobile.Airthings.Service.AirthingsResponse`1
+  name.vb: AirthingsResponse(Of T)
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T)
+  nameWithType: AirthingsResponse<T>
+  nameWithType.vb: AirthingsResponse(Of T)
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.#ctor
+  name: AirthingsResponse()
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1__ctor
+  commentId: M:Tudormobile.Airthings.Service.AirthingsResponse`1.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.AirthingsResponse()
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).New()
+  nameWithType: AirthingsResponse<T>.AirthingsResponse()
+  nameWithType.vb: AirthingsResponse(Of T).New()
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.#ctor*
+  name: AirthingsResponse
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1__ctor_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsResponse`1.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.AirthingsResponse
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).New
+  nameWithType: AirthingsResponse<T>.AirthingsResponse
+  nameWithType.vb: AirthingsResponse(Of T).New
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.Data
+  name: Data
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_Data
+  commentId: P:Tudormobile.Airthings.Service.AirthingsResponse`1.Data
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.Data
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).Data
+  nameWithType: AirthingsResponse<T>.Data
+  nameWithType.vb: AirthingsResponse(Of T).Data
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.Data*
+  name: Data
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_Data_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsResponse`1.Data
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.Data
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).Data
+  nameWithType: AirthingsResponse<T>.Data
+  nameWithType.vb: AirthingsResponse(Of T).Data
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.Service.AirthingsResponse`1.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).Equals(Object)
+  nameWithType: AirthingsResponse<T>.Equals(object?)
+  nameWithType.vb: AirthingsResponse(Of T).Equals(Object)
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.Equals(Tudormobile.Airthings.Service.AirthingsResponse{`0})
+  name: Equals(AirthingsResponse<T>?)
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_Equals_Tudormobile_Airthings_Service_AirthingsResponse__0__
+  commentId: M:Tudormobile.Airthings.Service.AirthingsResponse`1.Equals(Tudormobile.Airthings.Service.AirthingsResponse{`0})
+  name.vb: Equals(AirthingsResponse(Of T))
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.Equals(Tudormobile.Airthings.Service.AirthingsResponse<T>?)
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).Equals(Tudormobile.Airthings.Service.AirthingsResponse(Of T))
+  nameWithType: AirthingsResponse<T>.Equals(AirthingsResponse<T>?)
+  nameWithType.vb: AirthingsResponse(Of T).Equals(AirthingsResponse(Of T))
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_Equals_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsResponse`1.Equals
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.Equals
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).Equals
+  nameWithType: AirthingsResponse<T>.Equals
+  nameWithType.vb: AirthingsResponse(Of T).Equals
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_GetHashCode
+  commentId: M:Tudormobile.Airthings.Service.AirthingsResponse`1.GetHashCode
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.GetHashCode()
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).GetHashCode()
+  nameWithType: AirthingsResponse<T>.GetHashCode()
+  nameWithType.vb: AirthingsResponse(Of T).GetHashCode()
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsResponse`1.GetHashCode
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.GetHashCode
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).GetHashCode
+  nameWithType: AirthingsResponse<T>.GetHashCode
+  nameWithType.vb: AirthingsResponse(Of T).GetHashCode
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.IsSuccess
+  name: IsSuccess
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_IsSuccess
+  commentId: P:Tudormobile.Airthings.Service.AirthingsResponse`1.IsSuccess
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.IsSuccess
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).IsSuccess
+  nameWithType: AirthingsResponse<T>.IsSuccess
+  nameWithType.vb: AirthingsResponse(Of T).IsSuccess
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.IsSuccess*
+  name: IsSuccess
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_IsSuccess_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsResponse`1.IsSuccess
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.IsSuccess
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).IsSuccess
+  nameWithType: AirthingsResponse<T>.IsSuccess
+  nameWithType.vb: AirthingsResponse(Of T).IsSuccess
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_ToString
+  commentId: M:Tudormobile.Airthings.Service.AirthingsResponse`1.ToString
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.ToString()
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).ToString()
+  nameWithType: AirthingsResponse<T>.ToString()
+  nameWithType.vb: AirthingsResponse(Of T).ToString()
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_ToString_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsResponse`1.ToString
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.ToString
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).ToString
+  nameWithType: AirthingsResponse<T>.ToString
+  nameWithType.vb: AirthingsResponse(Of T).ToString
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.op_Equality(Tudormobile.Airthings.Service.AirthingsResponse{`0},Tudormobile.Airthings.Service.AirthingsResponse{`0})
+  name: operator ==(AirthingsResponse<T>?, AirthingsResponse<T>?)
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_op_Equality_Tudormobile_Airthings_Service_AirthingsResponse__0__Tudormobile_Airthings_Service_AirthingsResponse__0__
+  commentId: M:Tudormobile.Airthings.Service.AirthingsResponse`1.op_Equality(Tudormobile.Airthings.Service.AirthingsResponse{`0},Tudormobile.Airthings.Service.AirthingsResponse{`0})
+  name.vb: =(AirthingsResponse(Of T), AirthingsResponse(Of T))
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.operator ==(Tudormobile.Airthings.Service.AirthingsResponse<T>?, Tudormobile.Airthings.Service.AirthingsResponse<T>?)
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).=(Tudormobile.Airthings.Service.AirthingsResponse(Of T), Tudormobile.Airthings.Service.AirthingsResponse(Of T))
+  nameWithType: AirthingsResponse<T>.operator ==(AirthingsResponse<T>?, AirthingsResponse<T>?)
+  nameWithType.vb: AirthingsResponse(Of T).=(AirthingsResponse(Of T), AirthingsResponse(Of T))
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsResponse`1.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.operator ==
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).=
+  nameWithType: AirthingsResponse<T>.operator ==
+  nameWithType.vb: AirthingsResponse(Of T).=
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.op_Inequality(Tudormobile.Airthings.Service.AirthingsResponse{`0},Tudormobile.Airthings.Service.AirthingsResponse{`0})
+  name: operator !=(AirthingsResponse<T>?, AirthingsResponse<T>?)
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_op_Inequality_Tudormobile_Airthings_Service_AirthingsResponse__0__Tudormobile_Airthings_Service_AirthingsResponse__0__
+  commentId: M:Tudormobile.Airthings.Service.AirthingsResponse`1.op_Inequality(Tudormobile.Airthings.Service.AirthingsResponse{`0},Tudormobile.Airthings.Service.AirthingsResponse{`0})
+  name.vb: <>(AirthingsResponse(Of T), AirthingsResponse(Of T))
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.operator !=(Tudormobile.Airthings.Service.AirthingsResponse<T>?, Tudormobile.Airthings.Service.AirthingsResponse<T>?)
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).<>(Tudormobile.Airthings.Service.AirthingsResponse(Of T), Tudormobile.Airthings.Service.AirthingsResponse(Of T))
+  nameWithType: AirthingsResponse<T>.operator !=(AirthingsResponse<T>?, AirthingsResponse<T>?)
+  nameWithType.vb: AirthingsResponse(Of T).<>(AirthingsResponse(Of T), AirthingsResponse(Of T))
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.Service.AirthingsResponse-1.html#Tudormobile_Airthings_Service_AirthingsResponse_1_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsResponse`1.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>.operator !=
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T).<>
+  nameWithType: AirthingsResponse<T>.operator !=
+  nameWithType.vb: AirthingsResponse(Of T).<>
+- uid: Tudormobile.Airthings.Service.AirthingsServiceExtensions
+  name: AirthingsServiceExtensions
+  href: api/Tudormobile.Airthings.Service.AirthingsServiceExtensions.html
+  commentId: T:Tudormobile.Airthings.Service.AirthingsServiceExtensions
+  fullName: Tudormobile.Airthings.Service.AirthingsServiceExtensions
+  nameWithType: AirthingsServiceExtensions
+- uid: Tudormobile.Airthings.Service.AirthingsServiceExtensions.AddAirthingsService(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddAirthingsService(IServiceCollection, IConfiguration)
+  href: api/Tudormobile.Airthings.Service.AirthingsServiceExtensions.html#Tudormobile_Airthings_Service_AirthingsServiceExtensions_AddAirthingsService_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Tudormobile.Airthings.Service.AirthingsServiceExtensions.AddAirthingsService(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: Tudormobile.Airthings.Service.AirthingsServiceExtensions.AddAirthingsService(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: AirthingsServiceExtensions.AddAirthingsService(IServiceCollection, IConfiguration)
+- uid: Tudormobile.Airthings.Service.AirthingsServiceExtensions.AddAirthingsService*
+  name: AddAirthingsService
+  href: api/Tudormobile.Airthings.Service.AirthingsServiceExtensions.html#Tudormobile_Airthings_Service_AirthingsServiceExtensions_AddAirthingsService_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsServiceExtensions.AddAirthingsService
+  fullName: Tudormobile.Airthings.Service.AirthingsServiceExtensions.AddAirthingsService
+  nameWithType: AirthingsServiceExtensions.AddAirthingsService
+- uid: Tudormobile.Airthings.Service.AirthingsServiceExtensions.UseAirthingsService(Microsoft.AspNetCore.Builder.WebApplication)
+  name: UseAirthingsService(WebApplication)
+  href: api/Tudormobile.Airthings.Service.AirthingsServiceExtensions.html#Tudormobile_Airthings_Service_AirthingsServiceExtensions_UseAirthingsService_Microsoft_AspNetCore_Builder_WebApplication_
+  commentId: M:Tudormobile.Airthings.Service.AirthingsServiceExtensions.UseAirthingsService(Microsoft.AspNetCore.Builder.WebApplication)
+  fullName: Tudormobile.Airthings.Service.AirthingsServiceExtensions.UseAirthingsService(Microsoft.AspNetCore.Builder.WebApplication)
+  nameWithType: AirthingsServiceExtensions.UseAirthingsService(WebApplication)
+- uid: Tudormobile.Airthings.Service.AirthingsServiceExtensions.UseAirthingsService*
+  name: UseAirthingsService
+  href: api/Tudormobile.Airthings.Service.AirthingsServiceExtensions.html#Tudormobile_Airthings_Service_AirthingsServiceExtensions_UseAirthingsService_
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsServiceExtensions.UseAirthingsService
+  fullName: Tudormobile.Airthings.Service.AirthingsServiceExtensions.UseAirthingsService
+  nameWithType: AirthingsServiceExtensions.UseAirthingsService
+- uid: Tudormobile.Airthings.Service.Device
+  name: Device
+  href: api/Tudormobile.Airthings.Service.Device.html
+  commentId: T:Tudormobile.Airthings.Service.Device
+  fullName: Tudormobile.Airthings.Service.Device
+  nameWithType: Device
+- uid: Tudormobile.Airthings.Service.Device.#ctor
+  name: Device()
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device__ctor
+  commentId: M:Tudormobile.Airthings.Service.Device.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.Service.Device.Device()
+  fullName.vb: Tudormobile.Airthings.Service.Device.New()
+  nameWithType: Device.Device()
+  nameWithType.vb: Device.New()
+- uid: Tudormobile.Airthings.Service.Device.#ctor*
+  name: Device
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device__ctor_
+  commentId: Overload:Tudormobile.Airthings.Service.Device.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.Service.Device.Device
+  fullName.vb: Tudormobile.Airthings.Service.Device.New
+  nameWithType: Device.Device
+  nameWithType.vb: Device.New
+- uid: Tudormobile.Airthings.Service.Device.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.Service.Device.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.Service.Device.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.Service.Device.Equals(Object)
+  nameWithType: Device.Equals(object?)
+  nameWithType.vb: Device.Equals(Object)
+- uid: Tudormobile.Airthings.Service.Device.Equals(Tudormobile.Airthings.Service.Device)
+  name: Equals(Device?)
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_Equals_Tudormobile_Airthings_Service_Device_
+  commentId: M:Tudormobile.Airthings.Service.Device.Equals(Tudormobile.Airthings.Service.Device)
+  name.vb: Equals(Device)
+  fullName: Tudormobile.Airthings.Service.Device.Equals(Tudormobile.Airthings.Service.Device?)
+  fullName.vb: Tudormobile.Airthings.Service.Device.Equals(Tudormobile.Airthings.Service.Device)
+  nameWithType: Device.Equals(Device?)
+  nameWithType.vb: Device.Equals(Device)
+- uid: Tudormobile.Airthings.Service.Device.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_Equals_
+  commentId: Overload:Tudormobile.Airthings.Service.Device.Equals
+  fullName: Tudormobile.Airthings.Service.Device.Equals
+  nameWithType: Device.Equals
+- uid: Tudormobile.Airthings.Service.Device.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_GetHashCode
+  commentId: M:Tudormobile.Airthings.Service.Device.GetHashCode
+  fullName: Tudormobile.Airthings.Service.Device.GetHashCode()
+  nameWithType: Device.GetHashCode()
+- uid: Tudormobile.Airthings.Service.Device.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.Service.Device.GetHashCode
+  fullName: Tudormobile.Airthings.Service.Device.GetHashCode
+  nameWithType: Device.GetHashCode
+- uid: Tudormobile.Airthings.Service.Device.Home
+  name: Home
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_Home
+  commentId: P:Tudormobile.Airthings.Service.Device.Home
+  fullName: Tudormobile.Airthings.Service.Device.Home
+  nameWithType: Device.Home
+- uid: Tudormobile.Airthings.Service.Device.Home*
+  name: Home
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_Home_
+  commentId: Overload:Tudormobile.Airthings.Service.Device.Home
+  fullName: Tudormobile.Airthings.Service.Device.Home
+  nameWithType: Device.Home
+- uid: Tudormobile.Airthings.Service.Device.Name
+  name: Name
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_Name
+  commentId: P:Tudormobile.Airthings.Service.Device.Name
+  fullName: Tudormobile.Airthings.Service.Device.Name
+  nameWithType: Device.Name
+- uid: Tudormobile.Airthings.Service.Device.Name*
+  name: Name
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_Name_
+  commentId: Overload:Tudormobile.Airthings.Service.Device.Name
+  fullName: Tudormobile.Airthings.Service.Device.Name
+  nameWithType: Device.Name
+- uid: Tudormobile.Airthings.Service.Device.SerialNumber
+  name: SerialNumber
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_SerialNumber
+  commentId: P:Tudormobile.Airthings.Service.Device.SerialNumber
+  fullName: Tudormobile.Airthings.Service.Device.SerialNumber
+  nameWithType: Device.SerialNumber
+- uid: Tudormobile.Airthings.Service.Device.SerialNumber*
+  name: SerialNumber
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_SerialNumber_
+  commentId: Overload:Tudormobile.Airthings.Service.Device.SerialNumber
+  fullName: Tudormobile.Airthings.Service.Device.SerialNumber
+  nameWithType: Device.SerialNumber
+- uid: Tudormobile.Airthings.Service.Device.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_ToString
+  commentId: M:Tudormobile.Airthings.Service.Device.ToString
+  fullName: Tudormobile.Airthings.Service.Device.ToString()
+  nameWithType: Device.ToString()
+- uid: Tudormobile.Airthings.Service.Device.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_ToString_
+  commentId: Overload:Tudormobile.Airthings.Service.Device.ToString
+  fullName: Tudormobile.Airthings.Service.Device.ToString
+  nameWithType: Device.ToString
+- uid: Tudormobile.Airthings.Service.Device.op_Equality(Tudormobile.Airthings.Service.Device,Tudormobile.Airthings.Service.Device)
+  name: operator ==(Device?, Device?)
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_op_Equality_Tudormobile_Airthings_Service_Device_Tudormobile_Airthings_Service_Device_
+  commentId: M:Tudormobile.Airthings.Service.Device.op_Equality(Tudormobile.Airthings.Service.Device,Tudormobile.Airthings.Service.Device)
+  name.vb: =(Device, Device)
+  fullName: Tudormobile.Airthings.Service.Device.operator ==(Tudormobile.Airthings.Service.Device?, Tudormobile.Airthings.Service.Device?)
+  fullName.vb: Tudormobile.Airthings.Service.Device.=(Tudormobile.Airthings.Service.Device, Tudormobile.Airthings.Service.Device)
+  nameWithType: Device.operator ==(Device?, Device?)
+  nameWithType.vb: Device.=(Device, Device)
+- uid: Tudormobile.Airthings.Service.Device.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.Service.Device.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.Service.Device.operator ==
+  fullName.vb: Tudormobile.Airthings.Service.Device.=
+  nameWithType: Device.operator ==
+  nameWithType.vb: Device.=
+- uid: Tudormobile.Airthings.Service.Device.op_Inequality(Tudormobile.Airthings.Service.Device,Tudormobile.Airthings.Service.Device)
+  name: operator !=(Device?, Device?)
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_op_Inequality_Tudormobile_Airthings_Service_Device_Tudormobile_Airthings_Service_Device_
+  commentId: M:Tudormobile.Airthings.Service.Device.op_Inequality(Tudormobile.Airthings.Service.Device,Tudormobile.Airthings.Service.Device)
+  name.vb: <>(Device, Device)
+  fullName: Tudormobile.Airthings.Service.Device.operator !=(Tudormobile.Airthings.Service.Device?, Tudormobile.Airthings.Service.Device?)
+  fullName.vb: Tudormobile.Airthings.Service.Device.<>(Tudormobile.Airthings.Service.Device, Tudormobile.Airthings.Service.Device)
+  nameWithType: Device.operator !=(Device?, Device?)
+  nameWithType.vb: Device.<>(Device, Device)
+- uid: Tudormobile.Airthings.Service.Device.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.Service.Device.html#Tudormobile_Airthings_Service_Device_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.Service.Device.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.Service.Device.operator !=
+  fullName.vb: Tudormobile.Airthings.Service.Device.<>
+  nameWithType: Device.operator !=
+  nameWithType.vb: Device.<>
+- uid: Tudormobile.Airthings.Service.DeviceSample
+  name: DeviceSample
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html
+  commentId: T:Tudormobile.Airthings.Service.DeviceSample
+  fullName: Tudormobile.Airthings.Service.DeviceSample
+  nameWithType: DeviceSample
+- uid: Tudormobile.Airthings.Service.DeviceSample.#ctor
+  name: DeviceSample()
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample__ctor
+  commentId: M:Tudormobile.Airthings.Service.DeviceSample.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.Service.DeviceSample.DeviceSample()
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSample.New()
+  nameWithType: DeviceSample.DeviceSample()
+  nameWithType.vb: DeviceSample.New()
+- uid: Tudormobile.Airthings.Service.DeviceSample.#ctor*
+  name: DeviceSample
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample__ctor_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSample.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.Service.DeviceSample.DeviceSample
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSample.New
+  nameWithType: DeviceSample.DeviceSample
+  nameWithType.vb: DeviceSample.New
+- uid: Tudormobile.Airthings.Service.DeviceSample.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.Service.DeviceSample.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.Service.DeviceSample.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSample.Equals(Object)
+  nameWithType: DeviceSample.Equals(object?)
+  nameWithType.vb: DeviceSample.Equals(Object)
+- uid: Tudormobile.Airthings.Service.DeviceSample.Equals(Tudormobile.Airthings.Service.DeviceSample)
+  name: Equals(DeviceSample?)
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_Equals_Tudormobile_Airthings_Service_DeviceSample_
+  commentId: M:Tudormobile.Airthings.Service.DeviceSample.Equals(Tudormobile.Airthings.Service.DeviceSample)
+  name.vb: Equals(DeviceSample)
+  fullName: Tudormobile.Airthings.Service.DeviceSample.Equals(Tudormobile.Airthings.Service.DeviceSample?)
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSample.Equals(Tudormobile.Airthings.Service.DeviceSample)
+  nameWithType: DeviceSample.Equals(DeviceSample?)
+  nameWithType.vb: DeviceSample.Equals(DeviceSample)
+- uid: Tudormobile.Airthings.Service.DeviceSample.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_Equals_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSample.Equals
+  fullName: Tudormobile.Airthings.Service.DeviceSample.Equals
+  nameWithType: DeviceSample.Equals
+- uid: Tudormobile.Airthings.Service.DeviceSample.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_GetHashCode
+  commentId: M:Tudormobile.Airthings.Service.DeviceSample.GetHashCode
+  fullName: Tudormobile.Airthings.Service.DeviceSample.GetHashCode()
+  nameWithType: DeviceSample.GetHashCode()
+- uid: Tudormobile.Airthings.Service.DeviceSample.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSample.GetHashCode
+  fullName: Tudormobile.Airthings.Service.DeviceSample.GetHashCode
+  nameWithType: DeviceSample.GetHashCode
+- uid: Tudormobile.Airthings.Service.DeviceSample.SensorType
+  name: SensorType
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_SensorType
+  commentId: P:Tudormobile.Airthings.Service.DeviceSample.SensorType
+  fullName: Tudormobile.Airthings.Service.DeviceSample.SensorType
+  nameWithType: DeviceSample.SensorType
+- uid: Tudormobile.Airthings.Service.DeviceSample.SensorType*
+  name: SensorType
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_SensorType_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSample.SensorType
+  fullName: Tudormobile.Airthings.Service.DeviceSample.SensorType
+  nameWithType: DeviceSample.SensorType
+- uid: Tudormobile.Airthings.Service.DeviceSample.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_ToString
+  commentId: M:Tudormobile.Airthings.Service.DeviceSample.ToString
+  fullName: Tudormobile.Airthings.Service.DeviceSample.ToString()
+  nameWithType: DeviceSample.ToString()
+- uid: Tudormobile.Airthings.Service.DeviceSample.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_ToString_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSample.ToString
+  fullName: Tudormobile.Airthings.Service.DeviceSample.ToString
+  nameWithType: DeviceSample.ToString
+- uid: Tudormobile.Airthings.Service.DeviceSample.Value
+  name: Value
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_Value
+  commentId: P:Tudormobile.Airthings.Service.DeviceSample.Value
+  fullName: Tudormobile.Airthings.Service.DeviceSample.Value
+  nameWithType: DeviceSample.Value
+- uid: Tudormobile.Airthings.Service.DeviceSample.Value*
+  name: Value
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_Value_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSample.Value
+  fullName: Tudormobile.Airthings.Service.DeviceSample.Value
+  nameWithType: DeviceSample.Value
+- uid: Tudormobile.Airthings.Service.DeviceSample.op_Equality(Tudormobile.Airthings.Service.DeviceSample,Tudormobile.Airthings.Service.DeviceSample)
+  name: operator ==(DeviceSample?, DeviceSample?)
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_op_Equality_Tudormobile_Airthings_Service_DeviceSample_Tudormobile_Airthings_Service_DeviceSample_
+  commentId: M:Tudormobile.Airthings.Service.DeviceSample.op_Equality(Tudormobile.Airthings.Service.DeviceSample,Tudormobile.Airthings.Service.DeviceSample)
+  name.vb: =(DeviceSample, DeviceSample)
+  fullName: Tudormobile.Airthings.Service.DeviceSample.operator ==(Tudormobile.Airthings.Service.DeviceSample?, Tudormobile.Airthings.Service.DeviceSample?)
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSample.=(Tudormobile.Airthings.Service.DeviceSample, Tudormobile.Airthings.Service.DeviceSample)
+  nameWithType: DeviceSample.operator ==(DeviceSample?, DeviceSample?)
+  nameWithType.vb: DeviceSample.=(DeviceSample, DeviceSample)
+- uid: Tudormobile.Airthings.Service.DeviceSample.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSample.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.Service.DeviceSample.operator ==
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSample.=
+  nameWithType: DeviceSample.operator ==
+  nameWithType.vb: DeviceSample.=
+- uid: Tudormobile.Airthings.Service.DeviceSample.op_Inequality(Tudormobile.Airthings.Service.DeviceSample,Tudormobile.Airthings.Service.DeviceSample)
+  name: operator !=(DeviceSample?, DeviceSample?)
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_op_Inequality_Tudormobile_Airthings_Service_DeviceSample_Tudormobile_Airthings_Service_DeviceSample_
+  commentId: M:Tudormobile.Airthings.Service.DeviceSample.op_Inequality(Tudormobile.Airthings.Service.DeviceSample,Tudormobile.Airthings.Service.DeviceSample)
+  name.vb: <>(DeviceSample, DeviceSample)
+  fullName: Tudormobile.Airthings.Service.DeviceSample.operator !=(Tudormobile.Airthings.Service.DeviceSample?, Tudormobile.Airthings.Service.DeviceSample?)
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSample.<>(Tudormobile.Airthings.Service.DeviceSample, Tudormobile.Airthings.Service.DeviceSample)
+  nameWithType: DeviceSample.operator !=(DeviceSample?, DeviceSample?)
+  nameWithType.vb: DeviceSample.<>(DeviceSample, DeviceSample)
+- uid: Tudormobile.Airthings.Service.DeviceSample.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.Service.DeviceSample.html#Tudormobile_Airthings_Service_DeviceSample_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSample.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.Service.DeviceSample.operator !=
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSample.<>
+  nameWithType: DeviceSample.operator !=
+  nameWithType.vb: DeviceSample.<>
+- uid: Tudormobile.Airthings.Service.DeviceSamples
+  name: DeviceSamples
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html
+  commentId: T:Tudormobile.Airthings.Service.DeviceSamples
+  fullName: Tudormobile.Airthings.Service.DeviceSamples
+  nameWithType: DeviceSamples
+- uid: Tudormobile.Airthings.Service.DeviceSamples.#ctor
+  name: DeviceSamples()
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples__ctor
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.DeviceSamples()
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.New()
+  nameWithType: DeviceSamples.DeviceSamples()
+  nameWithType.vb: DeviceSamples.New()
+- uid: Tudormobile.Airthings.Service.DeviceSamples.#ctor*
+  name: DeviceSamples
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples__ctor_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.DeviceSamples
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.New
+  nameWithType: DeviceSamples.DeviceSamples
+  nameWithType.vb: DeviceSamples.New
+- uid: Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage
+  name: BatteryPercentage
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_BatteryPercentage
+  commentId: P:Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage
+  nameWithType: DeviceSamples.BatteryPercentage
+- uid: Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage*
+  name: BatteryPercentage
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_BatteryPercentage_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage
+  nameWithType: DeviceSamples.BatteryPercentage
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.Equals(Object)
+  nameWithType: DeviceSamples.Equals(object?)
+  nameWithType.vb: DeviceSamples.Equals(Object)
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  name: Equals(DeviceSamples?)
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_Equals_Tudormobile_Airthings_Service_DeviceSamples_
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  name.vb: Equals(DeviceSamples)
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Equals(Tudormobile.Airthings.Service.DeviceSamples?)
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  nameWithType: DeviceSamples.Equals(DeviceSamples?)
+  nameWithType.vb: DeviceSamples.Equals(DeviceSamples)
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_Equals_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.Equals
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Equals
+  nameWithType: DeviceSamples.Equals
+- uid: Tudormobile.Airthings.Service.DeviceSamples.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_GetHashCode
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.GetHashCode
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.GetHashCode()
+  nameWithType: DeviceSamples.GetHashCode()
+- uid: Tudormobile.Airthings.Service.DeviceSamples.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.GetHashCode
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.GetHashCode
+  nameWithType: DeviceSamples.GetHashCode
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Recorded
+  name: Recorded
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_Recorded
+  commentId: P:Tudormobile.Airthings.Service.DeviceSamples.Recorded
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Recorded
+  nameWithType: DeviceSamples.Recorded
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Recorded*
+  name: Recorded
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_Recorded_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.Recorded
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Recorded
+  nameWithType: DeviceSamples.Recorded
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Samples
+  name: Samples
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_Samples
+  commentId: P:Tudormobile.Airthings.Service.DeviceSamples.Samples
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Samples
+  nameWithType: DeviceSamples.Samples
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Samples*
+  name: Samples
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_Samples_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.Samples
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Samples
+  nameWithType: DeviceSamples.Samples
+- uid: Tudormobile.Airthings.Service.DeviceSamples.SerialNumber
+  name: SerialNumber
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_SerialNumber
+  commentId: P:Tudormobile.Airthings.Service.DeviceSamples.SerialNumber
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.SerialNumber
+  nameWithType: DeviceSamples.SerialNumber
+- uid: Tudormobile.Airthings.Service.DeviceSamples.SerialNumber*
+  name: SerialNumber
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_SerialNumber_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.SerialNumber
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.SerialNumber
+  nameWithType: DeviceSamples.SerialNumber
+- uid: Tudormobile.Airthings.Service.DeviceSamples.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_ToString
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.ToString
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.ToString()
+  nameWithType: DeviceSamples.ToString()
+- uid: Tudormobile.Airthings.Service.DeviceSamples.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_ToString_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.ToString
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.ToString
+  nameWithType: DeviceSamples.ToString
+- uid: Tudormobile.Airthings.Service.DeviceSamples.op_Equality(Tudormobile.Airthings.Service.DeviceSamples,Tudormobile.Airthings.Service.DeviceSamples)
+  name: operator ==(DeviceSamples?, DeviceSamples?)
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_op_Equality_Tudormobile_Airthings_Service_DeviceSamples_Tudormobile_Airthings_Service_DeviceSamples_
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.op_Equality(Tudormobile.Airthings.Service.DeviceSamples,Tudormobile.Airthings.Service.DeviceSamples)
+  name.vb: =(DeviceSamples, DeviceSamples)
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.operator ==(Tudormobile.Airthings.Service.DeviceSamples?, Tudormobile.Airthings.Service.DeviceSamples?)
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.=(Tudormobile.Airthings.Service.DeviceSamples, Tudormobile.Airthings.Service.DeviceSamples)
+  nameWithType: DeviceSamples.operator ==(DeviceSamples?, DeviceSamples?)
+  nameWithType.vb: DeviceSamples.=(DeviceSamples, DeviceSamples)
+- uid: Tudormobile.Airthings.Service.DeviceSamples.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.operator ==
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.=
+  nameWithType: DeviceSamples.operator ==
+  nameWithType.vb: DeviceSamples.=
+- uid: Tudormobile.Airthings.Service.DeviceSamples.op_Inequality(Tudormobile.Airthings.Service.DeviceSamples,Tudormobile.Airthings.Service.DeviceSamples)
+  name: operator !=(DeviceSamples?, DeviceSamples?)
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_op_Inequality_Tudormobile_Airthings_Service_DeviceSamples_Tudormobile_Airthings_Service_DeviceSamples_
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.op_Inequality(Tudormobile.Airthings.Service.DeviceSamples,Tudormobile.Airthings.Service.DeviceSamples)
+  name.vb: <>(DeviceSamples, DeviceSamples)
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.operator !=(Tudormobile.Airthings.Service.DeviceSamples?, Tudormobile.Airthings.Service.DeviceSamples?)
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.<>(Tudormobile.Airthings.Service.DeviceSamples, Tudormobile.Airthings.Service.DeviceSamples)
+  nameWithType: DeviceSamples.operator !=(DeviceSamples?, DeviceSamples?)
+  nameWithType.vb: DeviceSamples.<>(DeviceSamples, DeviceSamples)
+- uid: Tudormobile.Airthings.Service.DeviceSamples.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.operator !=
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.<>
+  nameWithType: DeviceSamples.operator !=
+  nameWithType.vb: DeviceSamples.<>
+- uid: Tudormobile.Airthings.Service.ServiceVersion
+  name: ServiceVersion
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html
+  commentId: T:Tudormobile.Airthings.Service.ServiceVersion
+  fullName: Tudormobile.Airthings.Service.ServiceVersion
+  nameWithType: ServiceVersion
+- uid: Tudormobile.Airthings.Service.ServiceVersion.#ctor
+  name: ServiceVersion()
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion__ctor
+  commentId: M:Tudormobile.Airthings.Service.ServiceVersion.#ctor
+  name.vb: New()
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.ServiceVersion()
+  fullName.vb: Tudormobile.Airthings.Service.ServiceVersion.New()
+  nameWithType: ServiceVersion.ServiceVersion()
+  nameWithType.vb: ServiceVersion.New()
+- uid: Tudormobile.Airthings.Service.ServiceVersion.#ctor(Tudormobile.Airthings.Service.ServiceVersion)
+  name: ServiceVersion(ServiceVersion)
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion__ctor_Tudormobile_Airthings_Service_ServiceVersion_
+  commentId: M:Tudormobile.Airthings.Service.ServiceVersion.#ctor(Tudormobile.Airthings.Service.ServiceVersion)
+  name.vb: New(ServiceVersion)
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.ServiceVersion(Tudormobile.Airthings.Service.ServiceVersion)
+  fullName.vb: Tudormobile.Airthings.Service.ServiceVersion.New(Tudormobile.Airthings.Service.ServiceVersion)
+  nameWithType: ServiceVersion.ServiceVersion(ServiceVersion)
+  nameWithType.vb: ServiceVersion.New(ServiceVersion)
+- uid: Tudormobile.Airthings.Service.ServiceVersion.#ctor*
+  name: ServiceVersion
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion__ctor_
+  commentId: Overload:Tudormobile.Airthings.Service.ServiceVersion.#ctor
+  name.vb: New
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.ServiceVersion
+  fullName.vb: Tudormobile.Airthings.Service.ServiceVersion.New
+  nameWithType: ServiceVersion.ServiceVersion
+  nameWithType.vb: ServiceVersion.New
+- uid: Tudormobile.Airthings.Service.ServiceVersion.Copyright
+  name: Copyright
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_Copyright
+  commentId: P:Tudormobile.Airthings.Service.ServiceVersion.Copyright
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.Copyright
+  nameWithType: ServiceVersion.Copyright
+- uid: Tudormobile.Airthings.Service.ServiceVersion.Copyright*
+  name: Copyright
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_Copyright_
+  commentId: Overload:Tudormobile.Airthings.Service.ServiceVersion.Copyright
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.Copyright
+  nameWithType: ServiceVersion.Copyright
+- uid: Tudormobile.Airthings.Service.ServiceVersion.Description
+  name: Description
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_Description
+  commentId: P:Tudormobile.Airthings.Service.ServiceVersion.Description
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.Description
+  nameWithType: ServiceVersion.Description
+- uid: Tudormobile.Airthings.Service.ServiceVersion.Description*
+  name: Description
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_Description_
+  commentId: Overload:Tudormobile.Airthings.Service.ServiceVersion.Description
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.Description
+  nameWithType: ServiceVersion.Description
+- uid: Tudormobile.Airthings.Service.ServiceVersion.EqualityContract
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_EqualityContract
+  commentId: P:Tudormobile.Airthings.Service.ServiceVersion.EqualityContract
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.EqualityContract
+  nameWithType: ServiceVersion.EqualityContract
+- uid: Tudormobile.Airthings.Service.ServiceVersion.EqualityContract*
+  name: EqualityContract
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_EqualityContract_
+  commentId: Overload:Tudormobile.Airthings.Service.ServiceVersion.EqualityContract
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.EqualityContract
+  nameWithType: ServiceVersion.EqualityContract
+- uid: Tudormobile.Airthings.Service.ServiceVersion.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_Equals_System_Object_
+  commentId: M:Tudormobile.Airthings.Service.ServiceVersion.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.Equals(object?)
+  fullName.vb: Tudormobile.Airthings.Service.ServiceVersion.Equals(Object)
+  nameWithType: ServiceVersion.Equals(object?)
+  nameWithType.vb: ServiceVersion.Equals(Object)
+- uid: Tudormobile.Airthings.Service.ServiceVersion.Equals(Tudormobile.Airthings.Service.ServiceVersion)
+  name: Equals(ServiceVersion?)
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_Equals_Tudormobile_Airthings_Service_ServiceVersion_
+  commentId: M:Tudormobile.Airthings.Service.ServiceVersion.Equals(Tudormobile.Airthings.Service.ServiceVersion)
+  name.vb: Equals(ServiceVersion)
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.Equals(Tudormobile.Airthings.Service.ServiceVersion?)
+  fullName.vb: Tudormobile.Airthings.Service.ServiceVersion.Equals(Tudormobile.Airthings.Service.ServiceVersion)
+  nameWithType: ServiceVersion.Equals(ServiceVersion?)
+  nameWithType.vb: ServiceVersion.Equals(ServiceVersion)
+- uid: Tudormobile.Airthings.Service.ServiceVersion.Equals*
+  name: Equals
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_Equals_
+  commentId: Overload:Tudormobile.Airthings.Service.ServiceVersion.Equals
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.Equals
+  nameWithType: ServiceVersion.Equals
+- uid: Tudormobile.Airthings.Service.ServiceVersion.GetHashCode
+  name: GetHashCode()
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_GetHashCode
+  commentId: M:Tudormobile.Airthings.Service.ServiceVersion.GetHashCode
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.GetHashCode()
+  nameWithType: ServiceVersion.GetHashCode()
+- uid: Tudormobile.Airthings.Service.ServiceVersion.GetHashCode*
+  name: GetHashCode
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_GetHashCode_
+  commentId: Overload:Tudormobile.Airthings.Service.ServiceVersion.GetHashCode
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.GetHashCode
+  nameWithType: ServiceVersion.GetHashCode
+- uid: Tudormobile.Airthings.Service.ServiceVersion.Name
+  name: Name
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_Name
+  commentId: P:Tudormobile.Airthings.Service.ServiceVersion.Name
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.Name
+  nameWithType: ServiceVersion.Name
+- uid: Tudormobile.Airthings.Service.ServiceVersion.Name*
+  name: Name
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_Name_
+  commentId: Overload:Tudormobile.Airthings.Service.ServiceVersion.Name
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.Name
+  nameWithType: ServiceVersion.Name
+- uid: Tudormobile.Airthings.Service.ServiceVersion.PrintMembers(System.Text.StringBuilder)
+  name: PrintMembers(StringBuilder)
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_PrintMembers_System_Text_StringBuilder_
+  commentId: M:Tudormobile.Airthings.Service.ServiceVersion.PrintMembers(System.Text.StringBuilder)
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.PrintMembers(System.Text.StringBuilder)
+  nameWithType: ServiceVersion.PrintMembers(StringBuilder)
+- uid: Tudormobile.Airthings.Service.ServiceVersion.PrintMembers*
+  name: PrintMembers
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_PrintMembers_
+  commentId: Overload:Tudormobile.Airthings.Service.ServiceVersion.PrintMembers
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.PrintMembers
+  nameWithType: ServiceVersion.PrintMembers
+- uid: Tudormobile.Airthings.Service.ServiceVersion.ToString
+  name: ToString()
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_ToString
+  commentId: M:Tudormobile.Airthings.Service.ServiceVersion.ToString
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.ToString()
+  nameWithType: ServiceVersion.ToString()
+- uid: Tudormobile.Airthings.Service.ServiceVersion.ToString*
+  name: ToString
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_ToString_
+  commentId: Overload:Tudormobile.Airthings.Service.ServiceVersion.ToString
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.ToString
+  nameWithType: ServiceVersion.ToString
+- uid: Tudormobile.Airthings.Service.ServiceVersion.Version
+  name: Version
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_Version
+  commentId: P:Tudormobile.Airthings.Service.ServiceVersion.Version
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.Version
+  nameWithType: ServiceVersion.Version
+- uid: Tudormobile.Airthings.Service.ServiceVersion.Version*
+  name: Version
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_Version_
+  commentId: Overload:Tudormobile.Airthings.Service.ServiceVersion.Version
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.Version
+  nameWithType: ServiceVersion.Version
+- uid: Tudormobile.Airthings.Service.ServiceVersion.op_Equality(Tudormobile.Airthings.Service.ServiceVersion,Tudormobile.Airthings.Service.ServiceVersion)
+  name: operator ==(ServiceVersion?, ServiceVersion?)
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_op_Equality_Tudormobile_Airthings_Service_ServiceVersion_Tudormobile_Airthings_Service_ServiceVersion_
+  commentId: M:Tudormobile.Airthings.Service.ServiceVersion.op_Equality(Tudormobile.Airthings.Service.ServiceVersion,Tudormobile.Airthings.Service.ServiceVersion)
+  name.vb: =(ServiceVersion, ServiceVersion)
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.operator ==(Tudormobile.Airthings.Service.ServiceVersion?, Tudormobile.Airthings.Service.ServiceVersion?)
+  fullName.vb: Tudormobile.Airthings.Service.ServiceVersion.=(Tudormobile.Airthings.Service.ServiceVersion, Tudormobile.Airthings.Service.ServiceVersion)
+  nameWithType: ServiceVersion.operator ==(ServiceVersion?, ServiceVersion?)
+  nameWithType.vb: ServiceVersion.=(ServiceVersion, ServiceVersion)
+- uid: Tudormobile.Airthings.Service.ServiceVersion.op_Equality*
+  name: operator ==
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_op_Equality_
+  commentId: Overload:Tudormobile.Airthings.Service.ServiceVersion.op_Equality
+  name.vb: =
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.operator ==
+  fullName.vb: Tudormobile.Airthings.Service.ServiceVersion.=
+  nameWithType: ServiceVersion.operator ==
+  nameWithType.vb: ServiceVersion.=
+- uid: Tudormobile.Airthings.Service.ServiceVersion.op_Inequality(Tudormobile.Airthings.Service.ServiceVersion,Tudormobile.Airthings.Service.ServiceVersion)
+  name: operator !=(ServiceVersion?, ServiceVersion?)
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_op_Inequality_Tudormobile_Airthings_Service_ServiceVersion_Tudormobile_Airthings_Service_ServiceVersion_
+  commentId: M:Tudormobile.Airthings.Service.ServiceVersion.op_Inequality(Tudormobile.Airthings.Service.ServiceVersion,Tudormobile.Airthings.Service.ServiceVersion)
+  name.vb: <>(ServiceVersion, ServiceVersion)
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.operator !=(Tudormobile.Airthings.Service.ServiceVersion?, Tudormobile.Airthings.Service.ServiceVersion?)
+  fullName.vb: Tudormobile.Airthings.Service.ServiceVersion.<>(Tudormobile.Airthings.Service.ServiceVersion, Tudormobile.Airthings.Service.ServiceVersion)
+  nameWithType: ServiceVersion.operator !=(ServiceVersion?, ServiceVersion?)
+  nameWithType.vb: ServiceVersion.<>(ServiceVersion, ServiceVersion)
+- uid: Tudormobile.Airthings.Service.ServiceVersion.op_Inequality*
+  name: operator !=
+  href: api/Tudormobile.Airthings.Service.ServiceVersion.html#Tudormobile_Airthings_Service_ServiceVersion_op_Inequality_
+  commentId: Overload:Tudormobile.Airthings.Service.ServiceVersion.op_Inequality
+  name.vb: <>
+  fullName: Tudormobile.Airthings.Service.ServiceVersion.operator !=
+  fullName.vb: Tudormobile.Airthings.Service.ServiceVersion.<>
+  nameWithType: ServiceVersion.operator !=
+  nameWithType.vb: ServiceVersion.<>
+- uid: Tudormobile.Airthings.UnitsType
+  name: UnitsType
+  href: api/Tudormobile.Airthings.UnitsType.html
+  commentId: T:Tudormobile.Airthings.UnitsType
+  fullName: Tudormobile.Airthings.UnitsType
+  nameWithType: UnitsType
+- uid: Tudormobile.Airthings.UnitsType.Imperial
+  name: Imperial
+  href: api/Tudormobile.Airthings.UnitsType.html#Tudormobile_Airthings_UnitsType_Imperial
+  commentId: F:Tudormobile.Airthings.UnitsType.Imperial
+  fullName: Tudormobile.Airthings.UnitsType.Imperial
+  nameWithType: UnitsType.Imperial
+- uid: Tudormobile.Airthings.UnitsType.Metric
+  name: Metric
+  href: api/Tudormobile.Airthings.UnitsType.html#Tudormobile_Airthings_UnitsType_Metric
+  commentId: F:Tudormobile.Airthings.UnitsType.Metric
+  fullName: Tudormobile.Airthings.UnitsType.Metric
+  nameWithType: UnitsType.Metric

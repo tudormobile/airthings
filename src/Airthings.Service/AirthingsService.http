@@ -20,3 +20,29 @@ Accept: application/json
 ApiKey: 00000000000000000000000000000000
 
 ###
+
+# AirthingsService Summary
+GET {{AirthingsService_HostAddress}}/summary/
+Accept: application/json
+ApiKey: 00000000000000000000000000000000
+
+###
+
+# AirthingsService Summary
+GET {{AirthingsService_HostAddress}}/summary/metric
+Accept: application/json
+ApiKey: 00000000000000000000000000000000
+
+###
+# AirthingsService Summary
+GET {{AirthingsService_HostAddress}}/summary/imperial
+Accept: application/json
+ApiKey: 00000000000000000000000000000000
+
+###
+# AirthingsService Summary
+GET {{AirthingsService_HostAddress}}/summary/bad-value
+Accept: application/json
+ApiKey: 00000000000000000000000000000000
+
+###

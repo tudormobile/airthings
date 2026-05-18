@@ -1,0 +1,954 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tudormobile.Airthings.Service.DeviceSamples
+  commentId: T:Tudormobile.Airthings.Service.DeviceSamples
+  id: DeviceSamples
+  parent: Tudormobile.Airthings.Service
+  children:
+  - Tudormobile.Airthings.Service.DeviceSamples.#ctor
+  - Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage
+  - Tudormobile.Airthings.Service.DeviceSamples.Equals(System.Object)
+  - Tudormobile.Airthings.Service.DeviceSamples.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  - Tudormobile.Airthings.Service.DeviceSamples.GetHashCode
+  - Tudormobile.Airthings.Service.DeviceSamples.Recorded
+  - Tudormobile.Airthings.Service.DeviceSamples.Samples
+  - Tudormobile.Airthings.Service.DeviceSamples.SerialNumber
+  - Tudormobile.Airthings.Service.DeviceSamples.ToString
+  - Tudormobile.Airthings.Service.DeviceSamples.op_Equality(Tudormobile.Airthings.Service.DeviceSamples,Tudormobile.Airthings.Service.DeviceSamples)
+  - Tudormobile.Airthings.Service.DeviceSamples.op_Inequality(Tudormobile.Airthings.Service.DeviceSamples,Tudormobile.Airthings.Service.DeviceSamples)
+  langs:
+  - csharp
+  - vb
+  name: DeviceSamples
+  nameWithType: DeviceSamples
+  fullName: Tudormobile.Airthings.Service.DeviceSamples
+  type: Class
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/DeviceSamples.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  summary: Represents a sensor within an Airthings device.
+  example: []
+  syntax:
+    content: 'public sealed record DeviceSamples : IEquatable<DeviceSamples>'
+    content.vb: Public NotInheritable Class DeviceSamples Implements IEquatable(Of DeviceSamples)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{Tudormobile.Airthings.Service.DeviceSamples}
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Tudormobile.Airthings.Service.DeviceSamples.ToString
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.ToString
+  id: ToString
+  parent: Tudormobile.Airthings.Service.DeviceSamples
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DeviceSamples.ToString()
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.ToString()
+  type: Method
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/DeviceSamples.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Tudormobile.Airthings.Service.DeviceSamples.ToString*
+- uid: Tudormobile.Airthings.Service.DeviceSamples.op_Inequality(Tudormobile.Airthings.Service.DeviceSamples,Tudormobile.Airthings.Service.DeviceSamples)
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.op_Inequality(Tudormobile.Airthings.Service.DeviceSamples,Tudormobile.Airthings.Service.DeviceSamples)
+  id: op_Inequality(Tudormobile.Airthings.Service.DeviceSamples,Tudormobile.Airthings.Service.DeviceSamples)
+  parent: Tudormobile.Airthings.Service.DeviceSamples
+  langs:
+  - csharp
+  - vb
+  name: operator !=(DeviceSamples?, DeviceSamples?)
+  nameWithType: DeviceSamples.operator !=(DeviceSamples?, DeviceSamples?)
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.operator !=(Tudormobile.Airthings.Service.DeviceSamples?, Tudormobile.Airthings.Service.DeviceSamples?)
+  type: Operator
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/DeviceSamples.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  syntax:
+    content: public static bool operator !=(DeviceSamples? left, DeviceSamples? right)
+    parameters:
+    - id: left
+      type: Tudormobile.Airthings.Service.DeviceSamples
+    - id: right
+      type: Tudormobile.Airthings.Service.DeviceSamples
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As DeviceSamples, right As DeviceSamples) As Boolean
+  overload: Tudormobile.Airthings.Service.DeviceSamples.op_Inequality*
+  nameWithType.vb: DeviceSamples.<>(DeviceSamples, DeviceSamples)
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.<>(Tudormobile.Airthings.Service.DeviceSamples, Tudormobile.Airthings.Service.DeviceSamples)
+  name.vb: <>(DeviceSamples, DeviceSamples)
+- uid: Tudormobile.Airthings.Service.DeviceSamples.op_Equality(Tudormobile.Airthings.Service.DeviceSamples,Tudormobile.Airthings.Service.DeviceSamples)
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.op_Equality(Tudormobile.Airthings.Service.DeviceSamples,Tudormobile.Airthings.Service.DeviceSamples)
+  id: op_Equality(Tudormobile.Airthings.Service.DeviceSamples,Tudormobile.Airthings.Service.DeviceSamples)
+  parent: Tudormobile.Airthings.Service.DeviceSamples
+  langs:
+  - csharp
+  - vb
+  name: operator ==(DeviceSamples?, DeviceSamples?)
+  nameWithType: DeviceSamples.operator ==(DeviceSamples?, DeviceSamples?)
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.operator ==(Tudormobile.Airthings.Service.DeviceSamples?, Tudormobile.Airthings.Service.DeviceSamples?)
+  type: Operator
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/DeviceSamples.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  syntax:
+    content: public static bool operator ==(DeviceSamples? left, DeviceSamples? right)
+    parameters:
+    - id: left
+      type: Tudormobile.Airthings.Service.DeviceSamples
+    - id: right
+      type: Tudormobile.Airthings.Service.DeviceSamples
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As DeviceSamples, right As DeviceSamples) As Boolean
+  overload: Tudormobile.Airthings.Service.DeviceSamples.op_Equality*
+  nameWithType.vb: DeviceSamples.=(DeviceSamples, DeviceSamples)
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.=(Tudormobile.Airthings.Service.DeviceSamples, Tudormobile.Airthings.Service.DeviceSamples)
+  name.vb: =(DeviceSamples, DeviceSamples)
+- uid: Tudormobile.Airthings.Service.DeviceSamples.GetHashCode
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.GetHashCode
+  id: GetHashCode
+  parent: Tudormobile.Airthings.Service.DeviceSamples
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: DeviceSamples.GetHashCode()
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.GetHashCode()
+  type: Method
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/DeviceSamples.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: Tudormobile.Airthings.Service.DeviceSamples.GetHashCode*
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Equals(System.Object)
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Tudormobile.Airthings.Service.DeviceSamples
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: DeviceSamples.Equals(object?)
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Equals(object?)
+  type: Method
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/DeviceSamples.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: Tudormobile.Airthings.Service.DeviceSamples.Equals*
+  nameWithType.vb: DeviceSamples.Equals(Object)
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  id: Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  parent: Tudormobile.Airthings.Service.DeviceSamples
+  langs:
+  - csharp
+  - vb
+  name: Equals(DeviceSamples?)
+  nameWithType: DeviceSamples.Equals(DeviceSamples?)
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Equals(Tudormobile.Airthings.Service.DeviceSamples?)
+  type: Method
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/DeviceSamples.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  example: []
+  syntax:
+    content: public bool Equals(DeviceSamples? other)
+    parameters:
+    - id: other
+      type: Tudormobile.Airthings.Service.DeviceSamples
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As DeviceSamples) As Boolean
+  overload: Tudormobile.Airthings.Service.DeviceSamples.Equals*
+  implements:
+  - System.IEquatable{Tudormobile.Airthings.Service.DeviceSamples}.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  nameWithType.vb: DeviceSamples.Equals(DeviceSamples)
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  name.vb: Equals(DeviceSamples)
+- uid: Tudormobile.Airthings.Service.DeviceSamples.#ctor
+  commentId: M:Tudormobile.Airthings.Service.DeviceSamples.#ctor
+  id: '#ctor'
+  parent: Tudormobile.Airthings.Service.DeviceSamples
+  langs:
+  - csharp
+  - vb
+  name: DeviceSamples()
+  nameWithType: DeviceSamples.DeviceSamples()
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.DeviceSamples()
+  type: Constructor
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/DeviceSamples.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  syntax:
+    content: public DeviceSamples()
+    content.vb: Public Sub New()
+  overload: Tudormobile.Airthings.Service.DeviceSamples.#ctor*
+  nameWithType.vb: DeviceSamples.New()
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.New()
+  name.vb: New()
+- uid: Tudormobile.Airthings.Service.DeviceSamples.SerialNumber
+  commentId: P:Tudormobile.Airthings.Service.DeviceSamples.SerialNumber
+  id: SerialNumber
+  parent: Tudormobile.Airthings.Service.DeviceSamples
+  langs:
+  - csharp
+  - vb
+  name: SerialNumber
+  nameWithType: DeviceSamples.SerialNumber
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.SerialNumber
+  type: Property
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/DeviceSamples.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  summary: >-
+    Associated device serial number. This is the unique identifier for the device, 
+
+    and can be used to correlate sensor data with devices from the devices endpoint.
+  example: []
+  syntax:
+    content: public string SerialNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SerialNumber As String
+  overload: Tudormobile.Airthings.Service.DeviceSamples.SerialNumber*
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Samples
+  commentId: P:Tudormobile.Airthings.Service.DeviceSamples.Samples
+  id: Samples
+  parent: Tudormobile.Airthings.Service.DeviceSamples
+  langs:
+  - csharp
+  - vb
+  name: Samples
+  nameWithType: DeviceSamples.Samples
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Samples
+  type: Property
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/DeviceSamples.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  summary: Gets or sets the collection of sensor responses associated with the current device.
+  example: []
+  syntax:
+    content: public List<DeviceSample> Samples { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Tudormobile.Airthings.Service.DeviceSample}
+    content.vb: Public Property Samples As List(Of DeviceSample)
+  overload: Tudormobile.Airthings.Service.DeviceSamples.Samples*
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Recorded
+  commentId: P:Tudormobile.Airthings.Service.DeviceSamples.Recorded
+  id: Recorded
+  parent: Tudormobile.Airthings.Service.DeviceSamples
+  langs:
+  - csharp
+  - vb
+  name: Recorded
+  nameWithType: DeviceSamples.Recorded
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Recorded
+  type: Property
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/DeviceSamples.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  summary: Gets or sets the date and time when the event was recorded by the device.
+  example: []
+  syntax:
+    content: public DateTime Recorded { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Recorded As Date
+  overload: Tudormobile.Airthings.Service.DeviceSamples.Recorded*
+- uid: Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage
+  commentId: P:Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage
+  id: BatteryPercentage
+  parent: Tudormobile.Airthings.Service.DeviceSamples
+  langs:
+  - csharp
+  - vb
+  name: BatteryPercentage
+  nameWithType: DeviceSamples.BatteryPercentage
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage
+  type: Property
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/DeviceSamples.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  summary: Gets or sets the battery percentage of the device.
+  example: []
+  syntax:
+    content: public int BatteryPercentage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BatteryPercentage As Integer
+  overload: Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage*
+references:
+- uid: Tudormobile.Airthings.Service
+  commentId: N:Tudormobile.Airthings.Service
+  isExternal: true
+  href: Tudormobile.html
+  name: Tudormobile.Airthings.Service
+  nameWithType: Tudormobile.Airthings.Service
+  fullName: Tudormobile.Airthings.Service
+  spec.csharp:
+  - uid: Tudormobile
+    name: Tudormobile
+    isExternal: true
+    href: Tudormobile.html
+  - name: .
+  - uid: Tudormobile.Airthings
+    name: Airthings
+    isExternal: true
+    href: Tudormobile.Airthings.html
+  - name: .
+  - uid: Tudormobile.Airthings.Service
+    name: Service
+    isExternal: true
+    href: Tudormobile.Airthings.Service.html
+  spec.vb:
+  - uid: Tudormobile
+    name: Tudormobile
+    isExternal: true
+    href: Tudormobile.html
+  - name: .
+  - uid: Tudormobile.Airthings
+    name: Airthings
+    isExternal: true
+    href: Tudormobile.Airthings.html
+  - name: .
+  - uid: Tudormobile.Airthings.Service
+    name: Service
+    isExternal: true
+    href: Tudormobile.Airthings.Service.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{Tudormobile.Airthings.Service.DeviceSamples}
+  commentId: T:System.IEquatable{Tudormobile.Airthings.Service.DeviceSamples}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<DeviceSamples>
+  nameWithType: IEquatable<DeviceSamples>
+  fullName: System.IEquatable<Tudormobile.Airthings.Service.DeviceSamples>
+  nameWithType.vb: IEquatable(Of DeviceSamples)
+  fullName.vb: System.IEquatable(Of Tudormobile.Airthings.Service.DeviceSamples)
+  name.vb: IEquatable(Of DeviceSamples)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Tudormobile.Airthings.Service.DeviceSamples
+    name: DeviceSamples
+    isExternal: true
+    href: Tudormobile.Airthings.Service.DeviceSamples.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Tudormobile.Airthings.Service.DeviceSamples
+    name: DeviceSamples
+    isExternal: true
+    href: Tudormobile.Airthings.Service.DeviceSamples.html
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Tudormobile.Airthings.Service.DeviceSamples.ToString*
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.ToString
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_ToString
+  name: ToString
+  nameWithType: DeviceSamples.ToString
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Tudormobile.Airthings.Service.DeviceSamples.op_Inequality*
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.op_Inequality
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_op_Inequality_Tudormobile_Airthings_Service_DeviceSamples_Tudormobile_Airthings_Service_DeviceSamples_
+  name: operator !=
+  nameWithType: DeviceSamples.operator !=
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.operator !=
+  nameWithType.vb: DeviceSamples.<>
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Tudormobile.Airthings.Service.DeviceSamples.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_op_Inequality_Tudormobile_Airthings_Service_DeviceSamples_Tudormobile_Airthings_Service_DeviceSamples_
+- uid: Tudormobile.Airthings.Service.DeviceSamples
+  commentId: T:Tudormobile.Airthings.Service.DeviceSamples
+  parent: Tudormobile.Airthings.Service
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSamples.html
+  name: DeviceSamples
+  nameWithType: DeviceSamples
+  fullName: Tudormobile.Airthings.Service.DeviceSamples
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Tudormobile.Airthings.Service.DeviceSamples.op_Equality*
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.op_Equality
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_op_Equality_Tudormobile_Airthings_Service_DeviceSamples_Tudormobile_Airthings_Service_DeviceSamples_
+  name: operator ==
+  nameWithType: DeviceSamples.operator ==
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.operator ==
+  nameWithType.vb: DeviceSamples.=
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Tudormobile.Airthings.Service.DeviceSamples.op_Equality*
+    name: ==
+    isExternal: true
+    href: Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_op_Equality_Tudormobile_Airthings_Service_DeviceSamples_Tudormobile_Airthings_Service_DeviceSamples_
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: Tudormobile.Airthings.Service.DeviceSamples.GetHashCode*
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.GetHashCode
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_GetHashCode
+  name: GetHashCode
+  nameWithType: DeviceSamples.GetHashCode
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Equals*
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.Equals
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_Equals_System_Object_
+  name: Equals
+  nameWithType: DeviceSamples.Equals
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Equals
+- uid: System.IEquatable{Tudormobile.Airthings.Service.DeviceSamples}.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  commentId: M:System.IEquatable{Tudormobile.Airthings.Service.DeviceSamples}.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  parent: System.IEquatable{Tudormobile.Airthings.Service.DeviceSamples}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(DeviceSamples)
+  nameWithType: IEquatable<DeviceSamples>.Equals(DeviceSamples)
+  fullName: System.IEquatable<Tudormobile.Airthings.Service.DeviceSamples>.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  nameWithType.vb: IEquatable(Of DeviceSamples).Equals(DeviceSamples)
+  fullName.vb: System.IEquatable(Of Tudormobile.Airthings.Service.DeviceSamples).Equals(Tudormobile.Airthings.Service.DeviceSamples)
+  spec.csharp:
+  - uid: System.IEquatable{Tudormobile.Airthings.Service.DeviceSamples}.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Tudormobile.Airthings.Service.DeviceSamples
+    name: DeviceSamples
+    isExternal: true
+    href: Tudormobile.Airthings.Service.DeviceSamples.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Tudormobile.Airthings.Service.DeviceSamples}.Equals(Tudormobile.Airthings.Service.DeviceSamples)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Tudormobile.Airthings.Service.DeviceSamples
+    name: DeviceSamples
+    isExternal: true
+    href: Tudormobile.Airthings.Service.DeviceSamples.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: Tudormobile.Airthings.Service.DeviceSamples.#ctor*
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.#ctor
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples__ctor
+  name: DeviceSamples
+  nameWithType: DeviceSamples.DeviceSamples
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.DeviceSamples
+  nameWithType.vb: DeviceSamples.New
+  fullName.vb: Tudormobile.Airthings.Service.DeviceSamples.New
+  name.vb: New
+- uid: Tudormobile.Airthings.Service.DeviceSamples.SerialNumber*
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.SerialNumber
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_SerialNumber
+  name: SerialNumber
+  nameWithType: DeviceSamples.SerialNumber
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.SerialNumber
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Samples*
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.Samples
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_Samples
+  name: Samples
+  nameWithType: DeviceSamples.Samples
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Samples
+- uid: System.Collections.Generic.List{Tudormobile.Airthings.Service.DeviceSample}
+  commentId: T:System.Collections.Generic.List{Tudormobile.Airthings.Service.DeviceSample}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<DeviceSample>
+  nameWithType: List<DeviceSample>
+  fullName: System.Collections.Generic.List<Tudormobile.Airthings.Service.DeviceSample>
+  nameWithType.vb: List(Of DeviceSample)
+  fullName.vb: System.Collections.Generic.List(Of Tudormobile.Airthings.Service.DeviceSample)
+  name.vb: List(Of DeviceSample)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Tudormobile.Airthings.Service.DeviceSample
+    name: DeviceSample
+    isExternal: true
+    href: Tudormobile.Airthings.Service.DeviceSample.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Tudormobile.Airthings.Service.DeviceSample
+    name: DeviceSample
+    isExternal: true
+    href: Tudormobile.Airthings.Service.DeviceSample.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Tudormobile.Airthings.Service.DeviceSamples.Recorded*
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.Recorded
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_Recorded
+  name: Recorded
+  nameWithType: DeviceSamples.Recorded
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.Recorded
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage*
+  commentId: Overload:Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSamples.html#Tudormobile_Airthings_Service_DeviceSamples_BatteryPercentage
+  name: BatteryPercentage
+  nameWithType: DeviceSamples.BatteryPercentage
+  fullName: Tudormobile.Airthings.Service.DeviceSamples.BatteryPercentage

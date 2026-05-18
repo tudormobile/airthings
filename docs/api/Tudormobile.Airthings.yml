@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tudormobile.Airthings
+  commentId: N:Tudormobile.Airthings
+  id: Tudormobile.Airthings
+  children:
+  - Tudormobile.Airthings.AccountResponse
+  - Tudormobile.Airthings.AccountsResponse
+  - Tudormobile.Airthings.AirthingsClient
+  - Tudormobile.Airthings.ApiResponse
+  - Tudormobile.Airthings.DeviceResponse
+  - Tudormobile.Airthings.DevicesResponse
+  - Tudormobile.Airthings.DevicesSamplesResponse
+  - Tudormobile.Airthings.IAirthingsClient
+  - Tudormobile.Airthings.SensorResponse
+  - Tudormobile.Airthings.SensorsResponse
+  - Tudormobile.Airthings.UnitsType
+  langs:
+  - csharp
+  - vb
+  name: Tudormobile.Airthings
+  nameWithType: Tudormobile.Airthings
+  fullName: Tudormobile.Airthings
+  type: Namespace
+  assemblies:
+  - Tudormobile.Airthings
+references:
+- uid: Tudormobile.Airthings.AccountResponse
+  commentId: T:Tudormobile.Airthings.AccountResponse
+  parent: Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.Airthings.AccountResponse.html
+  name: AccountResponse
+  nameWithType: AccountResponse
+  fullName: Tudormobile.Airthings.AccountResponse
+- uid: Tudormobile.Airthings.AccountsResponse
+  commentId: T:Tudormobile.Airthings.AccountsResponse
+  parent: Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.Airthings.AccountsResponse.html
+  name: AccountsResponse
+  nameWithType: AccountsResponse
+  fullName: Tudormobile.Airthings.AccountsResponse
+- uid: Tudormobile.Airthings.AirthingsClient
+  commentId: T:Tudormobile.Airthings.AirthingsClient
+  isExternal: true
+  href: Tudormobile.Airthings.AirthingsClient.html
+  name: AirthingsClient
+  nameWithType: AirthingsClient
+  fullName: Tudormobile.Airthings.AirthingsClient
+- uid: Tudormobile.Airthings.ApiResponse
+  commentId: T:Tudormobile.Airthings.ApiResponse
+  parent: Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.Airthings.ApiResponse.html
+  name: ApiResponse
+  nameWithType: ApiResponse
+  fullName: Tudormobile.Airthings.ApiResponse
+- uid: Tudormobile.Airthings.DeviceResponse
+  commentId: T:Tudormobile.Airthings.DeviceResponse
+  parent: Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.Airthings.DeviceResponse.html
+  name: DeviceResponse
+  nameWithType: DeviceResponse
+  fullName: Tudormobile.Airthings.DeviceResponse
+- uid: Tudormobile.Airthings.DevicesResponse
+  commentId: T:Tudormobile.Airthings.DevicesResponse
+  parent: Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.Airthings.DevicesResponse.html
+  name: DevicesResponse
+  nameWithType: DevicesResponse
+  fullName: Tudormobile.Airthings.DevicesResponse
+- uid: Tudormobile.Airthings.DevicesSamplesResponse
+  commentId: T:Tudormobile.Airthings.DevicesSamplesResponse
+  parent: Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.Airthings.DevicesSamplesResponse.html
+  name: DevicesSamplesResponse
+  nameWithType: DevicesSamplesResponse
+  fullName: Tudormobile.Airthings.DevicesSamplesResponse
+- uid: Tudormobile.Airthings.IAirthingsClient
+  commentId: T:Tudormobile.Airthings.IAirthingsClient
+  parent: Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.Airthings.IAirthingsClient.html
+  name: IAirthingsClient
+  nameWithType: IAirthingsClient
+  fullName: Tudormobile.Airthings.IAirthingsClient
+- uid: Tudormobile.Airthings.SensorResponse
+  commentId: T:Tudormobile.Airthings.SensorResponse
+  parent: Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.Airthings.SensorResponse.html
+  name: SensorResponse
+  nameWithType: SensorResponse
+  fullName: Tudormobile.Airthings.SensorResponse
+- uid: Tudormobile.Airthings.SensorsResponse
+  commentId: T:Tudormobile.Airthings.SensorsResponse
+  parent: Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.Airthings.SensorsResponse.html
+  name: SensorsResponse
+  nameWithType: SensorsResponse
+  fullName: Tudormobile.Airthings.SensorsResponse
+- uid: Tudormobile.Airthings.UnitsType
+  commentId: T:Tudormobile.Airthings.UnitsType
+  parent: Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.Airthings.UnitsType.html
+  name: UnitsType
+  nameWithType: UnitsType
+  fullName: Tudormobile.Airthings.UnitsType
+- uid: Tudormobile.Airthings
+  commentId: N:Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.html
+  name: Tudormobile.Airthings
+  nameWithType: Tudormobile.Airthings
+  fullName: Tudormobile.Airthings
+  spec.csharp:
+  - uid: Tudormobile
+    name: Tudormobile
+    isExternal: true
+    href: Tudormobile.html
+  - name: .
+  - uid: Tudormobile.Airthings
+    name: Airthings
+    isExternal: true
+    href: Tudormobile.Airthings.html
+  spec.vb:
+  - uid: Tudormobile
+    name: Tudormobile
+    isExternal: true
+    href: Tudormobile.html
+  - name: .
+  - uid: Tudormobile.Airthings
+    name: Airthings
+    isExternal: true
+    href: Tudormobile.Airthings.html

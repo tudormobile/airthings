@@ -77,8 +77,8 @@ public sealed class AirthingsClient : IAirthingsClient
     public Task<DevicesResponse> ListDevices(string accountId, CancellationToken cancellationToken = default) => ApiRequest<DevicesResponse>($"/accounts/{accountId}/devices", cancellationToken);
 
     /// <inheritdoc/>
-    public Task<DevicesSamplesResponse> ReadSensors(string accountId, IEnumerable<string> serialNumbers, CancellationToken cancellationToken = default)
-        => ApiRequest<DevicesSamplesResponse>($"/accounts/{accountId}/sensors?device={string.Join("&device=", serialNumbers)}", cancellationToken);
+    public Task<DevicesSamplesResponse> ReadSensors(string accountId, IEnumerable<string> serialNumbers, UnitsType unitsType = UnitsType.Metric, CancellationToken cancellationToken = default)
+        => ApiRequest<DevicesSamplesResponse>($"/accounts/{accountId}/sensors?device={string.Join("&device=", serialNumbers)}&unit={unitsType.ToString().ToLower()}", cancellationToken);
 
     private async Task<T> ApiRequest<T>(string uriString, CancellationToken cancellationToken) where T : ApiResponse, new()
     {
