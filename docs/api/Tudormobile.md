@@ -5,13 +5,22 @@ The namespaces available in the *Tudormobile.Airthings* library are described be
 
 ```
 using Tudormobile.Airthings;
-using Tudormobile.Airthings.Service;
 ```
 
 - [Tudormobile.Airthings](Tudormobile.Airthings.yml)
-    - Root namespace for the library. Essential classes that comprise the api.
+    - Root namespace for the library. Essential classes that comprise the library.
+    - Provides client and data model for directly accessing the Airthings Api.
+    - Suitable for applications that directly access the Airthings Api.
+
+### AirthingsService.dll
+
+```
+using Tudormobile.Airthings.Service;
+```
 - [Tudormobile.Airthings.Service](Tudormobile.Airthings.Service.yml)
-    - Extensions methods.  
+    - Proxy service for accessing the Airthings Api.  
+    - Simplified data model for accessing Airthings devices.
+    - Suitable for consumption by public front-end applications.
 
 Latest unit testing results are shown below.
 [!include[summary](../../src/output/SummaryGithub.md)]
