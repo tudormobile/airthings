@@ -34,13 +34,13 @@ Accept: application/json
 ApiKey: 00000000000000000000000000000000
 
 ###
-# AirthingsService Samples
+# AirthingsService Summary
 GET {{AirthingsService_HostAddress}}/summary/imperial
 Accept: application/json
 ApiKey: 00000000000000000000000000000000
 
 ###
-# AirthingsService Samples
+# AirthingsService Summary
 GET {{AirthingsService_HostAddress}}/summary/bad-value
 Accept: application/json
 ApiKey: 00000000000000000000000000000000

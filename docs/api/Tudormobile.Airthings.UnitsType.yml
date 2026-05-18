@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tudormobile.Airthings.UnitsType
+  commentId: T:Tudormobile.Airthings.UnitsType
+  id: UnitsType
+  parent: Tudormobile.Airthings
+  children:
+  - Tudormobile.Airthings.UnitsType.Imperial
+  - Tudormobile.Airthings.UnitsType.Metric
+  langs:
+  - csharp
+  - vb
+  name: UnitsType
+  nameWithType: UnitsType
+  fullName: Tudormobile.Airthings.UnitsType
+  type: Enum
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings/UnitsType.cs
+  assemblies:
+  - Tudormobile.Airthings
+  namespace: Tudormobile.Airthings
+  summary: Specifies the unit system used for sensor readings.
+  example: []
+  syntax:
+    content: public enum UnitsType
+    content.vb: Public Enum UnitsType
+- uid: Tudormobile.Airthings.UnitsType.Metric
+  commentId: F:Tudormobile.Airthings.UnitsType.Metric
+  id: Metric
+  parent: Tudormobile.Airthings.UnitsType
+  langs:
+  - csharp
+  - vb
+  name: Metric
+  nameWithType: UnitsType.Metric
+  fullName: Tudormobile.Airthings.UnitsType.Metric
+  type: Field
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings/UnitsType.cs
+  assemblies:
+  - Tudormobile.Airthings
+  namespace: Tudormobile.Airthings
+  summary: Metric units (default).
+  example: []
+  syntax:
+    content: Metric = 0
+    return:
+      type: Tudormobile.Airthings.UnitsType
+- uid: Tudormobile.Airthings.UnitsType.Imperial
+  commentId: F:Tudormobile.Airthings.UnitsType.Imperial
+  id: Imperial
+  parent: Tudormobile.Airthings.UnitsType
+  langs:
+  - csharp
+  - vb
+  name: Imperial
+  nameWithType: UnitsType.Imperial
+  fullName: Tudormobile.Airthings.UnitsType.Imperial
+  type: Field
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings/UnitsType.cs
+  assemblies:
+  - Tudormobile.Airthings
+  namespace: Tudormobile.Airthings
+  summary: Imperial units.
+  example: []
+  syntax:
+    content: Imperial = 1
+    return:
+      type: Tudormobile.Airthings.UnitsType
+references:
+- uid: Tudormobile.Airthings
+  commentId: N:Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.html
+  name: Tudormobile.Airthings
+  nameWithType: Tudormobile.Airthings
+  fullName: Tudormobile.Airthings
+  spec.csharp:
+  - uid: Tudormobile
+    name: Tudormobile
+    isExternal: true
+    href: Tudormobile.html
+  - name: .
+  - uid: Tudormobile.Airthings
+    name: Airthings
+    isExternal: true
+    href: Tudormobile.Airthings.html
+  spec.vb:
+  - uid: Tudormobile
+    name: Tudormobile
+    isExternal: true
+    href: Tudormobile.html
+  - name: .
+  - uid: Tudormobile.Airthings
+    name: Airthings
+    isExternal: true
+    href: Tudormobile.Airthings.html
+- uid: Tudormobile.Airthings.UnitsType
+  commentId: T:Tudormobile.Airthings.UnitsType
+  parent: Tudormobile.Airthings
+  isExternal: true
+  href: Tudormobile.Airthings.UnitsType.html
+  name: UnitsType
+  nameWithType: UnitsType
+  fullName: Tudormobile.Airthings.UnitsType

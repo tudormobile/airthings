@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tudormobile.Airthings.Service
+  commentId: N:Tudormobile.Airthings.Service
+  id: Tudormobile.Airthings.Service
+  children:
+  - Tudormobile.Airthings.Service.AirthingsOptions
+  - Tudormobile.Airthings.Service.AirthingsResponse`1
+  - Tudormobile.Airthings.Service.AirthingsServiceExtensions
+  - Tudormobile.Airthings.Service.Device
+  - Tudormobile.Airthings.Service.DeviceSample
+  - Tudormobile.Airthings.Service.DeviceSamples
+  - Tudormobile.Airthings.Service.ServiceVersion
+  langs:
+  - csharp
+  - vb
+  name: Tudormobile.Airthings.Service
+  nameWithType: Tudormobile.Airthings.Service
+  fullName: Tudormobile.Airthings.Service
+  type: Namespace
+  assemblies:
+  - Airthings.Service
+references:
+- uid: Tudormobile.Airthings.Service.AirthingsOptions
+  commentId: T:Tudormobile.Airthings.Service.AirthingsOptions
+  isExternal: true
+  href: Tudormobile.Airthings.Service.AirthingsOptions.html
+  name: AirthingsOptions
+  nameWithType: AirthingsOptions
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions
+- uid: Tudormobile.Airthings.Service.AirthingsResponse`1
+  commentId: T:Tudormobile.Airthings.Service.AirthingsResponse`1
+  parent: Tudormobile.Airthings.Service
+  isExternal: true
+  href: Tudormobile.Airthings.Service.AirthingsResponse-1.html
+  name: AirthingsResponse<T>
+  nameWithType: AirthingsResponse<T>
+  fullName: Tudormobile.Airthings.Service.AirthingsResponse<T>
+  nameWithType.vb: AirthingsResponse(Of T)
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsResponse(Of T)
+  name.vb: AirthingsResponse(Of T)
+  spec.csharp:
+  - uid: Tudormobile.Airthings.Service.AirthingsResponse`1
+    name: AirthingsResponse
+    isExternal: true
+    href: Tudormobile.Airthings.Service.AirthingsResponse-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Tudormobile.Airthings.Service.AirthingsResponse`1
+    name: AirthingsResponse
+    isExternal: true
+    href: Tudormobile.Airthings.Service.AirthingsResponse-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Tudormobile.Airthings.Service.AirthingsServiceExtensions
+  commentId: T:Tudormobile.Airthings.Service.AirthingsServiceExtensions
+  isExternal: true
+  href: Tudormobile.Airthings.Service.AirthingsServiceExtensions.html
+  name: AirthingsServiceExtensions
+  nameWithType: AirthingsServiceExtensions
+  fullName: Tudormobile.Airthings.Service.AirthingsServiceExtensions
+- uid: Tudormobile.Airthings.Service.Device
+  commentId: T:Tudormobile.Airthings.Service.Device
+  parent: Tudormobile.Airthings.Service
+  isExternal: true
+  href: Tudormobile.Airthings.Service.Device.html
+  name: Device
+  nameWithType: Device
+  fullName: Tudormobile.Airthings.Service.Device
+- uid: Tudormobile.Airthings.Service.DeviceSample
+  commentId: T:Tudormobile.Airthings.Service.DeviceSample
+  parent: Tudormobile.Airthings.Service
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSample.html
+  name: DeviceSample
+  nameWithType: DeviceSample
+  fullName: Tudormobile.Airthings.Service.DeviceSample
+- uid: Tudormobile.Airthings.Service.DeviceSamples
+  commentId: T:Tudormobile.Airthings.Service.DeviceSamples
+  parent: Tudormobile.Airthings.Service
+  isExternal: true
+  href: Tudormobile.Airthings.Service.DeviceSamples.html
+  name: DeviceSamples
+  nameWithType: DeviceSamples
+  fullName: Tudormobile.Airthings.Service.DeviceSamples
+- uid: Tudormobile.Airthings.Service.ServiceVersion
+  commentId: T:Tudormobile.Airthings.Service.ServiceVersion
+  parent: Tudormobile.Airthings.Service
+  isExternal: true
+  href: Tudormobile.Airthings.Service.ServiceVersion.html
+  name: ServiceVersion
+  nameWithType: ServiceVersion
+  fullName: Tudormobile.Airthings.Service.ServiceVersion
+- uid: Tudormobile.Airthings.Service
+  commentId: N:Tudormobile.Airthings.Service
+  isExternal: true
+  href: Tudormobile.html
+  name: Tudormobile.Airthings.Service
+  nameWithType: Tudormobile.Airthings.Service
+  fullName: Tudormobile.Airthings.Service
+  spec.csharp:
+  - uid: Tudormobile
+    name: Tudormobile
+    isExternal: true
+    href: Tudormobile.html
+  - name: .
+  - uid: Tudormobile.Airthings
+    name: Airthings
+    isExternal: true
+    href: Tudormobile.Airthings.html
+  - name: .
+  - uid: Tudormobile.Airthings.Service
+    name: Service
+    isExternal: true
+    href: Tudormobile.Airthings.Service.html
+  spec.vb:
+  - uid: Tudormobile
+    name: Tudormobile
+    isExternal: true
+    href: Tudormobile.html
+  - name: .
+  - uid: Tudormobile.Airthings
+    name: Airthings
+    isExternal: true
+    href: Tudormobile.Airthings.html
+  - name: .
+  - uid: Tudormobile.Airthings.Service
+    name: Service
+    isExternal: true
+    href: Tudormobile.Airthings.Service.html

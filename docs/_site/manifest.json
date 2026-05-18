@@ -1,0 +1,377 @@
+{
+  "source_base_path": "C:/Users/bill/source/repos/airthings/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.AccountResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.AccountResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.AccountResponse",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.AccountResponse.yml\" sourcestartlinenumber=\"1\">Represents an Airthings account.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.AccountsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.AccountsResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.AccountsResponse",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.AccountsResponse.yml\" sourcestartlinenumber=\"1\">Represents the response from a list accounts request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.AirthingsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.AirthingsClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.AirthingsClient",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.AirthingsClient.yml\" sourcestartlinenumber=\"1\">Provides a client for interacting with the Airthings Consumer API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.ApiResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.ApiResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.ApiResponse",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.ApiResponse.yml\" sourcestartlinenumber=\"1\">Base class for all Airthings API responses.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.DeviceResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.DeviceResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.DeviceResponse",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.DeviceResponse.yml\" sourcestartlinenumber=\"1\">Represents an Airthings device.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.DevicesResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.DevicesResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.DevicesResponse",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.DevicesResponse.yml\" sourcestartlinenumber=\"1\">Represents the response from a list devices request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.DevicesSamplesResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.DevicesSamplesResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.DevicesSamplesResponse",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.DevicesSamplesResponse.yml\" sourcestartlinenumber=\"1\">Represents the response from a devices samples request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.IAirthingsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.IAirthingsClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.IAirthingsClient",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.IAirthingsClient.yml\" sourcestartlinenumber=\"1\">Provides methods for interacting with the Airthings API to manage accounts, devices, and sensor data.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.SensorResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.SensorResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.SensorResponse",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.SensorResponse.yml\" sourcestartlinenumber=\"1\">Represents a single sensor reading from an Airthings device.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.SensorsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.SensorsResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.SensorsResponse",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.SensorsResponse.yml\" sourcestartlinenumber=\"1\">Represents the response from a sensors request for a specific device.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.Service.AirthingsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.Service.AirthingsOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.Service.AirthingsOptions",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.Service.AirthingsOptions.yml\" sourcestartlinenumber=\"1\">Configuration options for the Airthings Service.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.Service.AirthingsResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.Service.AirthingsResponse-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.Service.AirthingsResponse<T>",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.Service.AirthingsResponse-1.yml\" sourcestartlinenumber=\"1\">Represents a standardized response from the Airthings Service API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.Service.AirthingsServiceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.Service.AirthingsServiceExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.Service.AirthingsServiceExtensions",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.Service.AirthingsServiceExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for configuring Airthings Service endpoints.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.Service.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.Service.Device.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.Service.Device",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.Service.Device.yml\" sourcestartlinenumber=\"1\">Represents an Airthings device with its basic information.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.Service.DeviceSample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.Service.DeviceSample.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.Service.DeviceSample",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.Service.DeviceSample.yml\" sourcestartlinenumber=\"1\">Represents a sensor reading within an Airthings device.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.Service.DeviceSamples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.Service.DeviceSamples.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.Service.DeviceSamples",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.Service.DeviceSamples.yml\" sourcestartlinenumber=\"1\">Represents a sensor within an Airthings device.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.Service.ServiceVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.Service.ServiceVersion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.Service.ServiceVersion",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.Service.ServiceVersion.yml\" sourcestartlinenumber=\"1\">Represents version and metadata information for the Airthings Service.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.Service.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.Service",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.UnitsType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.UnitsType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings.UnitsType",
+      "Summary": "<p sourcefile=\"api/Tudormobile.Airthings.UnitsType.yml\" sourcestartlinenumber=\"1\">Specifies the unit system used for sensor readings.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tudormobile.Airthings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.Airthings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tudormobile.Airthings",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/Tudormobile.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tudormobile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

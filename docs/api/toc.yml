@@ -1,0 +1,65 @@
+### YamlMime:TableOfContent
+items:
+- uid: Tudormobile.Airthings
+  name: Tudormobile.Airthings
+  type: Namespace
+  items:
+  - uid: Tudormobile.Airthings.AccountResponse
+    name: AccountResponse
+    type: Class
+  - uid: Tudormobile.Airthings.AccountsResponse
+    name: AccountsResponse
+    type: Class
+  - uid: Tudormobile.Airthings.AirthingsClient
+    name: AirthingsClient
+    type: Class
+  - uid: Tudormobile.Airthings.ApiResponse
+    name: ApiResponse
+    type: Class
+  - uid: Tudormobile.Airthings.DeviceResponse
+    name: DeviceResponse
+    type: Class
+  - uid: Tudormobile.Airthings.DevicesResponse
+    name: DevicesResponse
+    type: Class
+  - uid: Tudormobile.Airthings.DevicesSamplesResponse
+    name: DevicesSamplesResponse
+    type: Class
+  - uid: Tudormobile.Airthings.IAirthingsClient
+    name: IAirthingsClient
+    type: Interface
+  - uid: Tudormobile.Airthings.SensorResponse
+    name: SensorResponse
+    type: Class
+  - uid: Tudormobile.Airthings.SensorsResponse
+    name: SensorsResponse
+    type: Class
+  - uid: Tudormobile.Airthings.UnitsType
+    name: UnitsType
+    type: Enum
+- uid: Tudormobile.Airthings.Service
+  name: Tudormobile.Airthings.Service
+  type: Namespace
+  items:
+  - uid: Tudormobile.Airthings.Service.AirthingsOptions
+    name: AirthingsOptions
+    type: Class
+  - uid: Tudormobile.Airthings.Service.AirthingsResponse`1
+    name: AirthingsResponse<T>
+    type: Class
+  - uid: Tudormobile.Airthings.Service.AirthingsServiceExtensions
+    name: AirthingsServiceExtensions
+    type: Class
+  - uid: Tudormobile.Airthings.Service.Device
+    name: Device
+    type: Class
+  - uid: Tudormobile.Airthings.Service.DeviceSample
+    name: DeviceSample
+    type: Class
+  - uid: Tudormobile.Airthings.Service.DeviceSamples
+    name: DeviceSamples
+    type: Class
+  - uid: Tudormobile.Airthings.Service.ServiceVersion
+    name: ServiceVersion
+    type: Class
+memberLayout: SamePage

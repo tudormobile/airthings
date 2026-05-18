@@ -209,7 +209,7 @@ public class AirthingsClientTests
         var accountId = "12345";
         var device1 = "0123456789";
         var device2 = "2989037410";
-        var uri = $"https://consumer-api.airthings.com/v1/accounts/{accountId}/sensors?device={device1}&device={device2}";
+        var uri = $"https://consumer-api.airthings.com/v1/accounts/{accountId}/sensors?device={device1}&device={device2}&unit=imperial";
         var json = @"
 {
     ""results"": [
@@ -248,10 +248,11 @@ public class AirthingsClientTests
         var clientSecret = "Client Secret";
         var clientId = "Client Id";
         var accessToken = "Access Token";
+        var unitsType = UnitsType.Imperial;
         var client = new AirthingsClient(httpClient, clientId, clientSecret, accessToken);
 
         // Act
-        var response = await client.ReadSensors(accountId, ["0123456789", "2989037410"], cancellationToken: TestContext.CancellationToken);
+        var response = await client.ReadSensors(accountId, ["0123456789", "2989037410"], unitsType, cancellationToken: TestContext.CancellationToken);
 
         // Assert
 
@@ -296,7 +297,7 @@ public class AirthingsClientTests
     {
         // Arrange
         var accountId = "12345";
-        var uri = $"https://consumer-api.airthings.com/v1/accounts/{accountId}/sensors?device=0123456789";
+        var uri = $"https://consumer-api.airthings.com/v1/accounts/{accountId}/sensors?device=0123456789&unit=metric";
         var json = @"
 {
     ""serialNumber"":""0123456789"",
@@ -333,7 +334,7 @@ this is malformed json
     {
         // Arrange
         var accountId = "12345";
-        var uri = $"https://consumer-api.airthings.com/v1/accounts/{accountId}/sensors?device=0123456789";
+        var uri = $"https://consumer-api.airthings.com/v1/accounts/{accountId}/sensors?device=0123456789&unit=metric";
         var json = @"null";
         var handler = new MockHttpMessageHandler() { JsonResponse = json };
         using var httpClient = new HttpClient(handler);

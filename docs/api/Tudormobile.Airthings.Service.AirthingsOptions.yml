@@ -1,0 +1,453 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tudormobile.Airthings.Service.AirthingsOptions
+  commentId: T:Tudormobile.Airthings.Service.AirthingsOptions
+  id: AirthingsOptions
+  parent: Tudormobile.Airthings.Service
+  children:
+  - Tudormobile.Airthings.Service.AirthingsOptions.#ctor
+  - Tudormobile.Airthings.Service.AirthingsOptions.ApiKey
+  - Tudormobile.Airthings.Service.AirthingsOptions.ClientId
+  - Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret
+  langs:
+  - csharp
+  - vb
+  name: AirthingsOptions
+  nameWithType: AirthingsOptions
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions
+  type: Class
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/AirthingsOptions.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  summary: Configuration options for the Airthings Service.
+  example: []
+  syntax:
+    content: public class AirthingsOptions
+    content.vb: Public Class AirthingsOptions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.#ctor
+  commentId: M:Tudormobile.Airthings.Service.AirthingsOptions.#ctor
+  id: '#ctor'
+  parent: Tudormobile.Airthings.Service.AirthingsOptions
+  langs:
+  - csharp
+  - vb
+  name: AirthingsOptions()
+  nameWithType: AirthingsOptions.AirthingsOptions()
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.AirthingsOptions()
+  type: Constructor
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/AirthingsOptions.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  syntax:
+    content: public AirthingsOptions()
+    content.vb: Public Sub New()
+  overload: Tudormobile.Airthings.Service.AirthingsOptions.#ctor*
+  nameWithType.vb: AirthingsOptions.New()
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsOptions.New()
+  name.vb: New()
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.ApiKey
+  commentId: P:Tudormobile.Airthings.Service.AirthingsOptions.ApiKey
+  id: ApiKey
+  parent: Tudormobile.Airthings.Service.AirthingsOptions
+  langs:
+  - csharp
+  - vb
+  name: ApiKey
+  nameWithType: AirthingsOptions.ApiKey
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.ApiKey
+  type: Property
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/AirthingsOptions.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  summary: Gets or sets the API key used to authenticate callers of this service.
+  example: []
+  syntax:
+    content: public string ApiKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApiKey As String
+  overload: Tudormobile.Airthings.Service.AirthingsOptions.ApiKey*
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.ClientId
+  commentId: P:Tudormobile.Airthings.Service.AirthingsOptions.ClientId
+  id: ClientId
+  parent: Tudormobile.Airthings.Service.AirthingsOptions
+  langs:
+  - csharp
+  - vb
+  name: ClientId
+  nameWithType: AirthingsOptions.ClientId
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.ClientId
+  type: Property
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/AirthingsOptions.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  summary: Gets or sets the Airthings OAuth2 client ID.
+  example: []
+  syntax:
+    content: public string ClientId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ClientId As String
+  overload: Tudormobile.Airthings.Service.AirthingsOptions.ClientId*
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret
+  commentId: P:Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret
+  id: ClientSecret
+  parent: Tudormobile.Airthings.Service.AirthingsOptions
+  langs:
+  - csharp
+  - vb
+  name: ClientSecret
+  nameWithType: AirthingsOptions.ClientSecret
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret
+  type: Property
+  source:
+    href: https://github.com/tudormobile/airthings/blob/2b351da493f2852dc47a21db691cad0c056efc51/src/Airthings.Service/AirthingsOptions.cs
+  assemblies:
+  - Airthings.Service
+  namespace: Tudormobile.Airthings.Service
+  summary: Gets or sets the Airthings OAuth2 client secret.
+  example: []
+  syntax:
+    content: public string ClientSecret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ClientSecret As String
+  overload: Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret*
+references:
+- uid: Tudormobile.Airthings.Service
+  commentId: N:Tudormobile.Airthings.Service
+  isExternal: true
+  href: Tudormobile.html
+  name: Tudormobile.Airthings.Service
+  nameWithType: Tudormobile.Airthings.Service
+  fullName: Tudormobile.Airthings.Service
+  spec.csharp:
+  - uid: Tudormobile
+    name: Tudormobile
+    isExternal: true
+    href: Tudormobile.html
+  - name: .
+  - uid: Tudormobile.Airthings
+    name: Airthings
+    isExternal: true
+    href: Tudormobile.Airthings.html
+  - name: .
+  - uid: Tudormobile.Airthings.Service
+    name: Service
+    isExternal: true
+    href: Tudormobile.Airthings.Service.html
+  spec.vb:
+  - uid: Tudormobile
+    name: Tudormobile
+    isExternal: true
+    href: Tudormobile.html
+  - name: .
+  - uid: Tudormobile.Airthings
+    name: Airthings
+    isExternal: true
+    href: Tudormobile.Airthings.html
+  - name: .
+  - uid: Tudormobile.Airthings.Service
+    name: Service
+    isExternal: true
+    href: Tudormobile.Airthings.Service.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.#ctor*
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsOptions.#ctor
+  isExternal: true
+  href: Tudormobile.Airthings.Service.AirthingsOptions.html#Tudormobile_Airthings_Service_AirthingsOptions__ctor
+  name: AirthingsOptions
+  nameWithType: AirthingsOptions.AirthingsOptions
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.AirthingsOptions
+  nameWithType.vb: AirthingsOptions.New
+  fullName.vb: Tudormobile.Airthings.Service.AirthingsOptions.New
+  name.vb: New
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.ApiKey*
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsOptions.ApiKey
+  isExternal: true
+  href: Tudormobile.Airthings.Service.AirthingsOptions.html#Tudormobile_Airthings_Service_AirthingsOptions_ApiKey
+  name: ApiKey
+  nameWithType: AirthingsOptions.ApiKey
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.ApiKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.ClientId*
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsOptions.ClientId
+  isExternal: true
+  href: Tudormobile.Airthings.Service.AirthingsOptions.html#Tudormobile_Airthings_Service_AirthingsOptions_ClientId
+  name: ClientId
+  nameWithType: AirthingsOptions.ClientId
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.ClientId
+- uid: Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret*
+  commentId: Overload:Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret
+  isExternal: true
+  href: Tudormobile.Airthings.Service.AirthingsOptions.html#Tudormobile_Airthings_Service_AirthingsOptions_ClientSecret
+  name: ClientSecret
+  nameWithType: AirthingsOptions.ClientSecret
+  fullName: Tudormobile.Airthings.Service.AirthingsOptions.ClientSecret
