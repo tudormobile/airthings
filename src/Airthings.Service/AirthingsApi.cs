@@ -85,7 +85,7 @@ internal class AirthingsApi
             foreach (var (accountId, devices) in data)
             {
                 var deviceMapping = devices.Devices.ToDictionary(d => d.SerialNumber, d => d);
-                var response = await _client.ReadSensors(accountId, [.. devices.Devices.Select(d => d.SerialNumber)]);
+                var response = await _client.ReadSensors(accountId, [.. devices.Devices.Select(d => d.SerialNumber)], unitsType);
                 if (response.IsSuccess)
                 {
                     response.Results.ForEach(r => reply.Samples.Add(SummaryBuilder.CreateSummary(deviceMapping, r)));
