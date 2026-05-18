@@ -36,8 +36,8 @@ public class TestFixture
         };
 
         // Create a shared AirthingsClient
-        var clientId = Environment.GetEnvironmentVariable("AIRTHINGS_CLIENT_ID") ?? throw new InvalidOperationException("Missing AIRTHINGS_CLIENT_ID environment variable");
-        var clientSecret = Environment.GetEnvironmentVariable("AIRTHINGS_CLIENT_SECRET") ?? throw new InvalidOperationException("Missing AIRTHINGS_CLIENT_SECRET environment variable");
+        var clientId = Environment.GetEnvironmentVariable("AIRTHINGS_CLIENT_ID") ?? "";
+        var clientSecret = Environment.GetEnvironmentVariable("AIRTHINGS_CLIENT_SECRET") ?? "";
         _sharedClient = new AirthingsClient(_sharedHttpClient, clientId, clientSecret);
 
         context.WriteLine("Integration test assembly initialized");
