@@ -10,7 +10,7 @@ using Tudormobile.Airthings;
 - [Tudormobile.Airthings](Tudormobile.Airthings.yml)
     - Root namespace for the library. Essential classes that comprise the library.
     - Provides client and data model for directly accessing the Airthings Api.
-    - Suitable for application that directly access the Airthings Api.
+    - Suitable for applications that directly access the Airthings Api.
 
 ### AirthingsService.dll
 
