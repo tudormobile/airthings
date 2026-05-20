@@ -22,13 +22,14 @@ public static class SummaryBuilder
     /// </returns>
     internal static SummarySample CreateSummary(IDictionary<string, DeviceResponse> deviceMapping, SensorsResponse r)
     {
-        var result = new SummarySample();
         deviceMapping.TryGetValue(r.SerialNumber, out var device);
-        result.Home = device?.Home ?? "Unknown";
-        result.Name = device?.Name ?? "Unknown";
-        result.Radon = r.Sensors.FirstOrDefault(s => s.SensorType == "radonShortTermAvg")?.Value ?? 0;
-        result.Humidity = r.Sensors.FirstOrDefault(s => s.SensorType == "humidity")?.Value ?? 0;
-        result.Temperature = r.Sensors.FirstOrDefault(s => s.SensorType == "temp")?.Value ?? 0;
-        return result;
+        return new SummarySample
+        {
+            Home = device?.Home ?? "Unknown",
+            Name = device?.Name ?? "Unknown",
+            Radon = r.Sensors.FirstOrDefault(s => s.SensorType == "radonShortTermAvg")?.Value ?? 0,
+            Humidity = r.Sensors.FirstOrDefault(s => s.SensorType == "humidity")?.Value ?? 0,
+            Temperature = r.Sensors.FirstOrDefault(s => s.SensorType == "temp")?.Value ?? 0,
+        };
     }
 }

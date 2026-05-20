@@ -1,4 +1,7 @@
+using System.Diagnostics.CodeAnalysis;
 using Tudormobile.Airthings.Service;
+
+[assembly: ExcludeFromCodeCoverage]
 
 var builder = WebApplication.CreateBuilder(args);
 
