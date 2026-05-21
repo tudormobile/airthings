@@ -154,6 +154,10 @@ jobs:
             echo "Creating release $RELEASE_TAG"
             gh release create "$RELEASE_TAG" "$ZIP_PATH#package" --title "$RELEASE_TAG" --generate-notes
           fi
+      - name: Build Release Packages
+        run: |
+          cd src
+          dotnet build -c Release
 
       - name: Publish NuGet Packages
         run: |
