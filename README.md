@@ -26,13 +26,13 @@ To build a proxy service, include the `Airthings.Service` library to expose the 
 - `/samples` - Latest data from all devices
 - `/summary` - Summary data for all devices
 
-All endpoints are chached for 30-60 minutes. Application identifier and client secret are used only in the proxy service configuration.
+All endpoints are cached for 30-60 minutes. Application identifier and client secret are used only in the proxy service configuration.
 
 ```cs
 using Tudormobile.Airthings.Service;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddAirthingsService(builder.Configuration);
+builder.Services.Service(builder.Configuration);
 
 var app = builder.Build();
 app.UseAirthingsService();

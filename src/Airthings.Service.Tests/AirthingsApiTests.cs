@@ -76,7 +76,6 @@ public class AirthingsApiTests
             }
         };
         var env = new MockWebHostEnvironment();
-        var options = _services.GetRequiredService<IOptions<JsonOptions>>();
         var api = new AirthingsApi(ApiKey, client, NullLogger<AirthingsApi>.Instance, env);
 
         // Act
@@ -88,7 +87,7 @@ public class AirthingsApiTests
 
         context.Response.Body.Seek(0, SeekOrigin.Begin);
         using var reader = new StreamReader(context.Response.Body);
-        var json = await reader.ReadToEndAsync();
+        var json = await reader.ReadToEndAsync(TestContext.CancellationToken);
         var body = JsonSerializer.Deserialize<AirthingsResponse<List<Device>>>(json, JsonOptions);
 
         Assert.IsNotNull(body);
@@ -131,7 +130,6 @@ public class AirthingsApiTests
             }
         };
         var env = new MockWebHostEnvironment();
-        var options = _services.GetRequiredService<IOptions<JsonOptions>>();
         var api = new AirthingsApi(ApiKey, client, NullLogger<AirthingsApi>.Instance, env);
 
         // Act
@@ -143,7 +141,7 @@ public class AirthingsApiTests
 
         context.Response.Body.Seek(0, SeekOrigin.Begin);
         using var reader = new StreamReader(context.Response.Body);
-        var json = await reader.ReadToEndAsync();
+        var json = await reader.ReadToEndAsync(TestContext.CancellationToken);
         var body = JsonSerializer.Deserialize<AirthingsResponse<List<DeviceSamples>>>(json, JsonOptions);
 
         Assert.IsNotNull(body);
@@ -202,7 +200,7 @@ public class AirthingsApiTests
 
         context.Response.Body.Seek(0, SeekOrigin.Begin);
         using var reader = new StreamReader(context.Response.Body);
-        var json = await reader.ReadToEndAsync();
+        var json = await reader.ReadToEndAsync(TestContext.CancellationToken);
         var body = JsonSerializer.Deserialize<AirthingsResponse<SummarySamples>>(json, JsonOptions);
 
         Assert.IsNotNull(body);
@@ -224,7 +222,6 @@ public class AirthingsApiTests
         var context = CreateHttpContext();
         var client = new MockAirthingsClient() { AlwaysThrows = new Exception("Test exception"), };
         var env = new MockWebHostEnvironment();
-        var options = _services.GetRequiredService<IOptions<JsonOptions>>();
         var api = new AirthingsApi(ApiKey, client, NullLogger<AirthingsApi>.Instance, env);
 
         // Act
@@ -236,7 +233,7 @@ public class AirthingsApiTests
 
         context.Response.Body.Seek(0, SeekOrigin.Begin);
         using var reader = new StreamReader(context.Response.Body);
-        var json = await reader.ReadToEndAsync();
+        var json = await reader.ReadToEndAsync(TestContext.CancellationToken);
         var body = JsonSerializer.Deserialize<AirthingsResponse<string>>(json, JsonOptions);
 
         Assert.IsNotNull(body);

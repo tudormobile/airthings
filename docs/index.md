@@ -23,7 +23,7 @@ var clientSecret = "your_client_secret";
 using var httpClient = new HttpClient();
 using var client = new AirthingsClient(httpClient, clientId, clientSecret);
 
-var response = client.ListAccounts();
+var response = await client.ListAccounts();
 if (response.IsSuccess)
 {
     // ...

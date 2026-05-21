@@ -29,7 +29,7 @@ Or add directly to your `.csproj`:
 using Tudormobile.Airthings.Service;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.AddAirthingsService(builder.Configuration);
+builder.Services.AddAirthingsService(builder.Configuration);
 // ...
 var app = builder.Build();
 app.UseAirthingsService();
@@ -143,7 +143,7 @@ public sealed record DeviceSample
 #### /summary Endpoint
 **Response**:  
 Failure: The Data object is a string representing a general error message.  
-Success: The Data object is an array of `SummarySamples`.  
+Success: The Data object is an instance of `SummarySamples`.  
 ```cs
 public sealed record SummarySamples
 {
@@ -155,7 +155,7 @@ public sealed record SummarySamples
 public sealed record SummarySample
 {
     public string Home { get; }
-    public double Name { get; }
+    public string Name { get; }
     public double Radon { get; }
     public double Humidity { get; }
     public double Temperature { get; }

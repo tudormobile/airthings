@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/github/license/tudormobile/Airthings)](https://github.com/tudormobile/Airthings/blob/main/LICENSE.txt)
 [![.NET](https://img.shields.io/badge/.NET-10.0-blue.svg)](https://dotnet.microsoft.com/download)
 
-Client access and object model for the Airthings Comsumer API.
+Client access and object model for the Airthings Consumer API.
 
 ## Installation
 Install via NuGet Package Manager:
@@ -45,5 +45,5 @@ var accounts = await client.ListAccounts();
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/tudormobile/Airthings/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/tudormobile/Airthings/blob/main/LICENSE.txt) file for details.
 
