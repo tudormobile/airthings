@@ -1,13 +1,13 @@
 ﻿namespace Airthings.Tests;
 
 [TestClass]
-public class AccountResponseTests
+public class AccountTests
 {
     [TestMethod]
-    public void AccountResponse_CanBeInstantiated()
+    public void Account_CanBeInstantiated()
     {
         // Act
-        var response = new AccountResponse();
+        var response = new Account();
 
         // Assert
         Assert.IsNotNull(response);
@@ -15,13 +15,13 @@ public class AccountResponseTests
     }
 
     [TestMethod]
-    public void AccountResponse_PropertiesCanBeSet()
+    public void Account_PropertiesCanBeSet()
     {
         // Arrange
         var id = "account-456";
 
         // Act
-        var response = new AccountResponse { Id = id };
+        var response = new Account { Id = id };
 
         // Assert
         Assert.AreEqual(id, response.Id);

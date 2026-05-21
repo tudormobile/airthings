@@ -1,13 +1,13 @@
 ﻿namespace Airthings.Tests;
 
 [TestClass]
-public class SensorResponseTests
+public class SensorTests
 {
     [TestMethod]
-    public void SensorResponse_CanBeInstantiated()
+    public void Sensor_CanBeInstantiated()
     {
         // Act
-        var response = new SensorResponse();
+        var response = new Sensor();
 
         // Assert
         Assert.IsNotNull(response);
@@ -17,10 +17,10 @@ public class SensorResponseTests
     }
 
     [TestMethod]
-    public void SensorResponse_PropertiesCanBeSet()
+    public void Sensor_PropertiesCanBeSet()
     {
         // Arrange & Act
-        var response = new SensorResponse
+        var response = new Sensor
         {
             SensorType = "temp",
             Value = 22.5,

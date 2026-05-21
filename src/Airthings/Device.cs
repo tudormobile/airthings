@@ -6,7 +6,7 @@
 /// <remarks>
 /// Mapping of the Airthings API response.
 /// </remarks>
-public record DeviceResponse
+public record Device
 {
     /// <summary>
     /// Gets or sets the unique serial number of the device.

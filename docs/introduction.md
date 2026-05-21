@@ -33,9 +33,9 @@ public record ApiResponse
 ```
 Always check the `IsSuccess` property to ensure valid data has been returned. In the event of an error, `IsSuccess` will return `false` and the error message will be returned in the `Message` property. In the case of success, the `Message` property will be `null`.
 
-- `AccountsResponse` - A list of `AccountResponse` objects
+- `AccountsResponse` - A list of `Account` objects
 - `DevicesResponse` - A list of `Device` objects
-- `DevicesSamplesReponse` - A list of `SensorResponse` objects
+- `DevicesSamplesReponse` - A list of `Sensor` objects
 
 ### Authorization
 The Airthings consumer api requires application registration. See the [Airthings documentation](https://consumer-api-doc.airthings.com/docs/api/getting-started) for details. Provide your provided *clientId* and *clientSecret* when creating the `AirthingsClient` object. Authorization tokens are silently managed for you when accessing the api. You can obtain the token for persistence via the `AccessToken` property, however, these tokens are typically short lived. The `AirthingsClient` is designed as a long-lived disposable object that can be shared throughout your application lifetime.

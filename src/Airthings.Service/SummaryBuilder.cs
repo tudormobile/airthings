@@ -20,7 +20,7 @@ public static class SummaryBuilder
     /// Sensor values default to <c>0</c> if the corresponding sensor type is not present in the response.
     /// Home and name default to <c>"Unknown"</c> if the serial number is not found in <paramref name="deviceMapping"/>.
     /// </returns>
-    internal static SummarySample CreateSummary(IDictionary<string, DeviceResponse> deviceMapping, SensorsResponse r)
+    internal static SummarySample CreateSummary(IDictionary<string, Airthings.Device> deviceMapping, SensorsResponse r)
     {
         deviceMapping.TryGetValue(r.SerialNumber, out var device);
         return new SummarySample

@@ -14,7 +14,7 @@ public record SensorsResponse
     /// <summary>
     /// Gets or sets the collection of sensor responses associated with the current device.
     /// </summary>
-    public List<SensorResponse> Sensors { get; set; } = [];
+    public List<Sensor> Sensors { get; set; } = [];
 
     /// <summary>
     /// Gets or sets the date and time when the event was recorded by the device.

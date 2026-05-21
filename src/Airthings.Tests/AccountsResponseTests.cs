@@ -20,7 +20,7 @@ public class AccountsResponseTests
     {
         // Arrange
         var response = new AccountsResponse();
-        var accounts = new List<AccountResponse>
+        var accounts = new List<Account>
         {
             new() { Id = "account-1" },
             new() { Id = "account-2" }

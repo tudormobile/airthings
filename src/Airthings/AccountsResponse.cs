@@ -11,5 +11,5 @@ public record AccountsResponse : ApiResponse
     /// <summary>
     /// Gets or sets the collection of accounts accessible with the current credentials.
     /// </summary>
-    public List<AccountResponse> Accounts { get; set; } = [];
+    public List<Account> Accounts { get; set; } = [];
 }

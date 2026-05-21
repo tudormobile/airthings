@@ -20,7 +20,7 @@ public class DevicesResponseTests
     {
         // Arrange
         var response = new DevicesResponse();
-        var devices = new List<DeviceResponse>
+        var devices = new List<Device>
         {
             new() { SerialNumber = "123", Name = "Device 1" },
             new() { SerialNumber = "456", Name = "Device 2" }

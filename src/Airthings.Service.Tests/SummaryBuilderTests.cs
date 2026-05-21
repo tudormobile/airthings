@@ -3,10 +3,10 @@
 [TestClass]
 public class SummaryBuilderTests
 {
-    private static readonly Dictionary<string, DeviceResponse> _deviceMapping = new()
+    private static readonly Dictionary<string, Tudormobile.Airthings.Device> _deviceMapping = new()
     {
-        ["123456"] = new DeviceResponse { Home = "Basement", Name = "Wave Plus", SerialNumber = "123456" },
-        ["789012"] = new DeviceResponse { Home = "Living Room", Name = "Wave Mini", SerialNumber = "789012" },
+        ["123456"] = new Tudormobile.Airthings.Device { Home = "Basement", Name = "Wave Plus", SerialNumber = "123456" },
+        ["789012"] = new Tudormobile.Airthings.Device { Home = "Living Room", Name = "Wave Mini", SerialNumber = "789012" },
     };
 
     private static SensorsResponse BuildSensors(string serial, double radon = 0, double humidity = 0, double temp = 0)
@@ -15,9 +15,9 @@ public class SummaryBuilderTests
             SerialNumber = serial,
             Sensors =
             [
-                new SensorResponse { SensorType = "radonShortTermAvg", Value = radon },
-                new SensorResponse { SensorType = "humidity", Value = humidity },
-                new SensorResponse { SensorType = "temp", Value = temp },
+                new Sensor { SensorType = "radonShortTermAvg", Value = radon },
+                new Sensor { SensorType = "humidity", Value = humidity },
+                new Sensor { SensorType = "temp", Value = temp },
             ]
         };
 
@@ -76,7 +76,7 @@ public class SummaryBuilderTests
     {
         var sensors = BuildSensors("123456", radon: 100.0);
 
-        var result = SummaryBuilder.CreateSummary(new Dictionary<string, DeviceResponse>(), sensors);
+        var result = SummaryBuilder.CreateSummary(new Dictionary<string, Tudormobile.Airthings.Device>(), sensors);
 
         Assert.AreEqual("Unknown", result.Home);
         Assert.AreEqual("Unknown", result.Name);
@@ -91,7 +91,7 @@ public class SummaryBuilderTests
             SerialNumber = "789012",
             Sensors =
             [
-                new SensorResponse { SensorType = "humidity", Value = 60.0 },
+                new Sensor { SensorType = "humidity", Value = 60.0 },
                 // radon and temp intentionally omitted
             ]
         };

@@ -69,10 +69,10 @@ public class AirthingsApiTests
         var context = CreateHttpContext();
         var client = new MockAirthingsClient()
         {
-            Accounts = new AccountsResponse() { Accounts = [new AccountResponse() { Id = "a1" }] },
+            Accounts = new AccountsResponse() { Accounts = [new Account() { Id = "a1" }] },
             Devices = new DevicesResponse()
             {
-                Devices = [new DeviceResponse() { Home = "home", Name = "name", SerialNumber = "12345", Type = "some type", Sensors = ["one", "two"] }]
+                Devices = [new Tudormobile.Airthings.Device() { Home = "home", Name = "name", SerialNumber = "12345", Type = "some type", Sensors = ["one", "two"] }]
             }
         };
         var env = new MockWebHostEnvironment();
@@ -88,7 +88,7 @@ public class AirthingsApiTests
         context.Response.Body.Seek(0, SeekOrigin.Begin);
         using var reader = new StreamReader(context.Response.Body);
         var json = await reader.ReadToEndAsync(TestContext.CancellationToken);
-        var body = JsonSerializer.Deserialize<AirthingsResponse<List<Device>>>(json, JsonOptions);
+        var body = JsonSerializer.Deserialize<AirthingsResponse<List<Tudormobile.Airthings.Service.Device>>>(json, JsonOptions);
 
         Assert.IsNotNull(body);
         Assert.IsTrue(body.IsSuccess);
@@ -106,10 +106,10 @@ public class AirthingsApiTests
         var context = CreateHttpContext();
         var client = new MockAirthingsClient()
         {
-            Accounts = new AccountsResponse() { Accounts = [new AccountResponse() { Id = "a1" }] },
+            Accounts = new AccountsResponse() { Accounts = [new Account() { Id = "a1" }] },
             Devices = new DevicesResponse()
             {
-                Devices = [new DeviceResponse() { Home = "home", Name = "name", SerialNumber = "12345", Type = "some type", Sensors = ["one", "two"] }]
+                Devices = [new Tudormobile.Airthings.Device() { Home = "home", Name = "name", SerialNumber = "12345", Type = "some type", Sensors = ["one", "two"] }]
             },
             Samples = new DevicesSamplesResponse()
             {
@@ -122,8 +122,8 @@ public class AirthingsApiTests
                         Recorded = DateTime.Now,
                         SerialNumber = "12345",
                         Sensors = [
-                            new SensorResponse() { SensorType = "one", Unit = "bq", Value = 65 },
-                            new SensorResponse() { SensorType = "two", Unit = "c", Value = 42.42 }
+                            new Sensor() { SensorType = "one", Unit = "bq", Value = 65 },
+                            new Sensor() { SensorType = "two", Unit = "c", Value = 42.42 }
                         ]
                     }
                 ]
@@ -164,10 +164,10 @@ public class AirthingsApiTests
         var context = CreateHttpContext();
         var client = new MockAirthingsClient()
         {
-            Accounts = new AccountsResponse() { Accounts = [new AccountResponse() { Id = "a1" }] },
+            Accounts = new AccountsResponse() { Accounts = [new Account() { Id = "a1" }] },
             Devices = new DevicesResponse()
             {
-                Devices = [new DeviceResponse() { Home = "home", Name = "name", SerialNumber = "12345", Type = "some type", Sensors = ["one", "two"] }]
+                Devices = [new Tudormobile.Airthings.Device() { Home = "home", Name = "name", SerialNumber = "12345", Type = "some type", Sensors = ["one", "two"] }]
             },
             Samples = new DevicesSamplesResponse()
             {
@@ -180,9 +180,9 @@ public class AirthingsApiTests
                         Recorded = DateTime.Now,
                         SerialNumber = "12345",
                         Sensors = [
-                            new SensorResponse() { SensorType = "radonShortTermAvg", Unit = "bq", Value = 65 },
-                            new SensorResponse() { SensorType = "humidity", Unit = "%", Value = 42.0 },
-                            new SensorResponse() { SensorType = "temp", Unit = "c", Value = 21.5 }
+                            new Sensor() { SensorType = "radonShortTermAvg", Unit = "bq", Value = 65 },
+                            new Sensor() { SensorType = "humidity", Unit = "%", Value = 42.0 },
+                            new Sensor() { SensorType = "temp", Unit = "c", Value = 21.5 }
                         ]
                     }
                 ]

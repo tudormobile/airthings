@@ -20,7 +20,7 @@ public class SensorsResponseTests
     {
         // Arrange
         var serialNumber = "2960166624";
-        var sensors = new List<SensorResponse>
+        var sensors = new List<Sensor>
         {
             new() { SensorType = "radonShortTermAvg", Value = 150.0, Unit = "bq" }
         };

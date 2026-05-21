@@ -11,5 +11,5 @@ public record DevicesResponse : ApiResponse
     /// <summary>
     /// Gets or sets the collection of devices associated with the requested account.
     /// </summary>
-    public List<DeviceResponse> Devices { get; set; } = [];
+    public List<Device> Devices { get; set; } = [];
 }

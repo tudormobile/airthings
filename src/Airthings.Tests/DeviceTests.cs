@@ -1,13 +1,13 @@
 ﻿namespace Airthings.Tests;
 
 [TestClass]
-public class DeviceResponseTests
+public class DeviceTests
 {
     [TestMethod]
-    public void DeviceResponse_CanBeInstantiated()
+    public void Device_CanBeInstantiated()
     {
         // Act
-        var response = new DeviceResponse();
+        var response = new Device();
 
         // Assert
         Assert.IsNotNull(response);
@@ -19,10 +19,10 @@ public class DeviceResponseTests
     }
 
     [TestMethod]
-    public void DeviceResponse_PropertiesCanBeSet()
+    public void Device_PropertiesCanBeSet()
     {
         // Arrange & Act
-        var response = new DeviceResponse
+        var response = new Device
         {
             SerialNumber = "67890",
             Home = "Kitchen",

@@ -6,7 +6,7 @@
 /// <remarks>
 /// Mapping of the Airthings API response.
 /// </remarks>
-public record AccountResponse
+public record Account
 {
     /// <summary>
     /// Gets or sets the unique identifier of the account.

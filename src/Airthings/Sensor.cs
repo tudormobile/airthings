@@ -6,7 +6,7 @@
 /// <remarks>
 /// Mapping of the Airthings API response.
 /// </remarks>
-public record SensorResponse
+public record Sensor
 {
     /// <summary>
     /// Gets or sets the type of sensor (e.g., <c>radonShortTermAvg</c>).

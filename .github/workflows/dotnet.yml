@@ -155,3 +155,16 @@ jobs:
             gh release create "$RELEASE_TAG" "$ZIP_PATH#package" --title "$RELEASE_TAG" --generate-notes
           fi
 
+      - name: Publish NuGet Packages
+        run: |
+          mapfile -t packages < <(find src -type f -path '*/bin/Release/*.nupkg' | sort)
+          if [ ${#packages[@]} -eq 0 ]; then
+            echo "No NuGet packages found under src/**/bin/Release."
+            exit 1
+          fi
+
+          for package in "${packages[@]}"; do
+            dotnet nuget push "$package" --source "https://nuget.pkg.github.com/tudormobile/index.json" --api-key "${{ secrets.GITHUB_TOKEN }}" --skip-duplicate
+            dotnet nuget push "$package" --source "https://api.nuget.org/v3/index.json" --api-key "${{ secrets.NUGET_TOKEN }}" --skip-duplicate
+          done
+
