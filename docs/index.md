@@ -17,15 +17,18 @@ _layout: landing
 ```cs
 using Tudormobile.Airthings;
 
+var clientId = "your_client_id";
+var clientSecret = "your_client_secret";
+
 using var httpClient = new HttpClient();
-using var client = new AirthingsClient(httpClient, "your_client_id", "your_client_secret");
+using var client = new AirthingsClient(httpClient, clientId, clientSecret);
 
+var response = client.ListAccounts();
+if (response.IsSuccess)
+{
+    // ...
+}
 ```
-
-## Build Documentation
-
-[Building the documentation](README.md) locally using DocFX.    
-
 ---
 
 **Links:** [`Source Code`](https://github.com/tudormobile/airthings) | [`NuGet Package`](https://www.nuget.org/packages/Tudormobile.Airthings)
