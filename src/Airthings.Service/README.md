@@ -1,24 +1,50 @@
 ﻿# Airthings Service
+[![NuGet](https://img.shields.io/nuget/v/Tudormobile.Airthings.Service.svg)](https://www.nuget.org/packages/Tudormobile.Airthings.Service/)
+[![License](https://img.shields.io/github/license/tudormobile/Airthings)](https://github.com/tudormobile/Airthings/blob/main/LICENSE.txt)
+[![.NET](https://img.shields.io/badge/.NET-10.0-blue.svg)](https://dotnet.microsoft.com/download)
+
 Web services library to access Airthings sensors.
+
+## Installation
+Install via NuGet Package Manager:
+
+```sh
+dotnet add package Tudormobile.Airthings.Service
+```
+
+Or via Package Manager Console:
+
+```powershell
+Install-Package Tudormobile.Airthings.Service
+```
+
+Or add directly to your `.csproj`:
+
+```xml
+<PackageReference Include="Tudormobile.AirthingsService" Version="1.0.0" />
+```
 
 ## Quick Start
 ```cs
 using Tudormobile.Airthings.Service;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddAirthingsService(builder.Configuration);
 // ...
 var app = builder.Build();
 app.UseAirthingsService();
 // ...
 app.Run();
 ```
+
 ### Web Service Endpoints
 
 /home/airthings/v1 -> airthings service
 
 `/status` - Returns web service status information  
 `/devices` - Returns collection of available devices  
-`/samples` - Returns all available sensor data
+`/samples` - Returns all available sensor data  
+`/summary` - Returns a summary of available sensor data  
 
 > [!NOTE]
 > All endpoints will cache data for at least 15 minutes to avoid 
@@ -114,7 +140,56 @@ public sealed record DeviceSample
     "value" : number (double)
 }
 ```
-### Service Client
+#### /summary Endpoint
+**Response**:  
+Failure: The Data object is a string representing a general error message.  
+Success: The Data object is an instance of `SummarySamples`.  
+```cs
+public sealed record SummarySamples
+{
+    public DateTimeOffset LastUpdated { get; }
+    public ServiceVersion Version { get; } 
+    public List<SummarySample> Samples { get; }
+}
+
+public sealed record SummarySample
+{
+    public string Home { get; }
+    public string Name { get; }
+    public double Radon { get; }
+    public double Humidity { get; }
+    public double Temperature { get; }
+}
+```
+```json
+{
+    "lastUpdated": "2026-05-19T21:17:50.9051184+00:00",
+    "version": {
+      "name": "AirthingsService",
+      "description": "Web services API layer for Airthings applications",
+      "copyright": "COPYRIGHT(C)2026 BILL TUDOR",
+      "version": "1.0.0"
+    },
+    "samples": [
+      {
+        "home": "My Home",
+        "name": "My Home Device 1",
+        "radon": 4.57,
+        "humidity": 42,
+        "temperature": 65.2
+      },
+      {
+        "home": "My Home",
+        "name": "My Home Device 2",
+        "radon": 1.38,
+        "humidity": 49,
+        "temperature": 74.6
+      }
+    ]
+}
+```
+
+### Service (Proxy) Client
 A dedicated service client is provided as a service access abstraction for client software written in ***dotnet***.
 
 > [!NOTE]

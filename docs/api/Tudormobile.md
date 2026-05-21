@@ -3,7 +3,7 @@ The namespaces available in the *Tudormobile.Airthings* library are described be
 
 ### Tudormobile.Airthings.dll
 
-```
+```cs
 using Tudormobile.Airthings;
 ```
 
@@ -14,7 +14,7 @@ using Tudormobile.Airthings;
 
 ### AirthingsService.dll
 
-```
+```cs
 using Tudormobile.Airthings.Service;
 ```
 - [Tudormobile.Airthings.Service](Tudormobile.Airthings.Service.yml)

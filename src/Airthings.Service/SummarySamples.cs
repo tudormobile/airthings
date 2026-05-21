@@ -3,7 +3,7 @@
 /// <summary>
 /// Represents a summary of the latest sensor readings across all devices, including service metadata.
 /// </summary>
-public record SummarySamples
+public sealed record SummarySamples
 {
     /// <summary>
     /// Gets or sets the UTC timestamp indicating when this summary was last populated from the Airthings API.
