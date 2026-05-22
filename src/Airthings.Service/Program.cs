@@ -1,8 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 using Tudormobile.Airthings.Service;
 
-[assembly: ExcludeFromCodeCoverage]
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add CORS policy for specific domains (localhost origins only in Development)
@@ -46,3 +44,13 @@ app.UseCors("AllowSpecificOrigins");
 app.UseAirthingsService();
 
 app.Run();
+
+/// <summary>
+/// Host for the Airthings Service to run locally during testing.
+/// </summary>
+#pragma warning disable ASP0027 // Using this to exclude the Program class from code coverage as it contains only boilerplate code.
+[ExcludeFromCodeCoverage]
+public partial class Program
+{
+}
+#pragma warning restore ASP0027 // Unnecessary public Program class declaration

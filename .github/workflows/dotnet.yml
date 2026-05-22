@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [ "main" ]
+    tags: [ "v*" ]
     paths:
       - 'src/**'
       - '.github/workflows/dotnet.yml'
@@ -82,11 +83,23 @@ jobs:
           echo "### Code Coverage" >> "$GITHUB_STEP_SUMMARY"
           grep -oP '<summary>\K.+%(?=</summary>)' output/SummaryGithub.md >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Build
+        run: |
+          cd src
+          dotnet build -c Release
+
       - name: Publish
         run: |
           cd src
           dotnet publish Airthings.Service/Airthings.Service.csproj -c Release -o publish -p:UseAppHost=false
+          echo "## Airthings.Service publish Version: ${{ steps.version_step.outputs.semVer }}"
           echo "${{ steps.version_step.outputs.semVer }}" > publish/ver.txt
+
+      - name: Upload Packages
+        uses: actions/upload-artifact@v7
+        with:
+          name: package
+          path: src/**/bin/Release/*.nupkg
 
       - name: Create Zip for Release
         run: |
@@ -94,7 +107,7 @@ jobs:
           zip -r ../../package.zip .
 
       - name: Upload Release Zip
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: release-zip
           path: package.zip
@@ -135,6 +148,12 @@ jobs:
         run: |
           echo "release_tag=v${{ steps.release_version_step.outputs.semVer }}" >> $GITHUB_OUTPUT
 
+      - name: Download Package Artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: package
+          path: package
+
       - name: Download Release Zip Artifact
         uses: actions/download-artifact@v8
         with:
@@ -154,16 +173,12 @@ jobs:
             echo "Creating release $RELEASE_TAG"
             gh release create "$RELEASE_TAG" "$ZIP_PATH#package" --title "$RELEASE_TAG" --generate-notes
           fi
-      - name: Build Release Packages
-        run: |
-          cd src
-          dotnet build -c Release
 
       - name: Publish NuGet Packages
         run: |
-          mapfile -t packages < <(find src -type f -path '*/bin/Release/*.nupkg' | sort)
+          mapfile -t packages < <(find package -type f -name '*.nupkg' | sort)
           if [ ${#packages[@]} -eq 0 ]; then
-            echo "No NuGet packages found under src/**/bin/Release."
+            echo "No NuGet packages found under downloaded artifact path package/."
             exit 1
           fi
 

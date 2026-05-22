@@ -3,7 +3,9 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
     <RootNamespace>Tudormobile.$(MSBuildProjectName)</RootNamespace>
+    <PackageId>Tudormobile.$(MSBuildProjectName)</PackageId>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
