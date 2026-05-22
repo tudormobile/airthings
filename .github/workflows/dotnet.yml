@@ -92,6 +92,7 @@ jobs:
         run: |
           cd src
           dotnet publish Airthings.Service/Airthings.Service.csproj -c Release -o publish -p:UseAppHost=false
+          echo "## Airthings.Service publish Version: ${{ steps.version_step.outputs.semVer }}"
           echo "${{ steps.version_step.outputs.semVer }}" > publish/ver.txt
 
       - name: Upload Packages
