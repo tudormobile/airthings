@@ -100,6 +100,42 @@ public class AirthingsApiTests
     }
 
     [TestMethod]
+    public async Task GetDevicesAsync_ReturnsError()
+    {
+        // Arrange
+        var errorMessage = "Devices resulted in exception";
+        var context = CreateHttpContext();
+        var client = new MockAirthingsClient()
+        {
+            Accounts = new AccountsResponse() { Accounts = [new Account() { Id = "a1" }] },
+            Devices = new DevicesResponse()
+            {
+                Devices = [new Tudormobile.Airthings.Device() { Home = "home", Name = "name", SerialNumber = "12345", Type = "some type", Sensors = ["one", "two"] }]
+            },
+            DevicesAlwaysThrows = new Exception(errorMessage)
+        };
+        var env = new MockWebHostEnvironment();
+        var api = new AirthingsApi(ApiKey, client, NullLogger<AirthingsApi>.Instance, env);
+
+        // Act
+        var result = await api.GetDevicesAsync(context, ApiKey);
+        await result.ExecuteAsync(context);
+
+        // Assert
+        Assert.AreEqual(200, context.Response.StatusCode);
+
+        context.Response.Body.Seek(0, SeekOrigin.Begin);
+        using var reader = new StreamReader(context.Response.Body);
+        var json = await reader.ReadToEndAsync(TestContext.CancellationToken);
+        var body = JsonSerializer.Deserialize<AirthingsResponse<string>>(json, JsonOptions);
+
+        Assert.IsNotNull(body);
+        Assert.IsFalse(body.IsSuccess);
+        Assert.IsNotNull(body.Data);
+        Assert.AreEqual(errorMessage, body.Data);
+    }
+
+    [TestMethod]
     public async Task GetSamplesAsync_ReturnsSuccess()
     {
         // Arrange
@@ -239,6 +275,146 @@ public class AirthingsApiTests
         Assert.IsNotNull(body);
         Assert.IsFalse(body.IsSuccess);
         Assert.AreEqual("Test exception", body.Data);
+    }
+
+    [TestMethod]
+    public async Task GetDevicesAsync_ListDevicesReturnsFailure_ReturnsError()
+    {
+        // Arrange - This tests line 122 of AirthingsApi.cs (FetchAccountDevicesAsync)
+        var context = CreateHttpContext();
+        var errorMessage = "Request failed with status 401: Unauthorized";
+        var client = new MockAirthingsClient()
+        {
+            Accounts = new AccountsResponse() { Accounts = [new Account() { Id = "a1" }] },
+            DevicesByAccount = new Dictionary<string, DevicesResponse>
+            {
+                ["a1"] = new DevicesResponse { Message = errorMessage } // Failed response with Message set
+            }
+        };
+        var env = new MockWebHostEnvironment();
+        var api = new AirthingsApi(ApiKey, client, NullLogger<AirthingsApi>.Instance, env);
+
+        // Act
+        var result = await api.GetDevicesAsync(context, ApiKey);
+        await result.ExecuteAsync(context);
+
+        // Assert
+        Assert.AreEqual(200, context.Response.StatusCode);
+
+        context.Response.Body.Seek(0, SeekOrigin.Begin);
+        using var reader = new StreamReader(context.Response.Body);
+        var json = await reader.ReadToEndAsync(TestContext.CancellationToken);
+        var body = JsonSerializer.Deserialize<AirthingsResponse<string>>(json, JsonOptions);
+
+        Assert.IsNotNull(body);
+        Assert.IsFalse(body.IsSuccess);
+        Assert.AreEqual(errorMessage, body.Data);
+    }
+
+    [TestMethod]
+    public async Task GetSamplesAsync_FetchAccountDevicesFails_ReturnsError()
+    {
+        // Arrange - This tests line 48 of AirthingsApi.cs (failure from FetchAccountDevicesAsync)
+        var context = CreateHttpContext();
+        var errorMessage = "Failed to list accounts";
+        var client = new MockAirthingsClient()
+        {
+            Accounts = new AccountsResponse() { Message = errorMessage } // Failed accounts response
+        };
+        var env = new MockWebHostEnvironment();
+        var api = new AirthingsApi(ApiKey, client, NullLogger<AirthingsApi>.Instance, env);
+
+        // Act
+        var result = await api.GetSamplesAsync(context, ApiKey);
+        await result.ExecuteAsync(context);
+
+        // Assert
+        Assert.AreEqual(200, context.Response.StatusCode);
+
+        context.Response.Body.Seek(0, SeekOrigin.Begin);
+        using var reader = new StreamReader(context.Response.Body);
+        var json = await reader.ReadToEndAsync(TestContext.CancellationToken);
+        var body = JsonSerializer.Deserialize<AirthingsResponse<string>>(json, JsonOptions);
+
+        Assert.IsNotNull(body);
+        Assert.IsFalse(body.IsSuccess);
+        Assert.AreEqual(errorMessage, body.Data);
+    }
+
+    [TestMethod]
+    public async Task GetSamplesAsync_ReadSensorsReturnsFailure_ReturnsError()
+    {
+        // Arrange - This tests lines 68-73 of AirthingsApi.cs (ReadSensors failure)
+        var context = CreateHttpContext();
+        var errorMessage = "Request failed with status 500: Internal Server Error";
+        var client = new MockAirthingsClient()
+        {
+            Accounts = new AccountsResponse() { Accounts = [new Account() { Id = "a1" }] },
+            Devices = new DevicesResponse()
+            {
+                Devices = [new Tudormobile.Airthings.Device() { SerialNumber = "12345" }]
+            },
+            SamplesByAccount = new Dictionary<string, DevicesSamplesResponse>
+            {
+                ["a1"] = new DevicesSamplesResponse { Message = errorMessage } // Failed samples response
+            }
+        };
+        var env = new MockWebHostEnvironment();
+        var api = new AirthingsApi(ApiKey, client, NullLogger<AirthingsApi>.Instance, env);
+
+        // Act
+        var result = await api.GetSamplesAsync(context, ApiKey);
+        await result.ExecuteAsync(context);
+
+        // Assert
+        Assert.AreEqual(200, context.Response.StatusCode);
+
+        context.Response.Body.Seek(0, SeekOrigin.Begin);
+        using var reader = new StreamReader(context.Response.Body);
+        var json = await reader.ReadToEndAsync(TestContext.CancellationToken);
+        var body = JsonSerializer.Deserialize<AirthingsResponse<string>>(json, JsonOptions);
+
+        Assert.IsNotNull(body);
+        Assert.IsFalse(body.IsSuccess);
+        Assert.AreEqual(errorMessage, body.Data);
+    }
+
+    [TestMethod]
+    public async Task GetSummaryAsync_ReadSensorsReturnsFailure_ReturnsError()
+    {
+        // Arrange - This tests lines 94-98 of AirthingsApi.cs (ReadSensors failure in GetSummaryAsync)
+        var context = CreateHttpContext();
+        var errorMessage = "Network error: Connection timeout";
+        var client = new MockAirthingsClient()
+        {
+            Accounts = new AccountsResponse() { Accounts = [new Account() { Id = "a1" }] },
+            Devices = new DevicesResponse()
+            {
+                Devices = [new Tudormobile.Airthings.Device() { SerialNumber = "12345" }]
+            },
+            SamplesByAccount = new Dictionary<string, DevicesSamplesResponse>
+            {
+                ["a1"] = new DevicesSamplesResponse { Message = errorMessage } // Failed samples response
+            }
+        };
+        var env = new MockWebHostEnvironment();
+        var api = new AirthingsApi(ApiKey, client, NullLogger<AirthingsApi>.Instance, env);
+
+        // Act
+        var result = await api.GetSummaryAsync(context, ApiKey, UnitsType.Metric);
+        await result.ExecuteAsync(context);
+
+        // Assert
+        Assert.AreEqual(200, context.Response.StatusCode);
+
+        context.Response.Body.Seek(0, SeekOrigin.Begin);
+        using var reader = new StreamReader(context.Response.Body);
+        var json = await reader.ReadToEndAsync(TestContext.CancellationToken);
+        var body = JsonSerializer.Deserialize<AirthingsResponse<string>>(json, JsonOptions);
+
+        Assert.IsNotNull(body);
+        Assert.IsFalse(body.IsSuccess);
+        Assert.AreEqual(errorMessage, body.Data);
     }
 
 

@@ -6,6 +6,11 @@ namespace Tudormobile.Airthings.Service;
 /// </summary>
 public static class SummaryBuilder
 {
+    private const string UNKNOWN_NAME = "Unknown";
+    private const string RADON_SENSOR_KEY = "radonShortTermAvg";
+    private const string HUMIDITY_SENSOR_KEY = "humidity";
+    private const string TEMPERATURE_SENSOR_KEY = "temp";
+
     /// <summary>
     /// Creates a <see cref="SummarySample"/> by combining device metadata with its latest sensor readings.
     /// </summary>
@@ -25,11 +30,11 @@ public static class SummaryBuilder
         deviceMapping.TryGetValue(r.SerialNumber, out var device);
         return new SummarySample
         {
-            Home = device?.Home ?? "Unknown",
-            Name = device?.Name ?? "Unknown",
-            Radon = r.Sensors.FirstOrDefault(s => s.SensorType == "radonShortTermAvg")?.Value ?? 0,
-            Humidity = r.Sensors.FirstOrDefault(s => s.SensorType == "humidity")?.Value ?? 0,
-            Temperature = r.Sensors.FirstOrDefault(s => s.SensorType == "temp")?.Value ?? 0,
+            Home = device?.Home ?? UNKNOWN_NAME,
+            Name = device?.Name ?? UNKNOWN_NAME,
+            Radon = r.Sensors.FirstOrDefault(s => s.SensorType == RADON_SENSOR_KEY)?.Value ?? 0,
+            Humidity = r.Sensors.FirstOrDefault(s => s.SensorType == HUMIDITY_SENSOR_KEY)?.Value ?? 0,
+            Temperature = r.Sensors.FirstOrDefault(s => s.SensorType == TEMPERATURE_SENSOR_KEY)?.Value ?? 0,
         };
     }
 }
