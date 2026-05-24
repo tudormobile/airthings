@@ -28,7 +28,7 @@ public class AirthingsServiceExtensionsTests
         // Assert
         var httpClientFactory = provider.GetService<IHttpClientFactory>();
         var options = provider.GetService<IOptions<AirthingsOptions>>();
-        var airthingsClient = provider.GetService<IAirthingsClient>();
+        var airthingsClient = provider.GetService<AirthingsClient>();
 
         Assert.IsNotNull(httpClientFactory);
         Assert.IsNotNull(options);

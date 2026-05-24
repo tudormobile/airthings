@@ -5,7 +5,7 @@ using System.Net;
 namespace Airthings.IntegrationTests;
 
 [TestClass]
-public class AirthingsServiceIntegrationTests
+public class AirthingsServiceIntegrationTests : IDisposable
 {
     private readonly WebApplicationFactory<Program> _factory;
     private readonly HttpClient _client;
@@ -128,5 +128,11 @@ public class AirthingsServiceIntegrationTests
         // Assert - Should default to Imperial and return OK
         Assert.IsNotNull(response);
         Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
+    }
+
+    public void Dispose()
+    {
+        _client?.Dispose();
+        _factory?.Dispose();
     }
 }
