@@ -68,7 +68,7 @@ public class AirthingsServiceIntegrationTests
         var response = await _client.GetAsync("/home/airthings/v1/devices");
 
         // Assert
-        Assert.IsNotNull(response);
+        Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
     }
 
     [TestMethod]
