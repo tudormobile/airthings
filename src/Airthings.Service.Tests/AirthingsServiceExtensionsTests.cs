@@ -44,24 +44,31 @@ public class AirthingsServiceExtensionsTests
     public void AddAirthingsService_FallsBackToEnvironmentVariables()
     {
         // Arrange
-        Environment.SetEnvironmentVariable("AIRTHINGS_CLIENT_ID", "env-client-id");
-        Environment.SetEnvironmentVariable("AIRTHINGS_CLIENT_SECRET", "env-secret");
+        var previousClientId = Environment.GetEnvironmentVariable("AIRTHINGS_CLIENT_ID");
+        var previousClientSecret = Environment.GetEnvironmentVariable("AIRTHINGS_CLIENT_SECRET");
 
-        var services = new ServiceCollection();
-        var configuration = new ConfigurationBuilder().Build();
+        try
+        {
+            Environment.SetEnvironmentVariable("AIRTHINGS_CLIENT_ID", "env-client-id");
+            Environment.SetEnvironmentVariable("AIRTHINGS_CLIENT_SECRET", "env-secret");
 
-        // Act
-        services.AddAirthingsService(configuration);
-        var provider = services.BuildServiceProvider();
-        var options = provider.GetRequiredService<IOptions<AirthingsOptions>>();
+            var services = new ServiceCollection();
+            var configuration = new ConfigurationBuilder().Build();
 
-        // Assert
-        Assert.AreEqual("env-client-id", options.Value.ClientId);
-        Assert.AreEqual("env-secret", options.Value.ClientSecret);
+            // Act
+            services.AddAirthingsService(configuration);
+            var provider = services.BuildServiceProvider();
+            var options = provider.GetRequiredService<IOptions<AirthingsOptions>>();
 
-        // Cleanup
-        Environment.SetEnvironmentVariable("AIRTHINGS_CLIENT_ID", null);
-        Environment.SetEnvironmentVariable("AIRTHINGS_CLIENT_SECRET", null);
+            // Assert
+            Assert.AreEqual("env-client-id", options.Value.ClientId);
+            Assert.AreEqual("env-secret", options.Value.ClientSecret);
+        }
+        finally
+        {
+            Environment.SetEnvironmentVariable("AIRTHINGS_CLIENT_ID", previousClientId);
+            Environment.SetEnvironmentVariable("AIRTHINGS_CLIENT_SECRET", previousClientSecret);
+        }
     }
 }
 
