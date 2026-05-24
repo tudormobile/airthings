@@ -28,16 +28,14 @@ public class AirthingsServiceExtensionsTests
         // Assert
         var httpClientFactory = provider.GetService<IHttpClientFactory>();
         var options = provider.GetService<IOptions<AirthingsOptions>>();
+        var airthingsClient = provider.GetService<IAirthingsClient>();
 
         Assert.IsNotNull(httpClientFactory);
         Assert.IsNotNull(options);
+        Assert.IsNotNull(airthingsClient);
         Assert.AreEqual("test-client-id", options.Value.ClientId);
         Assert.AreEqual("test-secret", options.Value.ClientSecret);
         Assert.AreEqual("test-api-key", options.Value.ApiKey);
-
-        // Verify IAirthingsClient can be created via HttpClientFactory
-        var airthingsClient = httpClientFactory.CreateClient(nameof(IAirthingsClient));
-        Assert.IsNotNull(airthingsClient);
     }
 
     [TestMethod]
