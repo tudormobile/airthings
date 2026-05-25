@@ -6,6 +6,7 @@ namespace Tudormobile.Airthings.Proxy;
 internal class ProxyClient : IProxyClient
 {
     private const string PROXY_SERVICE_PATH = "/home/airthings/v1";
+    private static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true };
     private string _apiKey;
     private HttpClient _httpClient;
     private Uri _baseUri;
@@ -38,7 +39,7 @@ internal class ProxyClient : IProxyClient
 
     private async Task<ProxyResponse> ApiRequest<T>(string uriString, CancellationToken cancellationToken)
     {
-        uriString = _baseUri + uriString;
+        uriString = new Uri(_baseUri, uriString).ToString();
         try
         {
             using var request = new HttpRequestMessage(HttpMethod.Get, uriString);
@@ -65,8 +66,7 @@ internal class ProxyClient : IProxyClient
                 }
                 var version = versionProperty.GetProperty("version").GetString();
                 var samplesElement = root.GetProperty("data").GetProperty("samples");
-                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-                var samples = JsonSerializer.Deserialize<List<SummarySample>>(samplesElement.GetRawText(), options) ?? [];
+                var samples = JsonSerializer.Deserialize<List<SummarySample>>(samplesElement.GetRawText(), JsonOptions) ?? [];
                 var result = new ProxyResponse()
                 {
                     Version = version ?? string.Empty,
