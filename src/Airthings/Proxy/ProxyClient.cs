@@ -37,9 +37,9 @@ internal class ProxyClient : IProxyClient
     public Task<ProxyResponse> ReadSummary(UnitsType unitsType = UnitsType.Metric, CancellationToken cancellationToken = default)
         => ApiRequest($"summary/{unitsType.ToString().ToLowerInvariant()}", cancellationToken);
 
-    private async Task<ProxyResponse> ApiRequest<T>(string uriString, CancellationToken cancellationToken)
+    private async Task<ProxyResponse> ApiRequest(string uriString, CancellationToken cancellationToken)
     {
-        uriString = new Uri(_baseUri, uriString).ToString();
+        uriString = new Uri(new Uri(_baseUri.AbsoluteUri.TrimEnd('/') + "/"), uriString.TrimStart('/')).ToString();
         try
         {
             using var request = new HttpRequestMessage(HttpMethod.Get, uriString);
