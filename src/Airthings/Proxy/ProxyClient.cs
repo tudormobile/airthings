@@ -32,19 +32,19 @@ internal class ProxyClient : IProxyClient
     }
 
     public Task<ProxyResponse> ReadStatus(CancellationToken cancellationToken = default)
-        => ApiRequest<ProxyResponse>("/status", cancellationToken);
+        => ApiRequest("status", cancellationToken);
 
     public Task<ProxyResponse> ReadSummary(UnitsType unitsType = UnitsType.Metric, CancellationToken cancellationToken = default)
-        => ApiRequest<ProxyResponse>($"/summary/{unitsType.ToString().ToLower()}", cancellationToken);
+        => ApiRequest($"summary/{unitsType.ToString().ToLowerInvariant()}", cancellationToken);
 
-    private async Task<ProxyResponse> ApiRequest<T>(string uriString, CancellationToken cancellationToken)
+    private async Task<ProxyResponse> ApiRequest(string uriString, CancellationToken cancellationToken)
     {
-        uriString = _baseUri + uriString;
+        uriString = new Uri(new Uri(_baseUri.AbsoluteUri.TrimEnd('/') + "/"), uriString.TrimStart('/')).ToString();
         try
         {
             using var request = new HttpRequestMessage(HttpMethod.Get, uriString);
             request.Headers.Add("ApiKey", _apiKey);
-            var response = await _httpClient.SendAsync(request, cancellationToken);
+            using var response = await _httpClient.SendAsync(request, cancellationToken);
             response.EnsureSuccessStatusCode();
 
             var json = await response.Content.ReadAsStringAsync(cancellationToken);
@@ -58,17 +58,27 @@ internal class ProxyClient : IProxyClient
                     var message = root.GetProperty("data").GetString();
                     return new ProxyResponse() { Message = message };
                 }
+                var data = root.GetProperty("data");
+
                 // could just be version
-                var versionProperty = root.GetProperty("data").GetProperty("version");
+                var versionProperty = data.GetProperty("version");
                 if (versionProperty.ValueKind == JsonValueKind.String)
                 {
                     return new ProxyResponse() { Version = versionProperty.GetString() ?? string.Empty };
                 }
+
                 var version = versionProperty.GetProperty("version").GetString();
-                var samplesElement = root.GetProperty("data").GetProperty("samples");
+
+                var lastUpdated = data.TryGetProperty("lastUpdated", out var lastUpdatedElement) &&
+                                  lastUpdatedElement.TryGetDateTimeOffset(out var parsedLastUpdated)
+                    ? parsedLastUpdated
+                    : DateTimeOffset.UtcNow;
+
+                var samplesElement = data.GetProperty("samples");
                 var samples = JsonSerializer.Deserialize<List<SummarySample>>(samplesElement.GetRawText(), JsonOptions) ?? [];
                 var result = new ProxyResponse()
                 {
+                    LastUpdated = lastUpdated,
                     Version = version ?? string.Empty,
                     Samples = samples
                 };

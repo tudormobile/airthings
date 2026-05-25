@@ -8,7 +8,6 @@ public record ProxyResponse : ApiResponse
     /// <summary>
     /// Gets or sets the UTC timestamp indicating when this summary was last populated from the Airthings API.
     /// </summary>
-    /// 
     public DateTimeOffset LastUpdated { get; set; } = DateTimeOffset.UtcNow;
 
     /// <summary>
