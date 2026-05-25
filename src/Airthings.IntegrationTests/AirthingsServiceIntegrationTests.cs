@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.Configuration;
 using System.Net;
+using Tudormobile.Airthings.Proxy;
 
 namespace Airthings.IntegrationTests;
 
@@ -8,7 +9,7 @@ namespace Airthings.IntegrationTests;
 public class AirthingsServiceIntegrationTests : IDisposable
 {
     private readonly WebApplicationFactory<Program> _factory;
-    private readonly HttpClient _client;
+    private HttpClient _client;
 
     public AirthingsServiceIntegrationTests()
     {
@@ -32,6 +33,14 @@ public class AirthingsServiceIntegrationTests : IDisposable
                 });
             });
 
+        _client = _factory.CreateClient();
+    }
+
+    [TestInitialize]
+    public void TestInitialize()
+    {
+        // Create a fresh client for each test to avoid header pollution
+        _client?.Dispose();
         _client = _factory.CreateClient();
     }
 
@@ -78,11 +87,47 @@ public class AirthingsServiceIntegrationTests : IDisposable
         _client.DefaultRequestHeaders.Add("ApiKey", "test-api-key");
 
         // Act
-        var response = await _client.GetAsync("/home/airthings/v1/samples");
+        var response = await _client.GetAsync("/home/airthings/v1/samples", TestContext.CancellationToken);
 
         // Assert
         Assert.IsNotNull(response);
         Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
+    }
+
+    [TestMethod]
+    public async Task StatusEndpointViaProxy_ReturnsOk_WithValidApiKey()
+    {
+        // Arrange
+        var proxyClient = IProxyClient.Create("test-api-key", _client.BaseAddress!.ToString(), _client);
+
+
+        // Act
+        var response = await proxyClient.ReadStatus(TestContext.CancellationToken);
+
+        // Assert
+        Assert.IsNotNull(response);
+        Assert.IsTrue(response.IsSuccess);
+        Assert.IsNotEmpty(response.Version);
+        Assert.IsNotNull(response.Samples);
+        Assert.IsEmpty(response.Samples);
+    }
+
+    [TestMethod]
+    public async Task SummaryEndpointViaProxy_ReturnsOk_WithValidApiKey()
+    {
+        // Arrange
+        var proxyClient = IProxyClient.Create("test-api-key", _client.BaseAddress!.ToString(), _client);
+
+
+        // Act
+        var response = await proxyClient.ReadSummary(cancellationToken: TestContext.CancellationToken);
+
+        // Assert
+        Assert.IsNotNull(response);
+        Assert.IsTrue(response.IsSuccess);
+        Assert.IsNotEmpty(response.Version);
+        Assert.IsNotNull(response.Samples);
+        Assert.IsNotEmpty(response.Samples);
     }
 
     [TestMethod]
@@ -135,4 +180,6 @@ public class AirthingsServiceIntegrationTests : IDisposable
         _client?.Dispose();
         _factory?.Dispose();
     }
+
+    public TestContext TestContext { get; set; }
 }

@@ -39,7 +39,7 @@ internal class ProxyClient : IProxyClient
 
     private async Task<ProxyResponse> ApiRequest<T>(string uriString, CancellationToken cancellationToken)
     {
-        uriString = new Uri(_baseUri, uriString).ToString();
+        uriString = _baseUri + uriString;
         try
         {
             using var request = new HttpRequestMessage(HttpMethod.Get, uriString);
