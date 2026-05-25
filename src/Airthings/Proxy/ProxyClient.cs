@@ -44,7 +44,7 @@ internal class ProxyClient : IProxyClient
         {
             using var request = new HttpRequestMessage(HttpMethod.Get, uriString);
             request.Headers.Add("ApiKey", _apiKey);
-            var response = await _httpClient.SendAsync(request, cancellationToken);
+            using var response = await _httpClient.SendAsync(request, cancellationToken);
             response.EnsureSuccessStatusCode();
 
             var json = await response.Content.ReadAsStringAsync(cancellationToken);
