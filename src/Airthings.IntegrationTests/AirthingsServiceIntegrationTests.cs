@@ -6,6 +6,8 @@ using Tudormobile.Airthings.Proxy;
 namespace Airthings.IntegrationTests;
 
 [TestClass]
+[TestCategory("Integration")]
+
 public class AirthingsServiceIntegrationTests : IDisposable
 {
     private readonly WebApplicationFactory<Program> _factory;
@@ -51,7 +53,7 @@ public class AirthingsServiceIntegrationTests : IDisposable
         _client.DefaultRequestHeaders.Add("ApiKey", "test-api-key");
 
         // Act
-        var response = await _client.GetAsync("/home/airthings/v1/status");
+        var response = await _client.GetAsync("/home/airthings/v1/status", TestContext.CancellationToken);
 
         // Assert
         Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
@@ -61,7 +63,7 @@ public class AirthingsServiceIntegrationTests : IDisposable
     public async Task StatusEndpoint_ReturnsUnauthorized_WithoutApiKey()
     {
         // Act
-        var response = await _client.GetAsync("/home/airthings/v1/status");
+        var response = await _client.GetAsync("/home/airthings/v1/status", TestContext.CancellationToken);
 
         // Assert
         Assert.AreEqual(HttpStatusCode.Unauthorized, response.StatusCode);
@@ -74,7 +76,7 @@ public class AirthingsServiceIntegrationTests : IDisposable
         _client.DefaultRequestHeaders.Add("ApiKey", "test-api-key");
 
         // Act
-        var response = await _client.GetAsync("/home/airthings/v1/devices");
+        var response = await _client.GetAsync("/home/airthings/v1/devices", TestContext.CancellationToken);
 
         // Assert
         Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
@@ -137,8 +139,8 @@ public class AirthingsServiceIntegrationTests : IDisposable
         _client.DefaultRequestHeaders.Add("ApiKey", "test-api-key");
 
         // Act
-        var metricResponse = await _client.GetAsync("/home/airthings/v1/summary/metric");
-        var imperialResponse = await _client.GetAsync("/home/airthings/v1/summary/imperial");
+        var metricResponse = await _client.GetAsync("/home/airthings/v1/summary/metric", TestContext.CancellationToken);
+        var imperialResponse = await _client.GetAsync("/home/airthings/v1/summary/imperial", TestContext.CancellationToken);
 
         // Assert
         Assert.IsNotNull(metricResponse);
@@ -154,7 +156,7 @@ public class AirthingsServiceIntegrationTests : IDisposable
         _client.DefaultRequestHeaders.Add("ApiKey", "test-api-key");
 
         // Act - Call summary without units parameter
-        var response = await _client.GetAsync("/home/airthings/v1/summary");
+        var response = await _client.GetAsync("/home/airthings/v1/summary", TestContext.CancellationToken);
 
         // Assert - Should default to Imperial and return OK
         Assert.IsNotNull(response);
@@ -168,7 +170,7 @@ public class AirthingsServiceIntegrationTests : IDisposable
         _client.DefaultRequestHeaders.Add("ApiKey", "test-api-key");
 
         // Act - Call summary with invalid/typo units parameter
-        var response = await _client.GetAsync("/home/airthings/v1/summary/metricc"); // typo
+        var response = await _client.GetAsync("/home/airthings/v1/summary/metricc", TestContext.CancellationToken); // typo
 
         // Assert - Should default to Imperial and return OK
         Assert.IsNotNull(response);
