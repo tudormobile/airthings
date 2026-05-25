@@ -58,17 +58,27 @@ internal class ProxyClient : IProxyClient
                     var message = root.GetProperty("data").GetString();
                     return new ProxyResponse() { Message = message };
                 }
+                var data = root.GetProperty("data");
+
                 // could just be version
-                var versionProperty = root.GetProperty("data").GetProperty("version");
+                var versionProperty = data.GetProperty("version");
                 if (versionProperty.ValueKind == JsonValueKind.String)
                 {
                     return new ProxyResponse() { Version = versionProperty.GetString() ?? string.Empty };
                 }
+
                 var version = versionProperty.GetProperty("version").GetString();
-                var samplesElement = root.GetProperty("data").GetProperty("samples");
+
+                var lastUpdated = data.TryGetProperty("lastUpdated", out var lastUpdatedElement) &&
+                                  lastUpdatedElement.TryGetDateTimeOffset(out var parsedLastUpdated)
+                    ? parsedLastUpdated
+                    : DateTimeOffset.UtcNow;
+
+                var samplesElement = data.GetProperty("samples");
                 var samples = JsonSerializer.Deserialize<List<SummarySample>>(samplesElement.GetRawText(), JsonOptions) ?? [];
                 var result = new ProxyResponse()
                 {
+                    LastUpdated = lastUpdated,
                     Version = version ?? string.Empty,
                     Samples = samples
                 };
