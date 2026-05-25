@@ -25,6 +25,8 @@ Or add directly to your `.csproj`:
 ```
 
 ## Quick Start
+### Airthings Client
+An *Airthings client* is provided for direct access to the Airthings Consumer API. The client requires the client identifier and client secret of your registered Airthings application. Methods are provided for all endpoints in the Consumer API.
 ```cs
 using Tudormobile.Airthings;
 
@@ -36,7 +38,26 @@ using var client = new AirthingsClient(httpClient, clientId, clientSecret);
 
 var accounts = await client.ListAccounts();
 // ...
+```
 
+### Proxy Client
+A *proxy client* is provided for accessing the Airthings Consumer API through the proxy service provided by the `Tudormobile.Airthings.Service` package. Client credentials are stored within the service implementation, which is accessed using an *API key*.
+```cs
+using Tudormobile.Airthings.Proxy;
+
+var apiKey = "replace-with-api-key";
+using var client = new HttpClient();
+
+var proxy = IProxyClient.Create(apiKey, httpClient);
+
+var response = await proxy.ReadSummary();
+if (response.IsSuccess)
+{
+    foreach (var sample in response.Samples)
+    {
+        // ...
+    }
+}
 ```
 
 ## Documentation

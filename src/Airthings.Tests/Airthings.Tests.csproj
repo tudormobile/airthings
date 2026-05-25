@@ -8,5 +8,6 @@
     <ProjectReference Include="..\Airthings\Airthings.csproj" />
     <Using Include="System.Globalization" />
     <Using Include="Tudormobile.Airthings" />
+    <Using Include="Tudormobile.Airthings.Proxy" />
   </ItemGroup>
 </Project>

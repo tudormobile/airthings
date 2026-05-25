@@ -69,6 +69,7 @@ public class SummaryBuilderTests
         Assert.AreEqual(0, result.Radon);
         Assert.AreEqual(0, result.Humidity);
         Assert.AreEqual(0, result.Temperature);
+        Assert.AreEqual(0, result.BatteryPercentage);
     }
 
     [TestMethod]
@@ -86,8 +87,11 @@ public class SummaryBuilderTests
     [TestMethod]
     public void CreateSummary_PartialSensors_UnmatchedSensorsDefaultToZero()
     {
+        var recorded = DateTime.Now;
         var sensors = new SensorsResponse
         {
+            BatteryPercentage = 12,
+            Recorded = recorded,
             SerialNumber = "789012",
             Sensors =
             [
@@ -101,5 +105,7 @@ public class SummaryBuilderTests
         Assert.AreEqual(60.0, result.Humidity);
         Assert.AreEqual(0, result.Radon);
         Assert.AreEqual(0, result.Temperature);
+        Assert.AreEqual(12, result.BatteryPercentage);
+        Assert.AreEqual(recorded, result.Recorded);
     }
 }

@@ -1,4 +1,6 @@
 ﻿
+using Tudormobile.Airthings.Proxy;
+
 namespace Tudormobile.Airthings.Service;
 
 /// <summary>
@@ -35,6 +37,8 @@ public static class SummaryBuilder
             Radon = r.Sensors.FirstOrDefault(s => s.SensorType == RADON_SENSOR_KEY)?.Value ?? 0,
             Humidity = r.Sensors.FirstOrDefault(s => s.SensorType == HUMIDITY_SENSOR_KEY)?.Value ?? 0,
             Temperature = r.Sensors.FirstOrDefault(s => s.SensorType == TEMPERATURE_SENSOR_KEY)?.Value ?? 0,
+            BatteryPercentage = r.BatteryPercentage,
+            Recorded = r.Recorded,
         };
     }
 }
