@@ -32,10 +32,10 @@ internal class ProxyClient : IProxyClient
     }
 
     public Task<ProxyResponse> ReadStatus(CancellationToken cancellationToken = default)
-        => ApiRequest<ProxyResponse>("/status", cancellationToken);
+        => ApiRequest("status", cancellationToken);
 
     public Task<ProxyResponse> ReadSummary(UnitsType unitsType = UnitsType.Metric, CancellationToken cancellationToken = default)
-        => ApiRequest<ProxyResponse>($"/summary/{unitsType.ToString().ToLower()}", cancellationToken);
+        => ApiRequest($"summary/{unitsType.ToString().ToLowerInvariant()}", cancellationToken);
 
     private async Task<ProxyResponse> ApiRequest<T>(string uriString, CancellationToken cancellationToken)
     {
