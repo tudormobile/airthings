@@ -20,18 +20,17 @@ public class AirthingsServiceIntegrationTests : IDisposable
             {
                 builder.ConfigureAppConfiguration((context, config) =>
                 {
+                    var clientId = Environment.GetEnvironmentVariable("AIRTHINGS_CLIENT_ID")
+                        ?? throw new InvalidOperationException("AIRTHINGS_CLIENT_ID environment variable is required for integration tests");
+                    var clientSecret = Environment.GetEnvironmentVariable("AIRTHINGS_CLIENT_SECRET")
+                        ?? throw new InvalidOperationException("AIRTHINGS_CLIENT_SECRET environment variable is required for integration tests");
+
                     config.AddInMemoryCollection(new Dictionary<string, string?>
                     {
-                        ["Airthings:ClientId"] = "test-client-id",
-                        ["Airthings:ClientSecret"] = "test-secret",
+                        ["Airthings:ClientId"] = clientId,
+                        ["Airthings:ClientSecret"] = clientSecret,
                         ["Airthings:ApiKey"] = "test-api-key"
                     });
-                });
-
-                // Mock the IAirthingsClient for testing
-                builder.ConfigureServices(services =>
-                {
-                    // Replace real client with mock
                 });
             });
 
