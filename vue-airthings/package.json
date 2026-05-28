@@ -1,18 +1,43 @@
 {
-  "name": "vue-airthings",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@tudormobile/vue-airthings-proxy",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Vue components, composables, and client for the Airthings proxy service.",
+  "license": "MIT",
   "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
-    "preview": "vite preview",
-    "build-only": "vite build",
-    "type-check": "vue-tsc --build"
+    "build": "run-s clean build:lib build:types",
+    "build:demo": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview --outDir dist-demo",
+    "build-only": "vite build --outDir dist-demo",
+    "build:lib": "vite build -c vite.lib.config.ts",
+    "build:types": "vue-tsc -p tsconfig.lib.json",
+    "type-check": "vue-tsc --build",
+    "clean": "node -e \"import('node:fs').then(fs => { fs.rmSync('dist', { recursive: true, force: true }); fs.rmSync('dist-demo', { recursive: true, force: true }); })\"",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
   },
   "dependencies": {
-    "vue": "^3.5.32",
-    "vue-router": "^5.0.4"
   },
   "devDependencies": {
     "@tsconfig/node24": "^24.0.4",
@@ -21,6 +46,8 @@
     "@vue/tsconfig": "^0.9.1",
     "npm-run-all2": "^8.0.4",
     "typescript": "~6.0.0",
+    "vue": "^3.5.32",
+    "vue-router": "^5.0.4",
     "vite": "^8.0.8",
     "vite-plugin-vue-devtools": "^8.1.1",
     "vue-tsc": "^3.2.6"
