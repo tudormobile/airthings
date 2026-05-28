@@ -40,3 +40,38 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Proxy Client Setup
+
+The app can provide a proxy client for the route at `/proxy` and for use in your own components.
+
+Add these Vite environment variables:
+
+```env
+VITE_AIRTHINGS_PROXY_API_KEY=your_proxy_api_key
+VITE_AIRTHINGS_PROXY_BASE_ADDRESS=https://your-proxy-host
+VITE_AIRTHINGS_PROXY_ADDITIONAL_HEADERS={"X-Organization-Id":"your-org-id"}
+```
+
+Recommended file placement:
+
+- Put real local values in `.env.local` (git-ignored).
+- Keep only placeholders in `.env.example` (committed).
+
+Notes:
+
+- `VITE_AIRTHINGS_PROXY_BASE_ADDRESS` should be the host/root URL; the client appends `/home/airthings/v1` internally.
+- `VITE_AIRTHINGS_PROXY_ADDITIONAL_HEADERS` is optional JSON for extra headers. Example: `{"X-Organization-Id":"your-org-id"}`.
+- Values in `VITE_AIRTHINGS_PROXY_ADDITIONAL_HEADERS` must be strings.
+- If either variable is missing, the proxy client is not provided to Vue DI.
+
+Use in components:
+
+```ts
+import { useAirthingsProxy } from './composables/useAirthingsProxy'
+import { UnitsType } from './types/proxy'
+
+const proxy = useAirthingsProxy()
+const status = await proxy.readStatus()
+const summary = await proxy.readSummary(UnitsType.Metric)
+```
