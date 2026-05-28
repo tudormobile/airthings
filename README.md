@@ -1,10 +1,7 @@
 # AIRTHINGS
 [![Build and Deploy](https://github.com/tudormobile/airthings/actions/workflows/dotnet.yml/badge.svg)](https://github.com/tudormobile/airthings/actions/workflows/dotnet.yml)
-[![Publish Docs](https://github.com/tudormobile/airthings/actions/workflows/docs.yml/badge.svg)](https://github.com/tudormobile/airthings/actions/workflows/docs.yml)  
+[![Publish Docs](https://github.com/tudormobile/airthings/actions/workflows/docs.yml/badge.svg)](https://github.com/tudormobile/airthings/actions/workflows/docs.yml)
 ![GitHub Issues](https://img.shields.io/github/issues/tudormobile/airthings)  
-[![NuGet](https://img.shields.io/nuget/v/Tudormobile.Airthings.Service.svg)](https://www.nuget.org/packages/Tudormobile.Airthings.Service/)
-[![License](https://img.shields.io/github/license/tudormobile/Airthings)](https://github.com/tudormobile/Airthings/blob/main/LICENSE.txt)
-[![.NET](https://img.shields.io/badge/.NET-10.0-blue.svg)](https://dotnet.microsoft.com/download)  
 
 Airthings Consumer Api
 
