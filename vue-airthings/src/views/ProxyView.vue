@@ -1,13 +1,17 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { useProxy } from '../composables/useProxy'
-import { UnitsType, type ProxyResponse } from '../types/proxy'
+import { useAirthingsProxy } from '../composables/useAirthingsProxy'
+import { UnitsType, type AirthingsProxyResponse } from '../types/proxy'
+import ProxyErrorMessage from '../components/proxy/ProxyErrorMessage.vue'
+import ProxyResponseMeta from '../components/proxy/ProxyResponseMeta.vue'
+import ProxySamplesTable from '../components/proxy/ProxySamplesTable.vue'
+import ProxySamplesCards from '../components/proxy/ProxySamplesCards.vue'
 
-const proxy = useProxy()
+const proxy = useAirthingsProxy()
 
 const loading = ref(false)
-const status = ref<ProxyResponse | null>(null)
-const summary = ref<ProxyResponse | null>(null)
+const status = ref<AirthingsProxyResponse | null>(null)
+const summary = ref<AirthingsProxyResponse | null>(null)
 const error = ref('')
 
 async function readStatus(): Promise<void> {
@@ -47,68 +51,30 @@ async function readSummary(units: UnitsType): Promise<void> {
 		</section>
 
 		<p v-if="loading">Loading...</p>
-		<p v-if="error" class="error">{{ error }}</p>
+		<ProxyErrorMessage :message="error" />
 
 		<section v-if="status" class="panel">
 			<h2>Status Response</h2>
-			<p v-if="status.message" class="error">{{ status.message }}</p>
-			<ul v-else>
-				<li><strong>Version:</strong> {{ status.version }}</li>
-				<li><strong>Last Updated:</strong> {{ status.lastUpdated.toISOString() }}</li>
-				<li><strong>Sample Count:</strong> {{ status.samples.length }}</li>
-			</ul>
+			<ProxyErrorMessage :message="status.message" />
+			<ProxyResponseMeta
+				v-if="!status.message"
+				:version="status.version"
+				:last-updated="status.lastUpdated"
+				:sample-count="status.samples.length"
+			/>
 		</section>
 
 		<section v-if="summary" class="panel">
 			<h2>Summary Response</h2>
-			<p v-if="summary.message" class="error">{{ summary.message }}</p>
-			<div v-else>
-				<p><strong>Version:</strong> {{ summary.version }}</p>
-				<p><strong>Last Updated:</strong> {{ summary.lastUpdated.toISOString() }}</p>
+			<ProxyErrorMessage :message="summary.message" />
+			<div v-if="!summary.message">
+				<ProxyResponseMeta :version="summary.version" :last-updated="summary.lastUpdated" />
 				<h3>Samples</h3>
 				<p v-if="summary.samples.length === 0">No samples returned.</p>
-				<div v-else class="samples-table-wrap">
-					<table class="samples-table">
-						<thead>
-							<tr>
-								<th>Home</th>
-								<th>Name</th>
-								<th>Radon</th>
-								<th>Humidity</th>
-								<th>Temperature</th>
-								<th>Recorded</th>
-								<th>Battery %</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr v-for="(sample, index) in summary.samples" :key="`${sample.home}-${sample.name}-${index}`">
-								<td>{{ sample.home }}</td>
-								<td>{{ sample.name }}</td>
-								<td>{{ sample.radon }}</td>
-								<td>{{ sample.humidity }}</td>
-								<td>{{ sample.temperature }}</td>
-								<td>{{ sample.recorded.toISOString() }}</td>
-								<td>{{ sample.batteryPercentage }}</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-
-				<div v-if="summary.samples.length > 0" class="samples-cards">
-					<article
-						v-for="(sample, index) in summary.samples"
-						:key="`${sample.home}-${sample.name}-${index}`"
-						class="sample-card"
-					>
-						<h4>{{ sample.name }}</h4>
-						<p><strong>Home:</strong> {{ sample.home }}</p>
-						<p><strong>Radon:</strong> {{ sample.radon }}</p>
-						<p><strong>Humidity:</strong> {{ sample.humidity }}</p>
-						<p><strong>Temperature:</strong> {{ sample.temperature }}</p>
-						<p><strong>Recorded:</strong> {{ sample.recorded.toISOString() }}</p>
-						<p><strong>Battery %:</strong> {{ sample.batteryPercentage }}</p>
-					</article>
-				</div>
+				<template v-else>
+					<ProxySamplesTable :samples="summary.samples" />
+					<ProxySamplesCards :samples="summary.samples" />
+				</template>
 
 				<h3>Raw JSON</h3>
 				<pre>{{ JSON.stringify(summary.samples, null, 2) }}</pre>
@@ -138,67 +104,9 @@ async function readSummary(units: UnitsType): Promise<void> {
 	border-radius: 8px;
 }
 
-.error {
-	color: #b00020;
-}
-
-.samples-table-wrap {
-	overflow-x: auto;
-	margin: 0.75rem 0;
-}
-
-.samples-table {
-	width: 100%;
-	border-collapse: collapse;
-	font-size: 0.95rem;
-}
-
-.samples-table th,
-.samples-table td {
-	padding: 0.5rem;
-	border-bottom: 1px solid var(--color-border);
-	text-align: left;
-	white-space: nowrap;
-}
-
-.samples-table th {
-	font-weight: 600;
-}
-
-.samples-cards {
-	display: none;
-	gap: 0.75rem;
-	margin: 0.75rem 0;
-}
-
-.sample-card {
-	padding: 0.75rem;
-	border: 1px solid var(--color-border);
-	border-radius: 8px;
-	background: color-mix(in srgb, var(--color-background) 92%, var(--color-border) 8%);
-}
-
-.sample-card h4 {
-	margin: 0 0 0.5rem 0;
-}
-
-.sample-card p {
-	margin: 0.25rem 0;
-}
-
 pre {
 	overflow-x: auto;
 	white-space: pre-wrap;
 	word-break: break-word;
-}
-
-@media (max-width: 760px) {
-	.samples-table-wrap {
-		display: none;
-	}
-
-	.samples-cards {
-		display: grid;
-	}
 }
 </style>

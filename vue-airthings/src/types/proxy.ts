@@ -7,7 +7,7 @@ export interface ApiResponse {
 	message?: string
 }
 
-export interface SummarySample {
+export interface AirthingsSummarySample {
 	home: string
 	name: string
 	radon: number
@@ -17,8 +17,8 @@ export interface SummarySample {
 	batteryPercentage: number
 }
 
-export interface ProxyResponse extends ApiResponse {
+export interface AirthingsProxyResponse extends ApiResponse {
 	lastUpdated: Date
 	version: string
-	samples: SummarySample[]
+	samples: AirthingsSummarySample[]
 }

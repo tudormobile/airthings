@@ -1,4 +1,4 @@
-import type { ProxyResponse, SummarySample } from '../types/proxy'
+import type { AirthingsProxyResponse, AirthingsSummarySample } from '../types/proxy'
 import { UnitsType } from '../types/proxy'
 
 const PROXY_SERVICE_PATH = '/home/airthings/v1'
@@ -8,7 +8,7 @@ interface ProxyEnvelope {
 	data?: unknown
 }
 
-export class ProxyClient {
+export class AirthingsProxyClient {
 	private readonly apiKey: string
 	private readonly baseUrl: URL
 	private readonly fetchImpl: typeof fetch
@@ -37,15 +37,15 @@ export class ProxyClient {
 		this.additionalHeaders = additionalHeaders
 	}
 
-	readStatus(): Promise<ProxyResponse> {
+	readStatus(): Promise<AirthingsProxyResponse> {
 		return this.apiRequest('status')
 	}
 
-	readSummary(unitsType: UnitsType = UnitsType.Metric): Promise<ProxyResponse> {
+	readSummary(unitsType: UnitsType = UnitsType.Metric): Promise<AirthingsProxyResponse> {
 		return this.apiRequest(`summary/${unitsType}`)
 	}
 
-	private async apiRequest(path: string): Promise<ProxyResponse> {
+	private async apiRequest(path: string): Promise<AirthingsProxyResponse> {
 		const url = new URL(path.replace(/^\/+/, ''), `${this.baseUrl.toString().replace(/\/+$/, '')}/`)
 
 		try {
@@ -104,7 +104,7 @@ export class ProxyClient {
 		}
 	}
 
-	private errorResponse(message: string): ProxyResponse {
+	private errorResponse(message: string): AirthingsProxyResponse {
 		return {
 			message,
 			version: '',
@@ -114,7 +114,7 @@ export class ProxyClient {
 	}
 }
 
-function parseSamples(value: unknown): SummarySample[] {
+function parseSamples(value: unknown): AirthingsSummarySample[] {
 	if (!Array.isArray(value)) return []
 
 	return value
