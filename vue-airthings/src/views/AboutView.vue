@@ -1,15 +1,17 @@
+<script setup lang="ts">
+import AboutItem from '../components/AboutItem.vue'
+</script>
+
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>About Vue-Airthings</h1>
+    <AboutItem />
   </div>
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+  
+.about {
+  align-items: center;
 }
 </style>
